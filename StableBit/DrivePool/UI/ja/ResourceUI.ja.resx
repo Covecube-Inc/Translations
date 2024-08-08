@@ -1,0 +1,1606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>タスクをキャンセルできません。</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>タスクを開始できません。</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;閉じる</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>お待ちください。</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>タスクが失敗しました。</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>クリックしてキャンセル</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>エラーの詳細...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>ディスクが見つかりません。</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>確認中...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>取り外し</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>無効の場合、ドライブの障害からファイルが保護されなくなり、複製に使われていたディスク領域が解放されます。
+
+また、それぞれのファイルの複製される数を変更することができます。</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>複製を無効化(&amp;D)</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>複製されたファイルがバックグラウンドで更新されている間でも、プールを通常どおり使用し続けることができます。</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>複製の変更</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>有効の場合、1つのハードディスクに障害が発生してもファイルへアクセスできます。複製されたファイルは、複製されていないファイルの2倍の容量を必要とします。
+
+同時に複数のディスクで起こる障害からファイルを保護することも可能ですが、その場合は更に多くのディスク容量を必要とします。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>複製を有効化(&amp;E)</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>プールを使用している間は通常バックグラウンドでファイルが複製されます。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>複製を有効化</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>ファイルの複製はディスクの故障からあなたのファイルを守ります。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>ドライブベイ</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>ドライブケース</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>最新の &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; 
+をインストールすることで、ディスクに関するより詳細な情報を得ることができます。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>ヒント:StableBit Scanner上で簡単に識別するためにドライブを'ケース'と'ベイ'に指定することができます。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>見失ったディスクを識別するために、あなたは接続されているすべてのディスクへPingを送信できます。
+
+接続されているすべてのディスクのアクセスランプが1分間点灯し、切断されたディスクを見分けやすくします。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>確認されたディスク</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>このディスクに対する特定の情報はありません。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>1分間すべての接続されたディスクにPingを送信(&amp;P)</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>見失われたディスクについて:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>トライアル期間は {0:0.0} 日です</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>アクティベーションIDの設定エラーです。</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>ファイル複製機能を備えた最先端のディスクプール化アプリケーション</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_バランシング...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>プールされたファイルの複製...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>未計測</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>リアルタイム複製</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>再計測...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>追加中...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>ドライブの追加に失敗しました。</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>追加中です...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>複製済み: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>その他: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>未複製: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>複製に使用できない: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>ドライブを追加中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>バランシング...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>計算中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>複製の変更中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>複製中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>複製が不整合です。</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>ファイルの配分が最適ではありません。</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>計測中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>ディスクが見つかりません</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>プールなし</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>プールの構成</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>更新中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>ドライブの取り外し中...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>動作中...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>新しいプールの作成</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>取り外し中ドライブのエラー</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>取り外し中...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>取り外し完了までお待ちください...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>プールの再計測はバックグラウンドで開始されるため、プールが他の処理によってビジー状態にある場合は、すぐに始まらない場合があります。再計測の間は、あなたはコンピューターを普段通りに使ったり、シャットダウンしたりできます。</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>再計測</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>再計測(&amp;R)</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>プールの内容を再計測しプールの統計を再計算します。</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_Network I/O boost</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>Read _striping</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>ネットワークI/Oブーストは、読み取り要求に優先順位をつけます。
+優先順位の設定は、ディスクがビジー状態のときに、ネットワークを介した全ての要求に対して行われます。</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>読み取りストライピングは、読み取りのパフォーマンスを向上させるために、同時に複数のハード ドライブから複製されたファイルを読み取ります。</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>重複ファイルは、並列で同時に複数のディスクに書き込まれます。オフの場合、ファイルは夜に複製されます。</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>プールオプションの設定ができません。</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>統計が完了していません。</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>このプールでファイルの複製が有効です。
+ファイルは同時に複数のディスクに書き込まれます。</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>このプールでファイルの複製が有効です。
+ファイルは同時に複数のディスクに書き込まれません。
+ファイルは夜間に複製されます。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>プールに別のディスクを追加する必要があります。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>ファイルの複製コピーをするための十分な領域がプール上のディスクにありません。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>自動的に古いファイルの方を削除することにより、ファイルの複製の不一致を解決する(&amp;A)</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>今すぐ複製(&amp;D)</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>DrivePoolが自動的に古いファイルの方を削除することで競合を解決することができます。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>一つ以上の複製ファイルに不整合ファイル部分があります。理由の一つに、何かがプールを介さずに、プールされたディスク上のファイルの一部を直接変更した場合に発生することがあります。プールから行方不明になった状態で、ディスクが変更された場合にも発生することがあります。
+
+プールされたディスクから不正なファイルの一部を削除して、手動で競合を解決することができます。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>ファイル:
+
+</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>複製警告</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>プールでこれらのファイルを使用している可能性のある他のプログラムを閉じて再度複製を実行します。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>ファイルの複製レベルを変更するには、そのファイルへの特定のアクセスレベルが必要です。別のプログラムが書き込みのためにファイルを開いている場合は、そのファイルの複製レベルを変更することはできません。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>すべてのファイルの複製コピーを維持するための十分なディスク領域がプールにありません。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>使用中のファイルをスキップ(&amp;S)</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>チェック、複製、またはクリーンアップにおいて、1つ以上のファイルに問題がありました。</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>警告...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>再バランス</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>複製の再チェック</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>最新バージョンの確認</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>ライセンス管理...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>見失ったディスクの通知</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>オプションの設定ができません</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>サービスに接続中</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>ライセンスを取得...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>トライアルライセンスを取得するかリテールライセンスコードを入力</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>このバージョンの新しいトライアルライセンスを取得するかリテールライセンスコードを入力</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>接続中...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>あなたのライセンスはこのプロダクトのバージョンと異なります。トライアルライセンスを取得するかこのバージョンのリテールライセンスコードを入力してください。</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>このコンピュータへライセンスを移行する必要があります</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>有効なライセンスがありません</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>しばらくお待ちください</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>サービスの開始</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>ライセンスの移行開始...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>あなたのトライアルライセンスは終了しました。この製品を使い続けるにはリテールライセンスを購入してください。</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>ヘルプを訪問:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>あなたのライセンスは有効にできませんでした。</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>バックグラウンドサービスの開始に失敗しました、コンピュータの再起動を試してください。</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>もしバックグラウンドサービスの接続に問題がある場合は、コンピュータの再起動をお試しください。
+
+リモートコンピュータの接続に問題がある場合、リモートコンピュータがファイヤーウォールの向こうにある可能性があります。</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>シリアルナンバー</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>空き領域: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>使用領域: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>ベイ</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>ケース</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>試用期間終了</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>リテールライセンスのアクティベート</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>複製の再チェックによって、
+プール上に複製されているファイルの正確な数を検証します。
+この機能は、複製を有効にしていないプールの場合にも
+有用に働きます。</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>再バランスは、プールされたファイルの再編成を行います。 
+実際のファイルはそれぞれのディスクに格納されています。</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>メールによる通知...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>ひとつ以上のメールアドレスを入力するにはカンマで区切る:
+
+(空白のままOKをクリックするとメールによる通知を無効)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>メールによる通知</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>プールにディスクを追加しても、追加したディスクの既存のファイルが消去されたり変更されたりすることはありません。</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>新しいプールを作成するには、システムに新しいディスクを接続します。</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>コンピュータの再起動が必要です。</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>バランシング</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>設定ファイルの配置と構成</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>バランシング...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>設定なし</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>バランシングプラグインを選択</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_キャンセル</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_保存</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>ファイル格納法オプション</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>ドライブを空にするまで：</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>ドライブ使用許可容量：</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>もしくは確保する空き容量：</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB free</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% full</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>ドライブの空き容量オプション</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>例えば、2TBのドライブ上で、最大90%／空き 100 GB との設定は、1.9 TB（100 GB 空き）を超えてドライブに保存しようとすることを防ぎます。</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>ドライブリミットオプション</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>複製済み</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>未複製</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>バランサーの設定を初期値に戻す</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>すべてを初期値に戻す</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>デフォルトへのバランス設定リセット中にエラーが発生しました。</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>複製されたファイルの配置制限値 ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>再バランスの対象となる複製ファイル</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>ファイル配置制限値 ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>再バランスの対象となるファイル</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>非複製ファイルの配置制限値 ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>再バランスの対象となる未複製ファイル</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>即時強制的にバランスすることをバランスプラグインに許可します。</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>自動バランシングのトリガー</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>自動バランシング</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>バランサ</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>毎日バランスする時間：</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>即時バランス</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>自動でバランスしない</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>バランス率が下回った場合：</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>もしくは最低でもこれだけのデータを移動する必要がある場合：</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>全てほど多くない場合：</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>ファイルの退避</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>複製されたファイルをダメージのあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>複製されたファイルをS.M.A.R.T.警告のあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>複製されていないファイルをダメージのあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>複製されていないファイルをS.M.A.R.T.警告のあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>指定した最高温度を超えたドライブに新しいファイルを配置しないようにする。</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>温度管理</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>他のすべてのドライブが満杯でない場合</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>このバランサはStableBit Scanner（バージョン2.2以上）と一緒に動作します。</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>他のドライブが一杯になった場合に退避ドライブ上にファイルの配置を許可します：</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>避難ドライブにファイルの配置を許可しません。</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>退避オプション</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>設定の保存エラー</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>リモートコントロールを許可</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>ほかのコンピュータで稼動しているStableBit DrivePoolを管理する。</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(新しいバージョン)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(古いバージョン)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}'は、このコンピュータに接続する権限がありません。管理するためには、移行先コンピュータの管理者になる必要があります。</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>'{0}'へ戻る</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>リモートコントロールを有効にする</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>リモートマシン上のライセンスが有効化されていません。ライセンスを有効化にするためには、ローカルでマシンにログインします。</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>StableBit DrivePool 認証</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>ユーザー資格情報を入力してください</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>別のユーザーでログイン...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>ロード中...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>フォルダを列挙できません。</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>ファイルの保護</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>フォルダの複製...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>複製の変更...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>フォルダの複製</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>隠しフォルダを表示</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>複製ファイルは後で（高速なドライブの取り外し）。</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>深刻なダメージを受けたドライブの取り外し(読み取れないファイルがディスク上に残されます)。</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>取り外し</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>取り外しオプション</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>クリックして取り外しオプションを表示。
+SHIFT+Clickでデフォルト設定で取り外す。</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>再バランスの複製対象</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>新しいファイルの配置制限</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>新しい複製されたファイルの配置制限</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>再バランスの対象</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>再バランスの対象となる未複製ファイル</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>新しい未複製ファイルの配置制限</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>展開 &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>ディスク</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>プール内ディスクのアクティビティはありません。</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>ディスク使用率: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>読み込み</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>書き込み</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>ディスクのパフォーマンス</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>I/O Boost</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>プールのパフォーマンス</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Read Striping</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>ディスクを保持します。</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>ディスクを交換します。</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>毎秒</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>最適なディスク</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>プールの管理</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePoolはリモートコンピュータからのデータの一部をロードすることができません。
+
+もしリモートコンピュータにプラグインがインストール済みの場合、このコンピュータと同じプラグインがインストールされているか確認してください。</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>詳細を見る...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePoolはリモートコンピュータからのデータの一部をロードすることができません。</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>チェック中...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>このフォルダではファイルは複製されませんでした。</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>このフォルダではファイルは複製されました。</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>継承する</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>このフォルダは親フォルダから複製レベルを継承しています。
+親フォルダの複製レベルを変更すると
+その複製レベルを継承している他のすべてのサブフォルダが影響を受けます。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>それぞれのファイルのコピーをいくつ保持しますか？</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>コピーの数</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>同時に複数のドライブに障害が起こったとき、ファイルを保護します。</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>動作中: {0}\...{1}処理中: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>プール全体の作業。{0} 処理済み：{1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;複製の変更</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>プールは、アクセスできない場合があります。</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>プールにドライブ文字が割り当てられておらず、また他のプールの一部でもありません。
+ドライブ文字なしのプールは、他のアプリケーションにアクセスできない場合があります。</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>新しいプールについて:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>新しいプールは空の状態で開始します。</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>適切にいくつかのファイルをコピーして、他のドライブとまったく同じように使用します。</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>ディスク容量が不足した場合は、プールに別のディスクを追加するだけです。</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>既存のファイルは自動的にはプールに追加されません。</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>最初のプールを作りました。</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(このメッセージは最初の1回だけ表示されます)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>おめでとうございます！</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>ディスク空き容量で</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>名前で</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>ディスク使用率で</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>クリックすると見失ったディスクを削除します。</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>空き領域: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>ディスク</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>プールされていない</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>プールの対象</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>ブート時のログを有効化する</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_トラブルシューティング</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>ブート時のロギングは詳細なStableBit DrivePoolの起動動作をログファイルに作成します。ログファイルは、人間が読める形式（WPP）で記述されずに解析のための技術サポートに提出する必要があります。</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>有効(&amp;E)</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>ブート時のログの登録エラー</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>ブート時のログを有効に</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>再起動の開始でエラーが発生しました。</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>応答しないアプリケーションを強制終了する。</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>再起動</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>あとで再起動</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>今すぐ再起動</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>今すぐコンピュータを再起動してログファイルを生成。</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>次の再起動で、ログファイルは {0} に生成されます。</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>ファイルシステムのログを有効化</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>ファイルシステムログは、StableBit DrivePoolのプーリングファイルシステムの動作をログファイルに詳細に作成します。
+ログファイルは、人が読める形式（WPP）で記述されずに提出する必要があります
+解析のため、技術サポートへ。</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>ファイルの配置</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>ルール</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>フォルダまたはルールを選択。</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>ファイルパターンのマッチングルールを入力します。 「？」は任意の1文字と一致し、「*」は0個以上の文字に一致します。
+
+例:"*.txt" or "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>ファイル配置のオプション</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>他のディスク上に配置することを許可しない。</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>このルールに一致するすべてのファイルは選択したドライブに保存されます。</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>オーバーフロー</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>選択したすべてのディスクが一杯のとき、他のディスクの使用を許可する:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>空白のパターンは指定できません。</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>同じパターンのルールがすでにあります。</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>隠しフォルダを表示</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>ファイル配置のバランシングルールを適用する必要があります。</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>バランスプラグインはファイル配置ルールを尊重します。</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>チェックすると、バランスプラグインは、ファイル配置規則の制限に違反しません。</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>ドライブが空にされていない場合</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>ファイル配置設定</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>ファイル配置ルールはバランスプラグインによるファイル配置制限設定をリアルタイムに尊重します。</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>一つ以上のバランサは、1つまたは複数のディスクでファイルの配置制限をリアルタイムに設定することができます。（例：
+StableBit Scannerバランサが、1つまたは複数のディスクを排出した時）これをチェックした時、ファイル
+配置ルールは、これらの制限に違反しません。</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>プラグイン設定</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>最後のバランシングパスの間のファイル配置ルール（{0}）を満たすようにファイルを移動させることができませんでした。</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>複製: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>サイズ: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} 空き</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({1:0,#} B) は、適切な送信先が見つからなかったため移動できませんでした。ファイルの配置規則を満たすために十分なディスク容量があること、他のバランス設定と競合していないことを確認してください。</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_すべての設定をリセット</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>バランシング設定を含むすべての設定とアプリケーションの状態をデフォルトの状態にリセットします。これは複製設定やプールされたデータに影響を与えません。
+
+StableBit DrivePoolサービスが再起動され、プールは再計測され、一貫性が再チェックされます。</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>リセット設定のエラー</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>すべての設定をリセット</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>すべてのアプリケーション設定とアプリケーションの状態をデフォルト状態にリセットしますか？</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>優先度を上げる</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>優先度を設定できません</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>新しいドライブ</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>新しいドライブがプールに追加された場合、このルールの配置対象にします。</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>テストメールを"{0}"に送信。</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>テスト電子メールが即時送信されますが、それは、電子メールが伝播するまでに数分かかることがあります。テストメールが届かない場合、迷惑メールフォルダを確認してください。テストメールがスパムフィルタによってフィルタリングされた可能性があります。
+
+StableBit DrivePoolからのすべてのメールは、件名に""[StableBit DrivePool]""文字が含まれます。</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>テストメールが""{0}""に送信できませんでした。</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>非表示(&amp;H)</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>テストメールを送信</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>いいえ(&amp;N)</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>お待ちください...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>テストメールを送信(&amp;S)</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>""{0}""へのテストメールの送信が成功しました。</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>""{0}""へのテストメールメッセージを送信しますか？</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>ファイル システム フィルターをバイパスします。</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>プールのパフォーマンスを向上させることができます。これはフィルタによる各ドライブへのアクセスをバイパスする機能です。例えば、アンチウイルスソフトのリアルタイムスキャンによる二重・三重のアクセスが抑止され、同一のファイルを一度だけスキャンさせることができます。
+
+この機能は、オンザフライでのデータ操作を行うよう設計されているソフトウェアに対して、互換性の問題を発生させる可能性があります。この問題には例えばデータ重複除去ソフトやデータ暗号化ソフトが該当します。</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(修正)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} 前</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>すべて消去</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>フィードバック:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>無し</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>アイテムのエラーを無視</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* ファイルの合計サイズに基づいています。使用される実際のディスク領域は、少ない場合があります。</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>測定 {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>{0} を測定中...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>ファイル システム</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>ドライブを取り外す際、未複製のファイルを強制的に閉じる</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>詳細...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>ファイルは使用中です</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>ファイルを開いているアプリケーションを終了してから、ドライブを再び削除してみてください。または、ドライブ取り外しダイアログで "未複製のファイルを強制的に閉じる" を選択することで、強制的にファイルを閉じることができます。</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>プロセス名</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>いくつかのファイルが使用中で、移動することはできません。</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>使用中のファイル</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[見つかりません]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_閉じる</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_コピー後にベリファイを行う</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>ファイルをコピーした後、バックグラウンドプロセスによりバランシングや複製、整合性のチェックが行われます。このオプションを有効にしている場合、ファイルコピー操作の背後でパフォーマンスに悪影響を及ぼすでしょう。</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>他のすべてをオフに</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>すべてチェック</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>これは、クラウド ドライブです。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>このドライブは、StableBit CloudDrive によって作成されました。</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>自動スクロール</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>サービス ログ</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>サービスのトレースを有効にする</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>トレーシング・レベル</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>データ保存のエラー。</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>サービスの追跡を行うと、StableBit DrivePoolのサービスの活動について詳細なログファイルが出力されます。
+ログファイルは人間の読めるフォーマットで出力され、分析のためにテクニカルサポートへ送ることができます。
+ログファイルは以下の場所に出力されます:
+%PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>各モジュールのログのトレースレベルを制御します。
+ログメッセージは以下のログファイルに出力されます: %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>サービス ログ.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>待機中...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>これは、クラウド ドライブのみで構成されるプールです。</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>これは、プールです。</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>無効なルール。</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} 合計使用容量 ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>これは、未割り当てディスクです。</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>これは、空のディスクです。</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>物理ディスク: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>プールが見つかりません。</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>ドライブ文字...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>ドライブ文字の割り当てを切り替えます。</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>ドライブ文字を割り当てています...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>ドライブ文字を削除しています...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>ドライブ文字の切り替えエラー。</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>ドライブ文字が割り当てられていません。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>割り当てる(&amp;A)</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>プールにドライブレターを割り当てることで、エクスプローラーを含むほとんどのアプリケーションからプールを参照できるようになります。
+
+Windowsには、使用できるドライブレターの数に制限があります。それらのドライブレターすべてが使用されている場合、新しいプールに自動的にドライブレターを割り当てられなくなります。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>ドライブ文字を割り当てる</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>あなたのプールにドライブ文字を割り当てます。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>削除(&amp;R)</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>あなたのプールからドライブ文字を削除すると、Windows ファイル エクスプローラーとほとんど他の Windows アプリケーションからプールは見えなくなります。
+
+Windows には、使用できるドライブ文字の数に上限があります。それらのすべてが使用されている場合、新しいプールへドライブ文字が割り当てられなくなります。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>強制削除</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>ドライブ文字の削除</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>あなたのプールからドライブ文字を削除します。</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_今すぐアップデートをチェック...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>更新のチェックがスケジュールされています。何らかの更新プログラムが見つかったときにあなたに通知されます。</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>物理ディスク番号で</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>これは外付けドライブです。</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10 秒平均: {0}/s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>ファイルオープン率: {0:#,0}/s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>複製を再確認します...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>複製を再確認する</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>再確認(&amp;R)</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>すべてのプールにファイル複製の再チェックを強制します。</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>新しいプールに "{0}" を追加します。</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>"{0}" を "{1}" のプールに追加します。</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>"{0}" のバランス比を計算します。</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>「{0}」のフォルダー複製の統計情報を計算します。</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>X にプール「{0}」の重複を変更 {1:#,0}。</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>X に「{1}」の「{0}」の重複を変更 {2:#,0}。</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>「{0}」に重複タグの整合性を確認します。</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>「{0}」のプール メタデータの複製の一貫性を確認します。</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>「{0}」のファイル重複一貫性を確保します。</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>「{1}」の「{0}」のファイル重複一貫性を確保します。</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>プール「{0}」を測定します。</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>測定に失敗しました:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- パス: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- プールされたディスク: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- エラー: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>プール "{1}" から、見つからないディスク "{0}" を削除します。</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>"{0}" に通知のテストメールを送信します。</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>すべてのディスクに ping を実行します。</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>新しいプールのディスクを探します。</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>プール "{0}" にバランスする。</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- 分散ルールを適用します。</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- ファイルの配置のバランス。</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>プール "{1}" の"{0}" を削除します。</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>プール {0} にドライブ文字を割り当てます。</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>プール {0} からドライブ文字を削除します。</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>タスクが失敗しました。</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>タスクが正常に完了しました。</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>ドライバー 検証ツールは、 CoveFS.sys に対して有効です。このツールはテストのためだけに使用してください。使用中はプールのパフォーマンスを低下させます。</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>バージョン: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>作成: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[複数]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[メタデータ]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0}" は有効な電子メールアドレスではありません。</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>このプールはプール {0} の一部です</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>強制実行...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>タスク "{0}" を起動できませんでした。ストアにオブジェクトが存在しません。</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>プールが見つかりません。</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>トレース レベルの読み込みエラーです。 </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>動作中...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>待機中...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>コマンドライン引数</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>新しいプールの作成</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>前のプール</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>ドライブレター順</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>利用可能な更新プログラム</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>更新プログラムは、StableBit ドライブプール (バージョン {0}) で利用可能です。</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_最新情報。。。</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>リモートコントロールをオンにできません: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>リモート制御エラー</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>StableBit クラウド アカウントに接続されている他のアプリと同期しています。</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>安定ビットクラウドメール通知が有効になっています。ローカル電子メール機能は使用できません。</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(即時のバランスを強制することができます)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(ファイル配置制限を設定できます)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>問題が検出された直後にファイルの避難が開始されます。</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>設定の同期</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_自動</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_暗い</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>高_contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_光</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>バランシング設定をデフォルトにリセットする?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>確かですか?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>閉める</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>議事録</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>プールされたファイルのコピーは、削除したドライブに残します (アーカイブ削除)。</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>無効な値が指定されました。</value>
+  </data>
+</root>

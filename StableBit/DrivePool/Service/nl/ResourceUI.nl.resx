@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDriveToPool_AddedSuccessfully" xml:space="preserve">
+    <value>Harde schijf succesvol toegevoegd</value>
+  </data>
+  <data name="AddDriveToPool_AddingDisk" xml:space="preserve">
+    <value>Harde schijf wordt aan de pool toegevoegd...</value>
+  </data>
+  <data name="AddDriveToPool_CannotAddSameDisk" xml:space="preserve">
+    <value>Dezelfde harde schijf kan niet dubbel aan de pool worden toegevoegd.</value>
+  </data>
+  <data name="AddDriveToPool_CannotCreateNewVolume" xml:space="preserve">
+    <value>Kan geen nieuw volume aanmaken.</value>
+  </data>
+  <data name="AddDriveToPool_CannotInitializeNotOnline" xml:space="preserve">
+    <value>Kan de nieuwe harde schijf niet initialiseren. De harde schijf is niet beschikbaar.</value>
+  </data>
+  <data name="AddDriveToPool_Complete" xml:space="preserve">
+    <value>Voltooid</value>
+  </data>
+  <data name="AddDriveToPool_CreatingVolume" xml:space="preserve">
+    <value>Volume wordt aangemaakt...</value>
+  </data>
+  <data name="AddDriveToPool_DiskNotFound" xml:space="preserve">
+    <value>Schijf niet stichten.</value>
+  </data>
+  <data name="AddDriveToPool_EnumeraingUnallocated" xml:space="preserve">
+    <value>Niet-toegewezen harde schijven worden opgesomd...</value>
+  </data>
+  <data name="AddDriveToPool_FormattingVolume" xml:space="preserve">
+    <value>Volume wordt geformatteerd.</value>
+  </data>
+  <data name="AddDriveToPool_GettingDiskService" xml:space="preserve">
+    <value>Harde schijf dienst wordt opgehaald...</value>
+  </data>
+  <data name="AddDriveToPool_IncompatibleFileSystem" xml:space="preserve">
+    <value>Het bestandssysteem is niet compatibel.</value>
+  </data>
+  <data name="AddDriveToPool_InitializingDisk" xml:space="preserve">
+    <value>Harde schijf wordt geïnitialiseerd...</value>
+  </data>
+  <data name="AddDriveToPool_NoFreeDriveLetters" xml:space="preserve">
+    <value>Geen gratis stationsletters. Probeer het toevoegen van deze schijf als een verborgen aandrijving.</value>
+  </data>
+  <data name="AddDriveToPool_NoPooledDisksConnected" xml:space="preserve">
+    <value>Er dient minstens 1 harde schijf uit de pool verbonden te zijn om een nieuwe harde schijf aan een bestaande pool toe te voegen.</value>
+  </data>
+  <data name="AddDriveToPool_NotEnoughSpaceForVolume" xml:space="preserve">
+    <value>Er is niet genoeg vrije ruimte op de harde schijf om een nieuw volume aan te maken.</value>
+  </data>
+  <data name="AddDriveToPool_UnableToGetVolumePath" xml:space="preserve">
+    <value>Kan de locatie van het volume niet bepalen.</value>
+  </data>
+  <data name="AddDriveToPool_VolumeAlreadyExists" xml:space="preserve">
+    <value>Het nieuwe volume kan niet aangemaakt worden. Er bestaat reeds een volume op deze harde schijf.</value>
+  </data>
+  <data name="AddDriveToPool_WaitingForPoolPart" xml:space="preserve">
+    <value>Wachten voor het zwembad deel te hechten...</value>
+  </data>
+  <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
+    <value>Bezig met het toevoegen van de pool.</value>
+  </data>
+  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+    <value>Het is niet mogelijk om duplicatie op een symbolische link te activeren.</value>
+  </data>
+  <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
+    <value>Er zijn niet genoeg fysieke harde schijven in de pool om duplicatie te activeren. Voeg een nieuwe harde schijf toe aan de pool voordat je duplicatie activeert.</value>
+  </data>
+  <data name="DriveFillBalancer_Description" xml:space="preserve">
+    <value>Zorg ervoor dat geen enkele individuele harde schijf tot de maximale capaciteit wordt gevuld, indien er op andere harde schijven nog voldoende vrije ruimte is.</value>
+  </data>
+  <data name="DriveFillBalancer_Name" xml:space="preserve">
+    <value>Voorkom dat harde schijven te vol worden geschreven</value>
+  </data>
+  <data name="DriveLimitBalancer_Description" xml:space="preserve">
+    <value>Beperkt het plaatsen van bestanden tot specifieke harde schijven.</value>
+  </data>
+  <data name="DriveLimitBalancer_Name" xml:space="preserve">
+    <value>Beperken van harde schijf gebruik</value>
+  </data>
+  <data name="DuplicationBalancer_Description" xml:space="preserve">
+    <value>Zorg ervoor dat de maximale opslagcapaciteit beschikbaar is voor het bewaren van gedupliceerde bestanden.</value>
+  </data>
+  <data name="DuplicationBalancer_Name" xml:space="preserve">
+    <value>Optimalisatieprogramma voor duplicatieruimte</value>
+  </data>
+  <data name="FileDuplication_FileInUse" xml:space="preserve">
+    <value>Bestand is in gebruik.</value>
+  </data>
+  <data name="FileDuplication_WaitingForOtherPools" xml:space="preserve">
+    <value>Wachten op andere zwembaden in de hieararchy wil dupliceren en balanceren...</value>
+  </data>
+  <data name="FileMover_BuildingBucketList" xml:space="preserve">
+    <value>Aanmaken van wenslijst...</value>
+  </data>
+  <data name="FileMover_BuildingMoveList" xml:space="preserve">
+    <value>Aanmaken van verplaatslijst...</value>
+  </data>
+  <data name="FileMover_MovingFiles" xml:space="preserve">
+    <value>Bestanden worden verplaatst...</value>
+  </data>
+  <data name="FilePatternMover_ApplyingRules" xml:space="preserve">
+    <value>Regels voor bestandsplaatsing criteria worden toegepast</value>
+  </data>
+  <data name="FilePatternMover_MovingFiles" xml:space="preserve">
+    <value>Bestanden worden verplaatst aan de hand van de criteria  "{0}"...</value>
+  </data>
+  <data name="ForgetDriveFromPool_CannotFindPoolPart" xml:space="preserve">
+    <value>Kan het te verwijderen onderdeel van de pool niet vinden.</value>
+  </data>
+  <data name="Ipc_ServiceNotReady" xml:space="preserve">
+    <value>De dienst is niet beschikbaar.</value>
+  </data>
+  <data name="ModifyDrive_Assigned" xml:space="preserve">
+    <value>Toegewezen: {0}:\</value>
+  </data>
+  <data name="ModifyDrive_DeviceInUse" xml:space="preserve">
+    <value>Het apparaat is momenteel in gebruik.</value>
+  </data>
+  <data name="ModifyDrive_NoMoreDriveLetters" xml:space="preserve">
+    <value>Kunt stationsletters toewijzen. Geen meer stationsletters beschikbaar.</value>
+  </data>
+  <data name="ModifyDrive_UnknownAction" xml:space="preserve">
+    <value>Onbekende wijzigen schijf actie aangevraagd.</value>
+  </data>
+  <data name="ModifyDrive_VolumeNotFound" xml:space="preserve">
+    <value>Zwembad volume niet gevonden.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Description" xml:space="preserve">
+    <value>Verspreidt de schijfruimte over volumes dat op dezelfde harde schijf worden bewaard.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Name" xml:space="preserve">
+    <value>Volume afstemmen</value>
+  </data>
+  <data name="Rebalance_ComputingBalanceModel" xml:space="preserve">
+    <value>Berekenen van het balanceringsmodel...</value>
+  </data>
+  <data name="RemoveDriveFromPool_Canceled" xml:space="preserve">
+    <value>Verwijdering geannuleerd</value>
+  </data>
+  <data name="RemoveDriveFromPool_CannotRemoveWhileMissing" xml:space="preserve">
+    <value>Er kan geen harde schijf uit de pool verwijdert worden indien een andere harde schijf ontbreekt.</value>
+  </data>
+  <data name="RemoveDriveFromPool_CheckingForInUse" xml:space="preserve">
+    <value>Controleren welke bestanden in gebruik zijn...</value>
+  </data>
+  <data name="RemoveDriveFromPool_CountingFile" xml:space="preserve">
+    <value>Tellen van bestanden...</value>
+  </data>
+  <data name="RemoveDriveFromPool_ErrorDuplicating" xml:space="preserve">
+    <value>Fout bij het dupliceren van bestand '{0}'. {1}</value>
+  </data>
+  <data name="RemoveDriveFromPool_FilesInUse" xml:space="preserve">
+    <value>Deze schijf worden niet verwijderd uit het zwembad omdat sommige bestanden op het in gebruik.</value>
+  </data>
+  <data name="RemoveDriveFromPool_Migrating" xml:space="preserve">
+    <value>Bestanden worden verplaatst...</value>
+  </data>
+  <data name="RemoveDriveFromPool_PoolPartNotFound" xml:space="preserve">
+    <value>Een gedeelte van de pool is niet gevonden.</value>
+  </data>
+  <data name="RemoveDriveFromPool_RemovingPoolPart" xml:space="preserve">
+    <value>Het gedeelte van de pool wordt verwijdert...</value>
+  </data>
+  <data name="RemoveDriveFromPool_RestartingPrograms" xml:space="preserve">
+    <value>Programma's worden herstart...</value>
+  </data>
+  <data name="ScannerBalancer_Description" xml:space="preserve">
+    <value>Biedt het leegruimen van bestanden en temperatuurregeling.</value>
+  </data>
+  <data name="Tasks_DiskMissingCannotContinue" xml:space="preserve">
+    <value>Kan niet verder gaan terwijl er een harde schijf ontbreekt. Ofwel koppel de ontbrekende harde schijf aan, of verwijder het uit de pool.</value>
+  </data>
+  <data name="FileDuplication_FilePartsDifferent" xml:space="preserve">
+    <value>Bestand delen verschillende.</value>
+  </data>
+  <data name="FileDuplication_UnableToGetFileTime" xml:space="preserve">
+    <value>Kan niet om bestand tijd voor {0}.</value>
+  </data>
+  <data name="FileDuplication_FileNotFound" xml:space="preserve">
+    <value>Bestand niet gevonden.</value>
+  </data>
+  <data name="FileDuplication_NeedMoreDisks" xml:space="preserve">
+    <value>Meer schijven in de groep nodig.</value>
+  </data>
+  <data name="FileSizeTracking_FailedMeasuring" xml:space="preserve">
+    <value>Mislukte meten "{0}" (apparaat #{1}, partitie #{2}).</value>
+  </data>
+  <data name="FileSizeTracking_Failed_measuring2" xml:space="preserve">
+    <value>Mislukte meettoestel #{0}, partitie #{1}.</value>
+  </data>
+  <data name="RemoveDriveFromPool_UnableToDeleteAllFiles" xml:space="preserve">
+    <value>Alle bestanden te verwijderen na het verwijderen van zwembad deel.</value>
+  </data>
+  <data name="Email_ErrorSendingEmail" xml:space="preserve">
+    <value>Fout bij verzenden van e-mail: </value>
+  </data>
+  <data name="Email_UnableToSendEmail" xml:space="preserve">
+    <value>Niet in staat om e-mail te verzenden.</value>
+  </data>
+  <data name="Email_Notification" xml:space="preserve">
+    <value>Kennisgeving</value>
+  </data>
+  <data name="Ipc_PoolNotFound" xml:space="preserve">
+    <value>Zwembad niet gevonden.</value>
+  </data>
+</root>

@@ -1,0 +1,1596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>Задачата не може да бъде отменена.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>Задачата не може да бъде стартирана.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;Отказ</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;Затвори</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>Един момент...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>Задачата е неуспешна.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>Добави</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>Натисни за отказ</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>Детайли за грешката...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>Диска липсва.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>Идентифицирай...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>Премахни</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>Ако тази опция не е активирана, вашите файлове няма да бъда предпазени при повреда на диск. Мястото което беше използвано за дупликация ще бъде освободено.
+
+Можете също да изберете броя на копията които да се пазят за всеки файл.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;Изключи Дупликацията</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>Можете да продължите да използвате нормално вашият масив, докато файловете се дупликират.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>Промени Дупликацията</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>Ако тази опция е активирана, вашите файлове ще бъдат достъпни ако някой от дисковете се повреди. Дупликираните файлове заемат два пъти повече място от не-дупликираните.
+
+Можете да изберете да предпазите вашите файлове от едновременна повреда на повече от един диск, но като последствие, файловете ще заемат много повече място.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;Включи Дупликацията</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>Можете да продължите да използвате вашият масив докато файловете се дупликират.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>Включи Дупликацията</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>Дупликацията на файлове ги предпазва при повреда на диск.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>Чекмедже</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>Кутия</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>Можете да инсталирате последната версия на &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; 
+за по прецизна идентификация на дисковете</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>Съвет: Можете също да въведете 'Кутията' и 'Чекмеджето' на вашия диск в StableBit Scanner за по-лесна идентификация.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>За да ви помогне да идентифицирате кой диск е липсващия, можете да пингнете всички свързани дискове.
+
+В продължение на 1 минута, техните лампички за активност ще светят и това ще ви помогни да откриете разкаченият диск.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>Идентифицирай диск</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>Модел</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>Няма налична специфична информация за този диск</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;Пингвай всички свързани дискове за 1 минута</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>Сериен номер</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>Това е което знаем за липсващият диск:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>ПРОБНАТА ВЕРСИЯ ИЗТИЧА СЛЕД {0:0.0} ДНИ</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>Грешка при настройката на активационен ключ.</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>изключително модерно приложение за дисков масив с дупликация на файловете.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_Балансиране...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>_Дупликация на файловете в масива...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>НЕ Е ИЗМЕРЕН</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>_Дупликация в реално време</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>_Измери отново...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>Добавяне...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>Грешка при добавяне на диск</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>Изчакване за добавяне...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>Дупликирани: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>Други: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Недупликирани: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>Неизползваеми за дупликация: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>Добавяне на диск...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>Балансиране...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>Изчисляване...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>Промени дупликацията...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>Дупликиране...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>Дупликацията не е последователна.</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>Разпределението на файловете не е оптимално.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>Измерване...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>Липсващ Диск</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>Няма масив</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>Организация на Масива</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>Опресняване...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>Премахване на диск...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>Работи...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>Създай нов масив</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>Грешка при премахването на диска</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>Премахване...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>Изчакване за премахване...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>Измерването на масива ще започне като фонов процес, но може да не е веднага ако масива е зает с нещо друго. Можете да продължите да използвате компютъра си нормално докато се извършва това, включително да го изключите.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>Измери отново</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;Измери отново</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>Това ще измери съдържанието на масива и ще преизчисли статистиките.</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_Ускоряване на мрежовите операции</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>Едновременно _четене</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>Мрежовото ускорение приоритизира заявките за четене които пристигат по мрежата преди останалите, ако диска е зает.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>Прочетете ивици ще чете дублирани файлове от няколко твърди диска в същото време подобряването на чета изпълнение.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>Дублирани файлове са написани на множество дискове в същото време, успоредно с това. Ако непокътнати, файловете ще бъдат дублирани през нощта.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>Неуспешна промяна опциите на масива.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>Статистиките не са пълни.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>Дупликация на файлове е активирана на този масив.
+Файловете се записват на няколко диска едновременно.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>Дупликацията на файлове е активирана на този масив.
+Файловете не се записват едновременно на няколко диска.
+Дупликацията се извършва през нощта.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>Трябва да добавите друг диск към касива.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>Няма достатъчно дискове в масива за да се поддържат дупликати на файловете.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;Автоматично отстранявай проблеми при дупликацията като изтриваш старите части от файлове</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;Дупликирай сега</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>DrivePool може автоматично да изтрие старата част на този файл за да отстрани конфликта.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>Един или повече дупликирани файлове имат несъответстващи части. Една от причините това да се случи е ако някой промени частите на файловете директно на диска, а не през масива. Това може да се случи също ако диска е бил променен докато не е бил част от масива.
+
+Можете да отстраните този конфликт ръчно като изтрите грешната част на файла от дисковете в масива.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>Файлове: </value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>Предупреждения при Дупликацията</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>Затворете всички други програми които може да използват тези файлове и стартирайте дупликацията отново.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>Промяната на степента на дупликация на файл изисква определен достъп до този файл. Ако някоя друга програма го е отворила за четене, нивото на дупликация не може да бъде променено.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>Няма достатъчно място на масива за да се извърши дупликация на всички файлове.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;Пропусни файловете които се използват</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>Възникнаха проблеми при проверяване, дупликиране или изчистване на един или повече файла в масива.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>Предупреждения...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>Ребалансирай</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>Провери отново дупликацията</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>Провери за нова версия</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>Промени лиценза...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>Известявай за липсващ диск</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>Невъзможна промяна на опциите</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>Свързване към сървиса</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>Вземи лиценз...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>Вземи пробен лиценз или въведи закупен код</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>Вземи нов пробен лиценз за тази версия или въведи закупен код</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>Свързване...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>Вашият лиценз е за друга версия на този продукт. Вземете пробен лиценз или въведете закупен код.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>Вашият лиценз трябва да бъде прехвърлен на този компютър</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>Вие нямате валиден лиценз</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>Един момент</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>Стартиране на сървиса</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>Стартиране на трансфер на лиценз</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>Вашият пробен лиценз е изтекъл. Закупете лиценз за да продължите да използвате този продукт.</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>За помощ посетете:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>Вашият лиценз не може да бъде валидиран.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>Стартирането на сървиса е неуспещно, пробвайте да рестартирате компютъра си.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>Ако имате проблеми със свързването към сървиса, пробвай те да рестартирате компютъра си.
+
+Ако имате проблеми със връзката към отдалечен компютър. то той може да е зад защитна стена.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>Сериен Номер</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>Температура</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>Свободно място: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>Използвано място: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>Чекмедже</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>Кутия</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>ПРОБНАТА ВЕРСИЯ ИЗТЕЧЕ</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>Активирайте закупен лиценз</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>Повторната проверка на дупликацията на масива ще провери дали са налични коректен брой копия за всеки файл.
+Това може да бъде полезно дори ако нямате активирана дупликация на файловете в масива.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>Ребалансирането на масива ще реорганизира файловете в масива които са съхранени на един индивидуален диск.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>Информирай по _имейл...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>Въведете един или повече имейл адреси разделени със запетая:
+
+(Оставете празно и натиснете OK за да изключите известяването по имейл)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>Извети по Имейл</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>Добавянето на диск към масив-а няма да изтрие или промени съществуващите файлове на този диск.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>За да създадете нов масив, свържете нов диск към системата.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>Трябва да рестартирате вашият компютър.</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>Балансиране</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>Настройка местоположението на файловете и организацията</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>Балансиране...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>Няма настройки</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>Изберете плъгин за балансиране</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_Отказ</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_Запис</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>Опции за запълване на диска</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>Изпразни диска до:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>Опитай се да не запълваш диска над:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>Или толкова свободно място:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB свободни</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% пълен</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>Опции за изпразване на диска</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>На пример: избирайки 90%5 пълен / 100 GB свободни на 2TB диск ще предотврати диска от препълване с повече от 1.9TB (100 GB свободни)</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>Опции за ограничения на диска</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>Дупликирани</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Недупликирани</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>Върни настройките на избрания плугин по подразбиране</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>Върни всички настройки към тези по подразбиране</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>Грешка при връщане насторйките на плъгина към тези по подразбиране</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>Лимит на дупликираните файлове ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>Цел на дупликираните файлове</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>Лимит за поставянето на файлове ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>Цел за ребалансиране</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>Лимит за недупликираните файлове ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Цел за ребалансиране на недупликирани файлове</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>Позволи балансиращи плъгини да стартират ребалансиране веднага</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>Автоматично балансиране - Тригери</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>Автоматично балансиране</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>Балансиращи плъгини</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>Балнасирай всеки ден в:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>Балансирай веднага</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>Не балансирай автоматично</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>Ако отношението на балансираните файлове падне под:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>Или ако има поне толкова данни които трябва да бъдат преместени:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>Насторйки</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>Не по-често от всеки:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>Евакуация на файлове</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>Премести дупликираните файлове извън повредените дискове</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>Премести дупликираните файлове извън дисковете със S.M.A.R.T. предупреждения</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>Премести недупликираните файлове изън повредените дискове</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>Премести недупликираните файлове извън дисковете със  S.M.A.R.T. предупреждения</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>Опитай се да не поставяш нови файлове на дискове които за достигали тяхната максимална температура</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>Контрол на температурата</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>освен ако всички други дискове са пълни</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>Този балансиращ плъгин работи заедно със StableBit Scanner (версия 2.2 и нагоре)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>Позволи поставянето на файлове на евакуирани дискове ако всички други са пълни:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>Никога не поставяй файлове на евакуирани дискове</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>Опции за Евакуация</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>Грешка при записа на настройките</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>Позволи _отдалечен достъп</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>Поддържай друг компютър с работещ StableBit DrivePool</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(по-нова версия)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(по-стара версия)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}' не е ауторизиран да се свързва към този компютър. Вие трябва да сте администратор на отдалечения компютър за да го управлявате.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>Обратно към '{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>Изключи Отдалечения Контрол</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>Лицензът на отдалечената машина не е активирам. Влезте локално на машината за да го активирате.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>StableBit DrivePool Аутентикация</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>Моля въведете вашите данни за достъп</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>Влез като друг потребител</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>Зареждане...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>Неуспешно зареждане на директорията.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>_Защита на файла</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_Дупликация на директория</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>Производителност</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>Промени дупликацията...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>Дупликация на Директория</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>Показвай _скритите директории</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>Дупликирай файловете по-късно (по-бързо премахване на диск).</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>Премахни на сила диска (файловете които не могат да бъдат прочетени ще бъдат оставени на диска)</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>Премахни</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>Опции за Премахване</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>Кликни за да се покажат поциите за премахване.
+SHIFT+Click за да започне премахването със стандартни настройки.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>Цел за балансиране на дупликирани файлове</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>Лимит за поставянето на нови файлове</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>Лимит за поставянето на нови дупликирани файлове</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>Цел за ребалансиране</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>Цел за ребалансиране на недупликирани файлове</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>Лимит за нови недупликирани файлове</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>Разшири &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>Дискове</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>Производителност</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>няма активност по дисковия масив</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>Активност на диска: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>Четене</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>Запис</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>Производителност на диска</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>Ускоряване на I/О</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>Производителност на масива</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Едновременно четене</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>Задържания на диска</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>Превклчвания на дисковете</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>за секунда</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>Най-добър диск</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>Управление на басейн</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool не може да зареди някой от данните идващи от отдалечения компютър.
+
+Ако отдалечения компютър има инсталирани плъгини, моля уверете се, че същите плъгини ги има инсталирани и на този компютър.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>Виж детайлите...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool някой от даните които идват от отдалечения компютър.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>Проверка...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>Изключен</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>Файловете не се дупликират в тази директория.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>Файловете се дупликират в тази директория.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>Наследи</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>Тази директория е с наследено ниво на дупликиране от родителската директория. Промяната на нивото на дупликиране на родителската директория ще афектира всички поддиректории които наследяват нивото на дупликация.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>Колко копия да се пазят за всеки файл?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>Брой на Копията</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>Защитавай моите файлове от повредата на повече от един дискове наведнъж.</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>Опресни</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>Работи по: {0}\...{1}В момента се обработва: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>Работи се по целия масив.{0}В момента се обработва: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;Промени Дупликацията</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>Басейн могат да бъдат недостъпни.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>Този басейн е никакъв карам писмо определям към него и той не е част от друга група.
+Басейни без буква на устройство не може да бъде достъпна за други приложения.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>За вашият нов масив:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>Вашият нов масив в началото е празен.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>просто копирайте файлове в него както при използването на всеки друг диск.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>Ако някога останете от свободно място, тогава просто добавете още един диск към масива.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>Съществуващите файлове не се добавят автоматично към басейна.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>Вие току що създадохте вашият първи масив.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(това ще бъде показано само веднъж)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>Честито!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>Сортирай по</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>По Количество _Свободно Дисково Пространство</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>По _Име</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>По % _Използвано Дисково Пространство</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>Кликнете за да премахнете липсващия диск.</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>Известия</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>Свободно място: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>Диск</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>Не е в пула</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>В пула</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>Разрешаване на регистрационни файлове за зареждане</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_Отстраняване на неизправности</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>При стартиране ще бъдат създадени регистрационни файлове, описващи подробно дейността по стартиране на StableBit DrivePool. Регистрационните файлове не са записани в разбираем за човека формат (WPP) и трябва да бъдат изпратени на отдела по техническа помощ за анализ.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;Разрешаване</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>Грешка при регистриране на време за стартов регистрационен процес</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>Разрешаване на време за стартов регистрационен процес</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>Грешка при стартиране на рестартиране</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>Принудително затваряне на  неотговарящи приложения</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>Рестартиране</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>Рестартиране и по-късно</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>Рестартиране и сега</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>Рестартирайте компютъра сега, за да генерирате регистрационен файл.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>При следващото рестартиране, ще бъде генериран регистрационен файл в {0}.</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>Разрешаване на регистрационни файлове за системата</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>Създаването на регистрационни файлове за системата ще създаде регистрационни файлове, подробно описващи дейността на StableBit по групиране на файловете в системата. Регистрационните файлове не са записани в разбираем за човека формат (WPP) и трябва да бъдат изпратени на отдела по техническа помощ за анализ.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>Разполагане на файл</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>Изберете папка или правило.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>Добавяне</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>Въведете правило за съвпадение за схема на файлове. ? отговаря на всеки един символ, * отговаря на нула или повече символи.
+
+Например: "*.txt" или "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>Редактиране</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>Премахване</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>Опции за поставяне на файл.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>Никога не позволявайте файлове да бъдат поставени на други устройства.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>Всички файлове, отговарящи на това правило, ще бъдат съхранени на избраните устройства.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>Препълване</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>Позволете файлове да бъдат поставени на други дискове, ако всички избрани дискове са пълни:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>Схемата не може да е празна.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>Правило с тази схема вече съществува.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>Обновяване</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>Покажи скрити</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>Трябва да бъдат приложени правила за балансиране на поставяне на файлове. </value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>Балансирането на плъгини отговаря на правилата за разположение на файловете.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>Когато бъде избрано, балансирането на плъгини няма да наруши ограниченията за правилото за разположение на файловете.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>Освен ако устройството не бъде изпразнено.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>Настройки за поставяне на файлове</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>Правилата за поставяне на файлове спазват лимитите в реално време за поставяне на файлове, определени от балансиращите плъгини.</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>Един или повече балансатори могат да зададат ограничения за разполагане в реално време на файлове върху един или повече от вашите дискове (например, когато балансаторът StableBit Scanner изчиства един или повече дискове). Когато тази отметка е включена, правилата за поставяне на файлове няма да нарушават тези ограничения.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>Настройки на добавки</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>Файловете не можаха да бъдат преместени, за да отговарят на правилата за разположение на файлове ({0}) по време на последната фаза за балансиране.
+</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>Дублиране: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>Размер: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} Свободни</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({1:0,#} B) не може да бъде преместен, тъй като не може да бъде намеренa подходяща дестинация. Уверете се, че имате достатъчно дисково пространство, 
+за да отговoрите на вашите правила за поставяне на файлове, и също, че те не са в конфликт с други настройки за балансиране.
+</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_Нулиране на всички настройки...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>Това ще нулира всички настройки и състоянието на приложението до настройките по подразбиране, включително и настройките за балансиране. Това няма да повлияе на вашите настройки за дублиране и на вашите групирани данни. 
+
+Услугата StableBit DrivePool ще се рестартира и на вашите набори ще бъде направена повторна оценка и повторна проверка за съгласуваност.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>Грешка при нулиране на настройките</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>Нулиране на всички настройки</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>Нулиране</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>Възстанови всички член appliaction настройки и прилагането състояние по подразбиране?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>Прекрати</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>Повишаване на приоритета</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>Не може да бъде зададен приоритет</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>Нови устройства</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>Когато ново устройство бъде добавено към набора, файлове, отговарящи на това правило , трябва да бъдат поставени на това устройство.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>Максимизиране</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>Минимизиране</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>Записване</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>Вашият тестов имейл се изпраща на "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>Тестовите имейли се изпращат незабавно, но може да отнеме няколко минути имейлът да бъде разпространен. Ако не получите тестовия имейл, проверете вашата папка за спам, понеже имейлът може да е бил филтрирани от вашия филтър за спам.
+
+Всички имейли от StableBit DrivePool ще съдържат текста "[StableBit DrivePool]" като тема.</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>Тестовият имейл не беше изпратен успешно на "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;Скриване</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>Изпратете тестов имейл</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;Не</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>Моля, изчакайте...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;Изпратете тестов имейл</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>Тестовият имел беше изпратен успешно на "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>Бихте ли искали да изпратите тестово имейл съобщение на "{0}"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>Байпас файловата система филтри</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>В за да се увеличи ефективността на басейна, файловата система "филтри", които са активни на всеки отделен диск, който е част от басейна може да бъде избегната. Например ако имате инсталиран скенер реално време анти-вирус, това ще предотврати двойно или тройно сканиране на същия файл, когато тя е достъпна от басейна. Само този файл ще бъде веднъж сканирани.
+
+Това може да предизвика проблеми със съвместимостта със софтуер, който е намерение за извършване на муха данни манипулация. Данни дедупликация софтуер и софтуер за криптиране на данни са 2 примери за такъв софтуер.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(коригиран)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} минути</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>Отхвърли</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>Отмени всички</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>Обратна връзка:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>Няма</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>Грешка, отхвърляйки елемент</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* На базата на общо файлови размери. Действителен disk пространство използван може да бъде по-малко.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>Измерване на {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>Измерване на {0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>Файлова система</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>Сила затворите всички отворени unduplicated файлове на диска се премахват.</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>Детайли...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>Пила in употреба</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>Затворете отворени приложения, които имат тези файлове и опитайте да премахнете устройството отново.
+Алтернативно, изберете "Сила затворите всички отворени unduplicated файлове..." в диалоговия прозорец отстраняване, карам да принуди тези файлове да се затвори.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>Име на процес</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>Някои файлове се използват и не може да бъде преместен</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>Файлове в употреба</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[Не е намерен]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_Затвори</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_Проверка след копие</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>След файл се копира поради някои фон процес, като балансиране или фон дублирането на файлове, ще се чете обратно в и проверяват за последователност. Разрешаването на тази опция ще има отрицателно въздействие върху изпълнението на операции на копиране на файл на фон.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>Махнете всички други</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>Проверка на всички</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>Това е облак устройство.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>Това устройство е създаден от StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>Автоматично превъртане</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>Регистър на сервиз</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>Разрешени за проследяване за сервиз</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>Проследяване на нива</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>Грешка при записване на данни.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>Услугата за проследяване ще създаде лог файлове подробно StableBit DrivePool обслужваща дейност.
+Регистрационните файлове са написани на четене от хора формат и може да се представи на техническата поддръжка за анализ. Регистрационните файлове се записват в: %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>Контролира нивото на регистъра на проследяването на всеки модул.
+Логови съобщения са написани на регистрационни файлове в %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>Регистър на сервиз...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>Изчакване...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>Това е басейн, който се състои изцяло от облак дискове.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>Това е басейн.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>Невалидно правило.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} общо използвани пространство ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Това е неразпределено дисково.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Това е празен диск.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>Физически диск: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>Басейн не е намерен.</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>Карам писмо...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>Превключване на карам писмо назначение.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>Определям карам писмо...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>Премахване на буква на устройство...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>Грешка toggling карам писмо назначение.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>Никакъв карам писмо определям.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;Присвояване на</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>Присвояване на буква на устройство на вашия басейн го прави видим за Windows File Explorer и позволява на повечето други Windows приложения достъп до съдържанието му.
+
+Windows има ограничен общият брой на карам литература наличен. След като всички от тях са се изчерпали, нови басейни няма да карам литература определям към тях автоматично.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>Присвояване на буква на устройство</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>Присвояване на буква на устройство на вашия басейн.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;Премахване на</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>Премахването на буквата на устройството от вашия басейн го прави невидим за Windows File Explorer и повечето други Windows приложения.
+
+Windows има ограничен общият брой на карам литература наличен. След като всички от тях са се изчерпали, нови басейни няма да карам литература определям към тях автоматично.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>Премахване на сила</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>Премахване на буква на устройство</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>Премахнете буквата на устройството от вашия басейн.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_Сила актуализация отметка сега...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>Актуализации</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>Проверка на актуализация е планирано. Вие ще бъдете уведомени скоро, ако бъдат открити актуализации.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>По номер на физическия диск</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>Това е външно устройство.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10s средно: {0} / s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>Файл отворен курс: {0:#,0} / s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>Отваряне на файлове</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>Повторна проверка на _duplication...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>Повторна проверка на дублирането</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;Повторна проверка</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>Това ще принуди повторна на дублирането на файлове във всички басейни.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>Добави "{0}" към нов басейн.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>Добави "{0}", за да обединят "{1}".</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>Изчислява се съотношението между салдото за "{0}".</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>Изчисляване папка дублиране статистика на "{0}".</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>Дублиране на басейн "{0}" се промени до x{1:#,0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>Дублиране на "{0}" на "{1}" се промени до x{2:#,0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>Проверете дублиране етикет последователност на "{0}".</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>Проверете басейн метаданни дублиране последователност на "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>Съгласуваност файл дублиране на "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>Съгласуваност файл дублиране на "{0}" в "{1}".</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>Мярка басейн "{0}".</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>Неуспешно измерване:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- Път: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- Сборни диск: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- Грешка: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>Премахване на липсващия диск "{0}" от басейн "{1}".</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>Изпращане на имейл уведомление тест, за да "{0}".</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>Пинг всички дискове.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>Потърсете нови сборни дискове.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>Баланс на басейн "{0}".</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- Приложи правилата за балансиране.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- Баланс файл разполагане.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>Премахнете "{0}" от басейн "{1}".</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>Определям карам писмо на басейна {0}.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>Премахване на буква на устройство от басейн {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>Задачата, е неуспешен.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>Задачата е завършена успешно.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>Колар проверим е разрешена за CoveFS.sys. Това трябва да се използва само за тестови цели и сериозно може да влоши изпълнение басейн.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>Завърши</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>Версия: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>Създаден: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[МНОЖЕСТВО]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[МЕТАДАННИ]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0} "не е валиден имейл адрес.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>Този басейн е част от басейн {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>Сила...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>Не може да стартира задачата "{0}", обект вече в магазина.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>Басейн не е намерен.</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>Грешка при зареждане на нива на проследяване. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>Работа...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>Изчакване за...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>Аргументи на командния ред</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>Създаване на нов басейн</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>Предишни басейн</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>С писмо за шофиране</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>Налична е актуализация</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>Налична е актуализация на StableBit DrivePool (версия {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_Актуализации...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>Не може да се включи дистанционното управление: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>Грешка при дистанционно управление</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>Синхронизиране с други приложения, свързани с вашия акаунт в StableBit Cloud.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>Активирани известия за имейл на StableBit Cloud. Локалната функционалност на имейла не е налична.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(може да принуди незабавно балансиране)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(може да задава ограничения за разполагане на файлове)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>Евакуацията на файлове започва веднага след откриване на проблем.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>Синхронизиране на настройките</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_Авто</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_Тъмен</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>Висока _contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_Светлина</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>Нулиране на настройките за балансиране до техните настройки по подразбиране?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>Сигурни ли сте?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>Затварям</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>Часа</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>Минути</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>Празен</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>Оставете сборните копия на файловете на премахнатото устройство (премахване на архива).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>Разстояние</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>Зададени са невалидни стойности.</value>
+  </data>
+</root>

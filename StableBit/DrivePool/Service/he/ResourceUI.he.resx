@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDriveToPool_AddedSuccessfully" xml:space="preserve">
+    <value>דיסק נוסף בהצלחה</value>
+  </data>
+  <data name="AddDriveToPool_AddingDisk" xml:space="preserve">
+    <value>הוספת דיסק לבריכה...</value>
+  </data>
+  <data name="AddDriveToPool_CannotAddSameDisk" xml:space="preserve">
+    <value>אין אפשרות להוסיף באותו הדיסק הבריכה פעמיים.</value>
+  </data>
+  <data name="AddDriveToPool_CannotCreateNewVolume" xml:space="preserve">
+    <value>אין אפשרות ליצור אמצעי אחסון חדש.</value>
+  </data>
+  <data name="AddDriveToPool_CannotInitializeNotOnline" xml:space="preserve">
+    <value>אין אפשרות לאתחל דיסק. הדיסק אינו מקוון.</value>
+  </data>
+  <data name="AddDriveToPool_Complete" xml:space="preserve">
+    <value>להשלים</value>
+  </data>
+  <data name="AddDriveToPool_CreatingVolume" xml:space="preserve">
+    <value>יצירת אמצעי אחסון...</value>
+  </data>
+  <data name="AddDriveToPool_DiskNotFound" xml:space="preserve">
+    <value>דיסק לא נמצא.</value>
+  </data>
+  <data name="AddDriveToPool_EnumeraingUnallocated" xml:space="preserve">
+    <value>ספירת הדיסקים שלא הוקצה...</value>
+  </data>
+  <data name="AddDriveToPool_FormattingVolume" xml:space="preserve">
+    <value>עיצוב נפח...</value>
+  </data>
+  <data name="AddDriveToPool_GettingDiskService" xml:space="preserve">
+    <value>מקבל שירות דיסק...</value>
+  </data>
+  <data name="AddDriveToPool_IncompatibleFileSystem" xml:space="preserve">
+    <value>מערכת הקבצים אינה תואמת.</value>
+  </data>
+  <data name="AddDriveToPool_InitializingDisk" xml:space="preserve">
+    <value>אתחול דיסק...</value>
+  </data>
+  <data name="AddDriveToPool_NoFreeDriveLetters" xml:space="preserve">
+    <value>אותיות כונן פנויות. נסה להוסיף הכונן ככונן מוסתרים.</value>
+  </data>
+  <data name="AddDriveToPool_NoPooledDisksConnected" xml:space="preserve">
+    <value>דיסק במאגר אחד לפחות חייב להיות מחובר כדי להוסיף דיסק חדש במאגר קיים.</value>
+  </data>
+  <data name="AddDriveToPool_NotEnoughSpaceForVolume" xml:space="preserve">
+    <value>אין די שטח פנוי בדיסק כדי ליצור אמצעי אחסון חדש.</value>
+  </data>
+  <data name="AddDriveToPool_UnableToGetVolumePath" xml:space="preserve">
+    <value>אין אפשרות לקבל נתיב אמצעי אחסון.</value>
+  </data>
+  <data name="AddDriveToPool_VolumeAlreadyExists" xml:space="preserve">
+    <value>אין אפשרות ליצור אמצעי אחסון חדש. אמצעי אחסון אחר כבר קיים בדיסק.</value>
+  </data>
+  <data name="AddDriveToPool_WaitingForPoolPart" xml:space="preserve">
+    <value>מחכה החלק בריכה לצרף...</value>
+  </data>
+  <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
+    <value>מחכה הבריכה לעלות...</value>
+  </data>
+  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+    <value>אין אפשרות להגדיר שכפול ספירה על נקודת ניתוח מבנה חוזר.</value>
+  </data>
+  <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
+    <value>לא מספיק כוננים פיזיים בבריכה כדי לאפשר מצב שכפול. הוסף כונן לבריכה לפני מנסה לאפשר שכפול.</value>
+  </data>
+  <data name="DriveFillBalancer_Description" xml:space="preserve">
+    <value>מבטיחה כי אין כונן בודד מתמלא קיבולת, אם יש מקום פנוי על כוננים אחרים.</value>
+  </data>
+  <data name="DriveFillBalancer_Name" xml:space="preserve">
+    <value>למנוע נסיעה תמלא יותר מדי</value>
+  </data>
+  <data name="DriveLimitBalancer_Description" xml:space="preserve">
+    <value>מגביל על המיקום של קבצים מסוימים הדיסקים.</value>
+  </data>
+  <data name="DriveLimitBalancer_Name" xml:space="preserve">
+    <value>נסיעה שימוש מגביל</value>
+  </data>
+  <data name="DuplicationBalancer_Description" xml:space="preserve">
+    <value>מבטיחה כי שטח דיסק מרבי זמין לאחסן את הקבצים המשוכפלת.</value>
+  </data>
+  <data name="DuplicationBalancer_Name" xml:space="preserve">
+    <value>שכפול שטח האופטימיזציה</value>
+  </data>
+  <data name="FileDuplication_FileInUse" xml:space="preserve">
+    <value>הקובץ נמצא בשימוש.</value>
+  </data>
+  <data name="FileDuplication_WaitingForOtherPools" xml:space="preserve">
+    <value>מחכה בריכות אחרות ב- hieararchy לסיים שכפול ואיזון...</value>
+  </data>
+  <data name="FileMover_BuildingBucketList" xml:space="preserve">
+    <value>בניין דלי רשימות...</value>
+  </data>
+  <data name="FileMover_BuildingMoveList" xml:space="preserve">
+    <value>בניין להעביר רשימות...</value>
+  </data>
+  <data name="FileMover_MovingFiles" xml:space="preserve">
+    <value>העברת קבצים...</value>
+  </data>
+  <data name="FilePatternMover_ApplyingRules" xml:space="preserve">
+    <value>החלת קובץ תבנית כללי</value>
+  </data>
+  <data name="FilePatternMover_MovingFiles" xml:space="preserve">
+    <value>העברת קבצים בהתבסס על תבנית כללים של "{0}"...</value>
+  </data>
+  <data name="ForgetDriveFromPool_CannotFindPoolPart" xml:space="preserve">
+    <value>אין אפשרות למצוא את החלק הבריכה כדי להסיר.</value>
+  </data>
+  <data name="Ipc_ServiceNotReady" xml:space="preserve">
+    <value>שירות לא מוכן.</value>
+  </data>
+  <data name="ModifyDrive_Assigned" xml:space="preserve">
+    <value>מוקצה: {0}:\</value>
+  </data>
+  <data name="ModifyDrive_DeviceInUse" xml:space="preserve">
+    <value>המכשיר נמצא בשימוש.</value>
+  </data>
+  <data name="ModifyDrive_NoMoreDriveLetters" xml:space="preserve">
+    <value>אין באפשרותך להקצות אות כונן. אין יותר אותיות הכוננים הזמינים.</value>
+  </data>
+  <data name="ModifyDrive_UnknownAction" xml:space="preserve">
+    <value>נודע לשנות ולהנעת פעולה המבוקש.</value>
+  </data>
+  <data name="ModifyDrive_VolumeNotFound" xml:space="preserve">
+    <value>כרך בבריכת לא נמצא.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Description" xml:space="preserve">
+    <value>Equalizes בניצול שטח דיסק על-פני כרכים המאוחסנים באותו דיסק פיזי.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Name" xml:space="preserve">
+    <value>קיזוז עוצמה</value>
+  </data>
+  <data name="Rebalance_ComputingBalanceModel" xml:space="preserve">
+    <value>חישוב מאזן דגם...</value>
+  </data>
+  <data name="RemoveDriveFromPool_Canceled" xml:space="preserve">
+    <value>הסרת בוטלה</value>
+  </data>
+  <data name="RemoveDriveFromPool_CannotRemoveWhileMissing" xml:space="preserve">
+    <value>אין אפשרות להסיר דיסק מן הבריכה בעוד דיסק נוסף חסר.</value>
+  </data>
+  <data name="RemoveDriveFromPool_CheckingForInUse" xml:space="preserve">
+    <value>בדיקת קבצים הנמצאים בשימוש...</value>
+  </data>
+  <data name="RemoveDriveFromPool_CountingFile" xml:space="preserve">
+    <value>ספירת קבצים...</value>
+  </data>
+  <data name="RemoveDriveFromPool_ErrorDuplicating" xml:space="preserve">
+    <value>שגיאה משכפול הקובץ '{0}'. {1}</value>
+  </data>
+  <data name="RemoveDriveFromPool_FilesInUse" xml:space="preserve">
+    <value>אין אפשרות להסיר את הדיסק הזה מן הבריכה כי כמה קבצים נמצאים בשימוש.</value>
+  </data>
+  <data name="RemoveDriveFromPool_Migrating" xml:space="preserve">
+    <value>העברת קבצים...</value>
+  </data>
+  <data name="RemoveDriveFromPool_PoolPartNotFound" xml:space="preserve">
+    <value>חלק הבריכה לא נמצא.</value>
+  </data>
+  <data name="RemoveDriveFromPool_RemovingPoolPart" xml:space="preserve">
+    <value>הסרת בריכת...</value>
+  </data>
+  <data name="RemoveDriveFromPool_RestartingPrograms" xml:space="preserve">
+    <value>הפעלה מחדש של תוכניות...</value>
+  </data>
+  <data name="ScannerBalancer_Description" xml:space="preserve">
+    <value>מספק בקרת הפינוי וטמפרטורה.</value>
+  </data>
+  <data name="Tasks_DiskMissingCannotContinue" xml:space="preserve">
+    <value>אין אפשרות להמשיך בעוד דיסק נוסף חסר. גם לחבר את הדיסק החסר חזרה, או להסירו מן הבריכה.</value>
+  </data>
+  <data name="FileDuplication_FilePartsDifferent" xml:space="preserve">
+    <value>קובץ חלקים שונים.</value>
+  </data>
+  <data name="FileDuplication_UnableToGetFileTime" xml:space="preserve">
+    <value>אין אפשרות לקבל קובץ זמן עבור {0}.</value>
+  </data>
+  <data name="FileDuplication_FileNotFound" xml:space="preserve">
+    <value>הקובץ לא נמצא.</value>
+  </data>
+  <data name="FileDuplication_NeedMoreDisks" xml:space="preserve">
+    <value>צריך יותר דיסקים בבריכה.</value>
+  </data>
+  <data name="FileSizeTracking_FailedMeasuring" xml:space="preserve">
+    <value>שנכשלו מדידה "{0}" (התקן #{1}, מחיצה #{2}).</value>
+  </data>
+  <data name="FileSizeTracking_Failed_measuring2" xml:space="preserve">
+    <value>כשל מכשיר למדידת #{0}, מחיצה #{1}.</value>
+  </data>
+  <data name="RemoveDriveFromPool_UnableToDeleteAllFiles" xml:space="preserve">
+    <value>אין אפשרות למחוק את כל הקבצים לאחר הסרת חלק הבריכה.</value>
+  </data>
+  <data name="Email_ErrorSendingEmail" xml:space="preserve">
+    <value>שגיאה בשליחת דוא: </value>
+  </data>
+  <data name="Email_UnableToSendEmail" xml:space="preserve">
+    <value>אין אפשרות לשלוח דואר אלקטרוני.</value>
+  </data>
+  <data name="Email_Notification" xml:space="preserve">
+    <value>ההודעות</value>
+  </data>
+  <data name="Ipc_PoolNotFound" xml:space="preserve">
+    <value>הבריכה לא נמצאה.</value>
+  </data>
+</root>

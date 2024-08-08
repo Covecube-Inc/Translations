@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDriveToPool_AddedSuccessfully" xml:space="preserve">
+    <value>Disk lagt til vellykket</value>
+  </data>
+  <data name="AddDriveToPool_AddingDisk" xml:space="preserve">
+    <value>Legge til disk i bassenget ...</value>
+  </data>
+  <data name="AddDriveToPool_CannotAddSameDisk" xml:space="preserve">
+    <value>Kan ikke legge til den samme disken i utvalget to ganger.</value>
+  </data>
+  <data name="AddDriveToPool_CannotCreateNewVolume" xml:space="preserve">
+    <value>Kan ikke opprette nytt volum.</value>
+  </data>
+  <data name="AddDriveToPool_CannotInitializeNotOnline" xml:space="preserve">
+    <value>Kan ikke initialisere disken. Disken er ikke online.</value>
+  </data>
+  <data name="AddDriveToPool_Complete" xml:space="preserve">
+    <value>Fullstendig</value>
+  </data>
+  <data name="AddDriveToPool_CreatingVolume" xml:space="preserve">
+    <value>Opprette volum ...</value>
+  </data>
+  <data name="AddDriveToPool_DiskNotFound" xml:space="preserve">
+    <value>Finner ikke disken.</value>
+  </data>
+  <data name="AddDriveToPool_EnumeraingUnallocated" xml:space="preserve">
+    <value>Opplisting av ikke-allokerte disker ...</value>
+  </data>
+  <data name="AddDriveToPool_FormattingVolume" xml:space="preserve">
+    <value>Formatering volum ...</value>
+  </data>
+  <data name="AddDriveToPool_GettingDiskService" xml:space="preserve">
+    <value>Få disktjeneste ...</value>
+  </data>
+  <data name="AddDriveToPool_IncompatibleFileSystem" xml:space="preserve">
+    <value>Filsystemet er inkompatibelt.</value>
+  </data>
+  <data name="AddDriveToPool_InitializingDisk" xml:space="preserve">
+    <value>Initialisere disk...</value>
+  </data>
+  <data name="AddDriveToPool_NoFreeDriveLetters" xml:space="preserve">
+    <value>Ingen gratis stasjonsbokstaver. Prøv å legge til denne stasjonen som en skjult stasjon.</value>
+  </data>
+  <data name="AddDriveToPool_NoPooledDisksConnected" xml:space="preserve">
+    <value>Minst én samlet disk må være koblet til for å legge til en ny disk i et eksisterende utvalg.</value>
+  </data>
+  <data name="AddDriveToPool_NotEnoughSpaceForVolume" xml:space="preserve">
+    <value>Ikke nok ledig plass på disken til å opprette et nytt volum.</value>
+  </data>
+  <data name="AddDriveToPool_UnableToGetVolumePath" xml:space="preserve">
+    <value>Kan ikke få volumbane.</value>
+  </data>
+  <data name="AddDriveToPool_VolumeAlreadyExists" xml:space="preserve">
+    <value>Kan ikke opprette et nytt volum. Et annet volum finnes allerede på disken.</value>
+  </data>
+  <data name="AddDriveToPool_WaitingForPoolPart" xml:space="preserve">
+    <value>Venter på bassengdelen å feste ...</value>
+  </data>
+  <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
+    <value>Venter på bassenget å montere ...</value>
+  </data>
+  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+    <value>Kan ikke angi et dupliseringsantall på et reanalyseringspunkt.</value>
+  </data>
+  <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
+    <value>Ikke nok fysiske stasjoner i utvalget til å aktivere dupliseringsstatus. Legg til en annen stasjon i utvalget før du prøver å aktivere duplisering.</value>
+  </data>
+  <data name="DriveFillBalancer_Description" xml:space="preserve">
+    <value>Sikrer at ingen enkelt stasjon er fylt til kapasitet, hvis det er ledig diskplass på andre stasjoner.</value>
+  </data>
+  <data name="DriveFillBalancer_Name" xml:space="preserve">
+    <value>Forhindre overfylling av stasjon</value>
+  </data>
+  <data name="DriveLimitBalancer_Description" xml:space="preserve">
+    <value>Begrenser plasseringen av filer til bestemte disker.</value>
+  </data>
+  <data name="DriveLimitBalancer_Name" xml:space="preserve">
+    <value>Begrensning av stasjonsbruk</value>
+  </data>
+  <data name="DuplicationBalancer_Description" xml:space="preserve">
+    <value>Sikrer at maksimal diskplass er tilgjengelig for å lagre dupliserte filer.</value>
+  </data>
+  <data name="DuplicationBalancer_Name" xml:space="preserve">
+    <value>Duplisering Space Optimizer</value>
+  </data>
+  <data name="FileDuplication_FileInUse" xml:space="preserve">
+    <value>Filen er i bruk.</value>
+  </data>
+  <data name="FileDuplication_WaitingForOtherPools" xml:space="preserve">
+    <value>Venter på andre bassenger i hieararchy å fullføre duplisering og balansering ...</value>
+  </data>
+  <data name="FileMover_BuildingBucketList" xml:space="preserve">
+    <value>Bygge bøtte lister ...</value>
+  </data>
+  <data name="FileMover_BuildingMoveList" xml:space="preserve">
+    <value>Bygge flyttelister...</value>
+  </data>
+  <data name="FileMover_MovingFiles" xml:space="preserve">
+    <value>Flytte filer...</value>
+  </data>
+  <data name="FilePatternMover_ApplyingRules" xml:space="preserve">
+    <value>Bruke filmønsterregler</value>
+  </data>
+  <data name="FilePatternMover_MovingFiles" xml:space="preserve">
+    <value>Flytte filer basert på mønsterregler fra "{0}"...</value>
+  </data>
+  <data name="ForgetDriveFromPool_CannotFindPoolPart" xml:space="preserve">
+    <value>Finner ikke bassengdelen som skal fjernes.</value>
+  </data>
+  <data name="Ipc_ServiceNotReady" xml:space="preserve">
+    <value>Tjenesten er ikke klar.</value>
+  </data>
+  <data name="ModifyDrive_Assigned" xml:space="preserve">
+    <value>Tildelt: {0}:\</value>
+  </data>
+  <data name="ModifyDrive_DeviceInUse" xml:space="preserve">
+    <value>Enheten er i bruk.</value>
+  </data>
+  <data name="ModifyDrive_NoMoreDriveLetters" xml:space="preserve">
+    <value>Kan ikke tilordne stasjonsbokstav. Ingen flere stasjonsbokstaver tilgjengelig.</value>
+  </data>
+  <data name="ModifyDrive_UnknownAction" xml:space="preserve">
+    <value>Ukjent endre stasjon handling forespurt.</value>
+  </data>
+  <data name="ModifyDrive_VolumeNotFound" xml:space="preserve">
+    <value>Bassengvolum ikke funnet.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Description" xml:space="preserve">
+    <value>Utjevner bruken av diskplass på tvers av volumer som er lagret på samme fysiske disk.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Name" xml:space="preserve">
+    <value>Volum utjevning</value>
+  </data>
+  <data name="Rebalance_ComputingBalanceModel" xml:space="preserve">
+    <value>Beregning av balansemodell...</value>
+  </data>
+  <data name="RemoveDriveFromPool_Canceled" xml:space="preserve">
+    <value>Fjerning avbrutt</value>
+  </data>
+  <data name="RemoveDriveFromPool_CannotRemoveWhileMissing" xml:space="preserve">
+    <value>Kan ikke fjerne en disk fra utvalget mens en annen disk mangler.</value>
+  </data>
+  <data name="RemoveDriveFromPool_CheckingForInUse" xml:space="preserve">
+    <value>Se etter filer som er i bruk ...</value>
+  </data>
+  <data name="RemoveDriveFromPool_CountingFile" xml:space="preserve">
+    <value>Telle filer...</value>
+  </data>
+  <data name="RemoveDriveFromPool_ErrorDuplicating" xml:space="preserve">
+    <value>Feil ved duplisering av filen '{0}'. {1}</value>
+  </data>
+  <data name="RemoveDriveFromPool_FilesInUse" xml:space="preserve">
+    <value>Denne disken kan ikke fjernes fra utvalget fordi noen filer på den er i bruk.</value>
+  </data>
+  <data name="RemoveDriveFromPool_Migrating" xml:space="preserve">
+    <value>Migrere filer...</value>
+  </data>
+  <data name="RemoveDriveFromPool_PoolPartNotFound" xml:space="preserve">
+    <value>Bassengdel ikke funnet.</value>
+  </data>
+  <data name="RemoveDriveFromPool_RemovingPoolPart" xml:space="preserve">
+    <value>Fjerne bassengdel...</value>
+  </data>
+  <data name="RemoveDriveFromPool_RestartingPrograms" xml:space="preserve">
+    <value>Starte programmer på nytt ...</value>
+  </data>
+  <data name="ScannerBalancer_Description" xml:space="preserve">
+    <value>Gir filevakuering og temperaturkontroll.</value>
+  </data>
+  <data name="Tasks_DiskMissingCannotContinue" xml:space="preserve">
+    <value>Kan ikke fortsette mens en annen disk mangler. Koble den manglende disken til igjen, eller fjern den fra bassenget.</value>
+  </data>
+  <data name="FileDuplication_FilePartsDifferent" xml:space="preserve">
+    <value>Fildeler annerledes.</value>
+  </data>
+  <data name="FileDuplication_UnableToGetFileTime" xml:space="preserve">
+    <value>Kan ikke få filtid for {0}.</value>
+  </data>
+  <data name="FileDuplication_FileNotFound" xml:space="preserve">
+    <value>Finner ikke filen.</value>
+  </data>
+  <data name="FileDuplication_NeedMoreDisks" xml:space="preserve">
+    <value>Trenger flere disker i utvalget.</value>
+  </data>
+  <data name="FileSizeTracking_FailedMeasuring" xml:space="preserve">
+    <value>Kunne ikke måle "{0}" (enhet #{1}, partisjon #{2}).</value>
+  </data>
+  <data name="FileSizeTracking_Failed_measuring2" xml:space="preserve">
+    <value>Mislykket måleenhet #{0}, partisjon #{1}.</value>
+  </data>
+  <data name="RemoveDriveFromPool_UnableToDeleteAllFiles" xml:space="preserve">
+    <value>Kan ikke slette alle filer etter at du har fjernet bassengdelen.</value>
+  </data>
+  <data name="Email_ErrorSendingEmail" xml:space="preserve">
+    <value>Feil ved sending av e-post: </value>
+  </data>
+  <data name="Email_UnableToSendEmail" xml:space="preserve">
+    <value>Kan ikke sende e-post.</value>
+  </data>
+  <data name="Email_Notification" xml:space="preserve">
+    <value>Varsling</value>
+  </data>
+  <data name="Ipc_PoolNotFound" xml:space="preserve">
+    <value>Basseng ikke funnet.</value>
+  </data>
+</root>

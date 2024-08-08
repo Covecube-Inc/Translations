@@ -1,0 +1,1616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>Kan ikke avbryte oppgaven.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>Kan ikke starte oppgaven.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;Annullere</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;Lukke</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>Et øyeblikk...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>Oppgaven mislyktes.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>Tilføye</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>Klikk for å avbryte</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>Feil detaljer...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>Disken mangler.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>Identifisere...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>Hvis de er deaktivert, blir ikke filene dine beskyttet mot stasjonsfeil. Du vil gjenvinne diskplassen som ble brukt til å opprettholde filduplisering.
+
+Du kan også endre antall kopier som skal beholdes av hver fil.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;Deaktiver duplisering</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>Du kan fortsette å bruke utvalget på vanlig måte mens dupliserte filer oppdateres i bakgrunnen.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>Endre duplisering</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>Hvis aktivert, vil filene dine forbli tilgjengelige selv om en enkelt harddisk mislykkes. Dupliserte filer tar opp dobbelt så mye diskplass som ikke-dupliserte filer.
+
+Du kan velge å beskytte filene dine mot mer enn én stasjonsfeil om gangen, men som et resultat vil hver fil ta opp så mye mer diskplass.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;Aktivere duplisering</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>Du kan fortsette å bruke utvalget på vanlig måte mens filene dupliseres i bakgrunnen.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>Aktivere duplisering</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>Filduplisering beskytter filene dine mot stasjonsfeil.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>Stasjonsplass</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>Kjør sak</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>Du kan installere den nyeste versjonen av &lt;A href="http://stablebit.com/Scanner"&gt;StableBit-skanneren&lt;/A&gt; 
+for mer presis diskidentifikasjon</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>Tips: Du kan også spesifisere "Case" og "Bay" på stasjonene dine i StableBit-skanneren for enklere identifisering.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>For å hjelpe deg med å identifisere hvilken disk som mangler, kan du pinge alle de tilkoblede diskene.
+
+I 1 minutt vil dette lyse opp disktilgangslampene på alle de tilkoblede diskene for å hjelpe deg med å identifisere hvilken disk som er koblet fra.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>Identifiser disk</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>Modell</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>Ingen spesifikk informasjon er tilgjengelig om denne disken.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;Ping alle tilkoblede disker i 1 minutt</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>Dette vet vi om den manglende disken:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>PRØVEVERSJONEN UTLØPER OM {0:0.0} DAGER</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>Feil ved innstilling av aktiverings-ID.</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>Et toppmoderne disksamlingsprogram med filduplisering.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_Balansering...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>Pool fil _duplication ...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>IKKE MÅLT</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>Sanntid _duplication</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>Re-_measure ...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>Legge...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>Feil ved å legge til stasjon</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>Venter på å legge til ...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>Duplisert: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>Annet: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Ikke duplisert: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>Ubrukelig for duplisering: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>Legge til stasjon ...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>Balansering...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>Beregne...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>Endre duplisering...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>Duplisere...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>Duplisering inkonsekvent.</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>Fildistribusjonen er ikke optimal.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>Måle...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>Manglende disk</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>Ingen basseng</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>Pool Organisasjon</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>Forfriskende...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>Fjerne stasjonen ...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>Yrkesaktiv...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>Opprett et nytt utvalg</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>Feil ved fjerning av stasjon</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>Fjerne...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>Venter på å fjerne ...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>Måling av bassenget starter i bakgrunnen og starter kanskje ikke umiddelbart hvis bassenget er opptatt med å gjøre noe annet. Du kan fortsette å bruke datamaskinen på vanlig måte mens dette skjer, inkludert å slå den av.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>Tiltak på nytt</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;Tiltak på nytt</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>Dette vil måle innholdet i utvalget på nytt og beregne bassengstatistikken på nytt.</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_Nettverks-I/U-forsterkning</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>Les _striping</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>Nettverks-I/U-forsterkning prioriterer leseforespørsler 
+som kommer fra nettverket over alle andre forespørsler, når disken er opptatt.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>Les striping vil lese dupliserte filer fra flere harddisker 
+samtidig for å forbedre leseytelsen.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>Dupliserte filer skrives til flere disker samtidig, 
+parallelt. Hvis det ikke er merket av, blir filene duplisert om natten.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>Kan ikke angi utvalgsalternativer.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>Statistikken er ufullstendig.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>Filduplisering er aktivert i dette utvalget.
+Filer skrives til flere disker samtidig.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>Filduplisering er aktivert i dette utvalget.
+Filer skrives ikke til flere disker samtidig.
+Filer blir duplisert om natten.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>Du bør legge til en annen disk i bassenget.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>Det er ikke nok disker i utvalget til å vedlikeholde dupliserte kopier av filer.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;Løse fildupliseringsuoverensstemmelser automatisk ved å slette de eldre fildelene</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;Dupliser nå</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>Du kan få DrivePool til å slette den eldre fildelen automatisk for å løse denne konflikten.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>Én eller flere dupliserte filer har fildeler som ikke samsvarer. En grunn til at dette kan skje er hvis noe endret den dupliserte filens deler direkte på den samlede disken og ikke gjennom bassenget. Dette kan også skje hvis en disk ble endret mens den manglet fra bassenget.
+
+Du kan løse konfliktene manuelt ved å slette feil fildel fra de samlede diskene.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>Filer:
+
+</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>Duplisering advarsler</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>Lukk alle andre programmer som bruker disse filene i utvalget, og kjør duplisering på nytt.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>Endring av dupliseringsnivået for en fil krever et visst tilgangsnivå til denne filen. Hvis et annet program har filen åpen for skriving, kan ikke dupliseringsnivået for filen endres.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>Det er ikke nok diskplass igjen i utvalget til å vedlikeholde dupliserte kopier av alle filene.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;Hopp over filer som er i bruk</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>Det var problemer med å kontrollere, duplisere eller rydde opp i en eller flere filer i bassenget.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>Advarsler...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>Re-balanse</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>Kontroller duplisering på nytt</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>Se etter nye versjoner</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>Administrer lisens ...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>Varsle om manglende disk</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>Kan ikke angi alternativer</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>Koble til tjeneste</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>Få en lisens ...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>Få en prøvelisens eller skriv inn lisenskoden for detaljhandel</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>Få en ny prøvelisens for denne versjonen, eller skriv inn lisenskoden for detaljhandel</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>Koble...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>Lisensen din er for en annen versjon av produktet. Få en prøvelisens eller skriv inn lisenskoden for detaljhandel for denne versjonen.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>Lisensen din må overføres til denne datamaskinen</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>Du har ikke en gyldig lisens</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>Et øyeblikk</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>Starte service</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>Start lisensoverføring ...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>Prøvelisensen er utløpt. Kjøp en detaljhandelslisens for å fortsette å bruke dette produktet.</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>Hvis du vil ha hjelp, kan du gå til:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>Lisensen din kan ikke valideres.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>Bakgrunnstjenesten kunne ikke starte, prøv å starte datamaskinen på nytt.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>Hvis du har problemer med å koble til bakgrunnstjenesten, kan du prøve å starte datamaskinen på nytt.
+
+Hvis du har problemer med å koble til en ekstern datamaskin, kan den være bak en brannmur.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>Temperatur</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>Ledig plass: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>Brukt plass: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>Bukt</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>Sak</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>PRØVEPERIODEN UTLØPT</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>Aktivere en detaljhandelslisens</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>Ny kontroll av duplisering i utvalget vil bekrefte at 
+Det finnes riktig antall kopier for hver fil i utvalget.
+Dette kan være nyttig selv om du ikke har duplisering aktivert 
+på dette bassenget.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>Ombalansering av utvalget vil omorganisere de samlede filene 
+som er lagret på hver enkelt disk.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>Varsle av _email ...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>Skriv inn én eller flere e-postadresser atskilt med komma:
+
+(La stå tomt og klikk OK for å deaktivere e-postvarsler)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>Varsle via e-post</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>Hvis du legger til en disk i et utvalg, slettes eller endres ikke de eksisterende filene på disken.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>For å opprette et nytt basseng, koble en ny disk til systemet.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>Du må starte datamaskinen på nytt.</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>Balansering</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>Konfigurere filplassering og organisering</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>Balansering...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>Ingen innstillinger</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>Velg en balanserende plugin-modul</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_Annullere</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_Lagre</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>Alternativer for stasjonsfylling</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>Tøm stasjonen opp til:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>Prøv å ikke fylle en stasjon ovenfor:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>Eller så mye ledig plass:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB ledig plass</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% full</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>Alternativer for tømming av stasjon</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>Hvis du for eksempel setter 90 % full / 100 GB ledig på en 2 TB-stasjon, forhindrer du at en stasjon fylles utover 1,9 TB (100 GB ledig).</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>Alternativer for stasjonsgrense</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>Duplisert</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Ikke duplisert</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>Tilbakestill valgt balanser til standard</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>Tilbakestill alt til standardinnstillinger</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>Feil ved tilbakestilling av balanseringsinnstillinger til standardinnstillingene.</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>Grense for plassering av dupliserte filer ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>Mål for dupliserte filer for rebalansering</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>Grense for filplassering ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>Filmål for rebalansering</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>Grense for ikke-duplisert filplassering ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Mål for ikke-dupliserte filer for rebalansering</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>La plugin-moduler for balansering tvinge frem umiddelbar balansering (uavhengig av den automatiske balanseringsinnstillingen).</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>Automatisk balansering - Utløsere</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>Automatisk balansering</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>Balanser</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>Balanser hver dag på:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>Balanser umiddelbart</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>Ikke balanser automatisk</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>Hvis balanseforholdet faller under:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>Eller hvis i det minste så mye data må flyttes:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>Ikke oftere enn hver:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>Evakuering av filer</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>Flytt dupliserte filer ut av skadede stasjoner</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>Flytt dupliserte filer ut av stasjoner med S.M.A.R.T. advarsler</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>Flytt ikke-dupliserte filer ut av skadede stasjoner</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>Flytt ikke-dupliserte filer ut av stasjoner med S.M.A.R.T.-advarsler</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>Prøv å ikke plassere nye filer på stasjoner som har overskredet sin maksimale temperatur</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>Temperaturkontroll</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>Med mindre alle de andre stasjonene er så fulle</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>Denne balanseren fungerer sammen med StableBit-skanneren (versjon 2.2 og nyere).</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>Tillat filplassering på evakuerte stasjoner hvis de andre stasjonene er så fulle:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>Tillat aldri filplassering på evakuerte stasjoner</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>Evakueringsmuligheter</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>Feil ved lagring av innstillinger</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>Tillat _remote kontroll</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>Administrer en annen datamaskin som kjører StableBit DrivePool.</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(nyere versjon)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(eldre versjon)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}' er ikke autorisert til å koble til denne datamaskinen. Du må være administrator på måldatamaskinen for å kunne administrere den.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>Tilbake til '{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>Slå på fjernkontrollen</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>Lisensen på den eksterne maskinen er ikke aktivert. Logg på maskinen lokalt for å aktivere lisensen.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>StableBit DrivePool-godkjenning</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>Angi brukerlegitimasjon</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>Logg inn som en annen bruker...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>Lasting...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>Kan ikke nummerere mappen.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>Fil _protection</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_Duplisering av mapper...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>Prestasjon</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>Endre duplisering...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>Duplisering av mapper</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>Vise _hidden mapper</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>Dupliser filer senere (raskere fjerning av stasjonen).</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>Tving fjerning av skadet stasjon (uleselige filer blir igjen på disken).</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>Fjern alternativer</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>Klikk for å vise fjern alternativer.
+SKIFT+Klikk for å begynne å fjerne med standardalternativer.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>Duplisert mål for rebalansering</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>Ny filplasseringsgrense</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>Ny grense for duplisert filplassering</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>Mål for rebalansering</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>Ikke duplisert mål for rebalansering</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>Ny grense for plassering av ikke-dupliserte filer</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>Utvide &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>Disker</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>Prestasjon</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>Ingen diskaktivitet i utvalget.</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>Disk aktivitet: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>Lese</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>Skrive</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>Disk ytelse</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>I/U-forsterkning</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>Pool ytelse</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Les Striping</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>Diskplass</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>Disk-brytere</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>per sekund</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>Beste disk</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>Administrere bassenget</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool kan ikke laste inn noen av dataene som kommer fra den eksterne datamaskinen.
+
+Hvis den eksterne datamaskinen har plugin-moduler installert, må du kontrollere at de samme plugin-modulene også er installert på denne datamaskinen.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>Se detaljer...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool kan ikke laste inn noen av dataene som kommer fra den eksterne datamaskinen.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>Sjekke...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>Ufør</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>Filer dupliseres ikke i denne mappen.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>Aktivert</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>Filer dupliseres i denne mappen.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>Arve</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>Denne mappen arver dupliseringsnivået fra den overordnede mappen.
+Hvis du endrer dupliseringsnivået for den overordnede mappen, påvirkes det 
+og alle de andre undermappene som arver dette dupliseringsnivået.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>Hvor mange kopier vil du beholde av hver fil?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>Antall eksemplarer</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>Beskytt filene mine mot mer enn én stasjonsfeil om gangen.</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>Forfriske</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>Jobber med: {0}\... {1} Behandler nå: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>Jobber med hele bassenget. {0} Behandler nå: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;Endre duplisering</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>Bassenget er kanskje ikke tilgjengelig.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>Dette utvalget har ingen stasjonsbokstav tilordnet, og det er ikke en del av et annet utvalg.
+Utvalg uten stasjonsbokstav er kanskje ikke tilgjengelig for andre programmer.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>Om ditt nye basseng:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>Det nye bassenget starter tomt.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>Bare kopier noen filer til den og bruk den akkurat som alle andre stasjoner.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>Hvis du noen gang går tom for diskplass, er det bare å legge til en annen disk i bassenget.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>Eksisterende filer legges ikke automatisk til i utvalget.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>Du har nettopp opprettet ditt første basseng.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(Dette vises bare én gang)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>Gratulerer!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>Sorter etter</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>Etter hvor mye diskplass _Free</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>Ved _Name</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>Av% diskplass _Used</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>Klikk for å fjerne den manglende disken.</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>Varslinger</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>Ledig plass: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>Disken</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>Ikke samlet</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>Samlet</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>Aktiver _boot tidslogging...</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_Feilsøking</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>Logging av oppstartstid vil opprette loggfiler som beskriver StableBit DrivePools oppstartsaktivitet. Loggfilene er ikke skrevet i et lesbart format (WPP) og skal sendes til teknisk støtte for analyse.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;Aktivere</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>Feil ved registrering av oppstartstidslogging</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>Aktiver logging av oppstartstid</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>Feil ved start av en omstart</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>Tving lukking av programmer som ikke svarer</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>Gjenstarte</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>Start på nytt og senere</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>Start på nytt &amp;nå</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>Start datamaskinen på nytt nå for å generere en loggfil.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>Ved neste omstart genereres en loggfil i {0}.</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>Aktiver filsystem _logging</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>Filsystemlogging vil opprette loggfiler som beskriver StableBit DrivePools poolingfilsystemaktivitet.
+Loggfilene er ikke skrevet i et lesbart format (WPP) og skal sendes til
+teknisk støtte for analyse.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>Filplassering</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>Mapper</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>Regler</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>Velg en mappe eller regel.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>Tilføye</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>Angi en samsvarsregel for filmønster. ? samsvarer med et hvilket som helst enkelttegn, * samsvarer med null eller flere tegn.
+
+For eksempel: "*.txt" eller "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>Alternativer for filplassering</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>Tillat aldri at filer plasseres på andre disker.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>Alle filer som samsvarer med denne regelen, lagres på de valgte stasjonene.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>Overløp</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>Tillat at filer plasseres på andre disker hvis alle de valgte diskene er så fulle:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>Mønsteret kan ikke være tomt.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>Det finnes allerede en regel med dette mønsteret.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>Forfriske</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>Vis skjult</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>Regler for balansering av filplassering må brukes.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>Balansering av plugin-moduler respekterer regler for filplassering.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>Når det er merket av, vil ikke balansering av plugin-moduler bryte grensene for filplasseringsregler.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>Med mindre stasjonen tømmes.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>Innstillinger for filplassering</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>Regler for filplassering respekterer filplasseringsgrenser i sanntid som er angitt av plugin-modulene for balansering.</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>Én eller flere balansere kan angi filplasseringsgrenser i sanntid på én eller flere av diskene dine (for eksempel 
+når StableBit-skannerbalanseren evakuerer en eller flere disker). Når dette er sjekket, fil 
+plasseringsregler vil ikke bryte disse grensene.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>Innstillinger for plugin-modul</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>Filer kan ikke flyttes for å oppfylle reglene for filplassering ({0}) under siste balansegang.</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>Duplisering: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>Størrelse: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} Gratis</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({1:0,#} B) kunne ikke flyttes fordi en passende destinasjon ikke ble funnet. Kontroller at du har nok diskplass til å kunne oppfylle reglene for filplassering, og at de ikke er i konflikt med andre balanseringsinnstillinger.</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_Tilbakestill alle innstillinger...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>Dette vil tilbakestille alle innstillinger og applikasjonstilstand til standard, inkludert balanseringsinnstillingene. Det vil ikke påvirke dupliseringsinnstillingene eller de samlede dataene.
+
+StableBit DrivePool-tjenesten vil starte på nytt, og utvalgene dine vil bli målt på nytt og kontrollert på nytt for konsistens.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>Feil ved tilbakestilling av innstillinger</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>Tilbakestill alle innstillinger</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>Nullstille</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>Tilbakestill alle appliactioninnstillinger og applikasjonstilstand til standard?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>Abortere</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>Øk prioriteten</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>Kan ikke angi prioritet</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>Nye stasjoner</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>Når en ny stasjon legges til i utvalget, bør filer som samsvarer med denne regelen, plasseres på den stasjonen.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>Maksimere</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>Minimere</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>Test-e-posten din blir sendt til "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>Test-e-post sendes umiddelbart, men det kan ta noen minutter før e-posten forplanter seg. Hvis du ikke mottar test-e-posten, sjekk spam-mappen din, den kan ha blitt filtrert ut av spamfilteret ditt.
+
+Alle e-poster fra StableBit DrivePool vil inneholde teksten "[StableBit DrivePool]" i emnet.</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>Test-e-posten kunne ikke sendes til "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;Skjule</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>Sende test-e-post</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;Nei</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>Vent...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;Sende test-e-post</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>Test-e-posten er sendt til "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>Vil du sende en test-e-postmelding til "{0}"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>Omgå filtre for filsystem</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>For å øke ytelsen til bassenget, filtrerer filsystemet som er aktive på 
+Hver enkelt stasjon som er en del av utvalget kan omgås. Hvis du for eksempel har 
+En sanntids antivirusskanner installert, dette vil forhindre dobbel eller trippel skanning 
+for den samme filen når den åpnes fra utvalget. Filen blir bare skannet én gang.
+
+Dette kan føre til kompatibilitetsproblemer med programvare som er designet for å yte mens du er på farten 
+datamanipulering. Data deduplisering programvare og datakryptering programvare er 2 
+Eksempler på slik programvare.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(Korrigert)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} siden</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>Avskjedige</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>Avvis alle</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>Tilbakemelding:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>Feil ved avvisning av element</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* Basert på totale filstørrelser. Faktisk diskplass som brukes, kan være mindre.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>Måling {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>Måling {0} ...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>Filsystem</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>Tving lukking av alle åpne ikke-dupliserte filer på stasjonen som fjernes.</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>Detaljer...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>Fil i bruk</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>Lukk programmene som har disse filene åpne, og prøv å fjerne stasjonen på nytt.
+Alternativt kan du velge "Tving lukk alle åpne ikke-dupliserte filer ..." på dialogboksen for fjerning av stasjon for å tvinge disse filene til å lukkes.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>Navn på prosess</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>Noen filer er i bruk og kan ikke flyttes</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>Filer i bruk</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[Ikke funnet]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_Lukke</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_Bekreft etter kopi</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>Etter at en fil er kopiert på grunn av en bakgrunnsprosess, som filbalansering eller bakgrunnsduplisering, 
+Det vil bli lest inn igjen og sjekket for konsistens. Aktivering av dette alternativet vil ha en negativ innvirkning 
+på ytelsen til bakgrunnsfilkopieringsoperasjoner.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>Fjern merket for alle andre</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>Sjekk alle</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>Dette er en skystasjon.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>Denne stasjonen ble opprettet av StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>Automatisk rulling</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>Logg over tjenester</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>Tjenestesporing aktivert</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>Sporing nivåer</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>Feil ved lagring av data.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>Tjenestesporing vil opprette loggfiler som beskriver StableBit DrivePools serviceaktivitet.
+Loggfilene er skrevet i et lesbart format og kan sendes til
+teknisk støtte for analyse. Loggfilene skrives til: 
+%PROGRAMDATA%StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>Kontrollerer nivået av loggsporing for hver modul.
+Loggmeldinger skrives til loggfiler i %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>Tjenestelogg...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>Venter...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>Dette er et basseng som utelukkende består av skystasjoner.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>Dette er et basseng.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>Ugyldig regel.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} totalt brukt plass ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Dette er en ikke-allokert disk.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Dette er en tom disk.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>Fysisk disk: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>Basseng ikke funnet.</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>Stasjonsbokstav...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>Veksle stasjonsbokstavtilordning.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>Tilordne stasjonsbokstav ...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>Fjern stasjonsbokstav...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>Feil ved veksling av stasjonsbokstavtilordning.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>Ingen stasjonsbokstav tildelt.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;Tildele</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>Hvis du tilordner en stasjonsbokstav til utvalget, blir den synlig for Windows Filutforsker og lar de fleste andre Windows-programmer få tilgang til innholdet.
+
+Windows har et begrenset totalt antall stasjonsbokstaver tilgjengelig. Når alle er brukt opp, vil ikke nye bassenger ha stasjonsbokstaver tilordnet dem automatisk.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>Tilordne stasjonsbokstav</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>Tilordne en stasjonsbokstav til utvalget.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;Fjerne</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>Hvis du fjerner stasjonsbokstaven fra bassenget, blir den usynlig for Windows Filutforsker og de fleste andre Windows-programmer.
+
+Windows har et begrenset totalt antall stasjonsbokstaver tilgjengelig. Når alle er brukt opp, vil ikke nye bassenger ha stasjonsbokstaver tilordnet dem automatisk.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>Tving fjerning</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>Fjern stasjonsbokstav</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>Fjern stasjonsbokstaven fra bassenget.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_Force oppdatering sjekk nå ...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>Oppdateringer</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>En oppdateringskontroll var planlagt. Du vil bli varslet om kort tid hvis noen oppdateringer blir funnet.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>Etter _Physical disknummer</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>Dette er en ekstern stasjon.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10s gjennomsnitt: {0}/s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>Åpne fil: {0:#,0}/s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>Åpne filer</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>Sjekk _duplication på nytt...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>Kontroller duplisering på nytt</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;Kontroller</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>Dette vil fremtvinge en ny kontroll av filduplisering på tvers av alle utvalgene.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>Legg til "{0}" i et nytt basseng.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>Legg til "{0}" i bassenget "{1}".</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>Beregn balanseforhold for "{0}".</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>Beregn dupliseringsstatistikk for mapper på "{0}".</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>Endre duplisering av utvalget "{0}" til x{1:#,0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>Endre duplisering av "{0}" på "{1}" til x{2:#,0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>Kontroller dupliseringskodekonsistensen på "{0}".</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>Kontroller dupliseringskonsistensen for bassengmetadata på "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>Sikre duplisering av filer på "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>Sikre duplisering av filer på "{0}" i "{1}".</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>Mål bassenget "{0}".</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>Mislykket måling:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- Sti: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- Samlet disk: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- Feil: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>Fjern manglende disk "{0}" fra bassenget "{1}".</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>Send et e-postvarsel med test til "{0}".</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>Ping alle disker.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>Se etter nye samlede disker.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>Balanse basseng "{0}".</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- Bruk balanseringsregler.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- Balanse fil plassering.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>Fjern "{0}" fra bassenget "{1}".</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>Tilordne stasjonsbokstav i utvalg {0}.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>Fjern stasjonsbokstaven fra pool {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>Oppgaven mislyktes.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>Oppgaven er fullført.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>Driververifikator er aktivert for CoveFS.sys. Dette bør bare brukes til testformål og kan alvorlig forringe bassengets ytelse.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>Fullstendig</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>Versjon: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>Opprettet: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[MULTIPLUM]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[METADATA]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0}" er ikke en gyldig e-postadresse.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>Dette bassenget er en del av pool {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>Kraft...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>Kan ikke starte oppgaven "{0}", objektet ikke lenger i butikken.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>Basseng ikke funnet.</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>Feil ved lasting av sporingsnivåer. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>Yrkesaktiv...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>Venter på å ...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>Kommandolinjeargumenter</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>Opprette et nytt utvalg</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>Forrige basseng</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>Av Drive _Letter</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>Oppdatering tilgjengelig</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>En oppdatering er tilgjengelig for StableBit DrivePool (versjon {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_Oppdateringer...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>Kan ikke slå på fjernkontrollen: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>Fjernkontroll feil</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>Synkronisering med andre apper som er koblet til StableBit Cloud-kontoen din.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>StableBit Cloud e-postvarsler aktivert. Lokal e-postfunksjonalitet er ikke tilgjengelig.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(kan tvinge frem umiddelbar balansering)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(kan angi begrensninger for filplassering)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>Filevakuering starter umiddelbart etter at et problem er oppdaget.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>Innstillinger for synkronisering</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_Auto</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_Mørk</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>Høy _contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_Lys</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>Tilbakestill balanseringsinnstillingene til standardinnstillingene?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>Er du sikker?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>Lukke</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>Dager</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>Referat</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>Tom</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>La samlede filkopier være på den fjernede disken (arkiveringsfjerning).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>Av</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>Ugyldige verdier angitt.</value>
+  </data>
+</root>

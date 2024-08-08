@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddDriveToPool_AddedSuccessfully" xml:space="preserve">
+    <value>Диска беше добавен успешно.</value>
+  </data>
+  <data name="AddDriveToPool_AddingDisk" xml:space="preserve">
+    <value>Добавяне на диск към масива...</value>
+  </data>
+  <data name="AddDriveToPool_CannotAddSameDisk" xml:space="preserve">
+    <value>Не може един и същ диск да се добави два пъти.</value>
+  </data>
+  <data name="AddDriveToPool_CannotCreateNewVolume" xml:space="preserve">
+    <value>Не може да се създаде нов дял.</value>
+  </data>
+  <data name="AddDriveToPool_CannotInitializeNotOnline" xml:space="preserve">
+    <value>Не може да се инициализира диска. Диска не е онлайн.</value>
+  </data>
+  <data name="AddDriveToPool_Complete" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="AddDriveToPool_CreatingVolume" xml:space="preserve">
+    <value>Създаване на дял...</value>
+  </data>
+  <data name="AddDriveToPool_DiskNotFound" xml:space="preserve">
+    <value>Диска не е намерен.</value>
+  </data>
+  <data name="AddDriveToPool_EnumeraingUnallocated" xml:space="preserve">
+    <value>Зареждане на неизползваните дискове...</value>
+  </data>
+  <data name="AddDriveToPool_FormattingVolume" xml:space="preserve">
+    <value>Форматиране на дяла...</value>
+  </data>
+  <data name="AddDriveToPool_GettingDiskService" xml:space="preserve">
+    <value>Зареждане на дисковия сървис...</value>
+  </data>
+  <data name="AddDriveToPool_IncompatibleFileSystem" xml:space="preserve">
+    <value>Файловата система е несъвместима.</value>
+  </data>
+  <data name="AddDriveToPool_InitializingDisk" xml:space="preserve">
+    <value>Инициализиране на диск...</value>
+  </data>
+  <data name="AddDriveToPool_NoFreeDriveLetters" xml:space="preserve">
+    <value>Няма свободни букви на устройство. Опитайте да добавите това устройство като скрит устройство.</value>
+  </data>
+  <data name="AddDriveToPool_NoPooledDisksConnected" xml:space="preserve">
+    <value>Поне един диск трябва да е свързан за да се добави нов диск към съществуващ масив.</value>
+  </data>
+  <data name="AddDriveToPool_NotEnoughSpaceForVolume" xml:space="preserve">
+    <value>Няма достатъчно свободно място на диска за да се създаде нов дял.</value>
+  </data>
+  <data name="AddDriveToPool_UnableToGetVolumePath" xml:space="preserve">
+    <value>Неуспешно зареждане на пътя на дяла.</value>
+  </data>
+  <data name="AddDriveToPool_VolumeAlreadyExists" xml:space="preserve">
+    <value>Не може да се създаде нов дял. Друг дял вече съществува на този диск.</value>
+  </data>
+  <data name="AddDriveToPool_WaitingForPoolPart" xml:space="preserve">
+    <value>Изчакване на Pool да прикачите...</value>
+  </data>
+  <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
+    <value>Изчакване масива да бъде закачен...</value>
+  </data>
+  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+    <value>Не може да определи броя на дублирането на точка за повторна обработка.</value>
+  </data>
+  <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
+    <value>Няма достатъчно физически дискове в масива за да се активира дупликацията. Добавете нов диск към масива и опитайте да активирате дупликацията отново.</value>
+  </data>
+  <data name="DriveFillBalancer_Description" xml:space="preserve">
+    <value>Уверява се че нито един диск не е запълнен то неговия капацитет, ако има други дискове със свободно място.</value>
+  </data>
+  <data name="DriveFillBalancer_Name" xml:space="preserve">
+    <value>Предотвратява Препълването на Дисковете</value>
+  </data>
+  <data name="DriveLimitBalancer_Description" xml:space="preserve">
+    <value>Ограничава поставянето на файлове до определени дискове.</value>
+  </data>
+  <data name="DriveLimitBalancer_Name" xml:space="preserve">
+    <value>Ограничение на Поставянето на Файлове</value>
+  </data>
+  <data name="DuplicationBalancer_Description" xml:space="preserve">
+    <value>Гарантира, че свободното място ще бъде използване за възможно най-много дупликация.</value>
+  </data>
+  <data name="DuplicationBalancer_Name" xml:space="preserve">
+    <value>Оптимизация на Мястото за Дупликация</value>
+  </data>
+  <data name="FileDuplication_FileInUse" xml:space="preserve">
+    <value>Файлът е в употреба.</value>
+  </data>
+  <data name="FileDuplication_WaitingForOtherPools" xml:space="preserve">
+    <value>Изчакване на другите басейни в hieararchy да завърши дублира и балансиране...</value>
+  </data>
+  <data name="FileMover_BuildingBucketList" xml:space="preserve">
+    <value>Подготвяне на списъка с файловете...</value>
+  </data>
+  <data name="FileMover_BuildingMoveList" xml:space="preserve">
+    <value>Подготвяне на списък с файлове за преместване...</value>
+  </data>
+  <data name="FileMover_MovingFiles" xml:space="preserve">
+    <value>Преместване на файлове...</value>
+  </data>
+  <data name="FilePatternMover_ApplyingRules" xml:space="preserve">
+    <value>Прилага правила за схема на файловете</value>
+  </data>
+  <data name="FilePatternMover_MovingFiles" xml:space="preserve">
+    <value>Премества файловете на базата на правила за схема от "{0}"...</value>
+  </data>
+  <data name="ForgetDriveFromPool_CannotFindPoolPart" xml:space="preserve">
+    <value>Не може да се намери част на масива за премахване.</value>
+  </data>
+  <data name="Ipc_ServiceNotReady" xml:space="preserve">
+    <value>Сървиса не е готов.</value>
+  </data>
+  <data name="ModifyDrive_Assigned" xml:space="preserve">
+    <value>Възложени: {0}:\</value>
+  </data>
+  <data name="ModifyDrive_DeviceInUse" xml:space="preserve">
+    <value>Устройството се използва в момента.</value>
+  </data>
+  <data name="ModifyDrive_NoMoreDriveLetters" xml:space="preserve">
+    <value>Може да присвоите буква на устройство. Няма повече карам литература наличен.</value>
+  </data>
+  <data name="ModifyDrive_UnknownAction" xml:space="preserve">
+    <value>Неизвестен промяна диск исканото действие.</value>
+  </data>
+  <data name="ModifyDrive_VolumeNotFound" xml:space="preserve">
+    <value>Басейн том не е намерен.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Description" xml:space="preserve">
+    <value>изравнява изпозлването на дисково пространство  между дяловете на един и същ физически диск.</value>
+  </data>
+  <data name="PoolPartEqualizationBalancer_Name" xml:space="preserve">
+    <value>Изравнява Обема</value>
+  </data>
+  <data name="Rebalance_ComputingBalanceModel" xml:space="preserve">
+    <value>Изчисляване на модел за балансиране...</value>
+  </data>
+  <data name="RemoveDriveFromPool_Canceled" xml:space="preserve">
+    <value>Премахването отказано.</value>
+  </data>
+  <data name="RemoveDriveFromPool_CannotRemoveWhileMissing" xml:space="preserve">
+    <value>Не може да се премахне диск от масива ако друг диск липсва.</value>
+  </data>
+  <data name="RemoveDriveFromPool_CheckingForInUse" xml:space="preserve">
+    <value>Проверяване за файлове които се използват...</value>
+  </data>
+  <data name="RemoveDriveFromPool_CountingFile" xml:space="preserve">
+    <value>Преброяване на файловете...</value>
+  </data>
+  <data name="RemoveDriveFromPool_ErrorDuplicating" xml:space="preserve">
+    <value>Грешка при дупликацията на файл '{0}'. {1}</value>
+  </data>
+  <data name="RemoveDriveFromPool_FilesInUse" xml:space="preserve">
+    <value>Този диск не може да бъде премахнат от басейна, защото се използват някои файлове върху него.</value>
+  </data>
+  <data name="RemoveDriveFromPool_Migrating" xml:space="preserve">
+    <value>Мигриране на файлове...</value>
+  </data>
+  <data name="RemoveDriveFromPool_PoolPartNotFound" xml:space="preserve">
+    <value>Част на масива не е открита.</value>
+  </data>
+  <data name="RemoveDriveFromPool_RemovingPoolPart" xml:space="preserve">
+    <value>Премахване на част от масива.</value>
+  </data>
+  <data name="RemoveDriveFromPool_RestartingPrograms" xml:space="preserve">
+    <value>Рестартиране на програми...</value>
+  </data>
+  <data name="ScannerBalancer_Description" xml:space="preserve">
+    <value>Предоставя евакуация на файлове и температурен контрол.</value>
+  </data>
+  <data name="Tasks_DiskMissingCannotContinue" xml:space="preserve">
+    <value>Не може да продължи докато друг диск липсва. Или включете липсващия диск или го премахнете от масива.</value>
+  </data>
+  <data name="FileDuplication_FilePartsDifferent" xml:space="preserve">
+    <value>Файл на различни части.</value>
+  </data>
+  <data name="FileDuplication_UnableToGetFileTime" xml:space="preserve">
+    <value>Не може да получи файла времето за {0}.</value>
+  </data>
+  <data name="FileDuplication_FileNotFound" xml:space="preserve">
+    <value>Файлът не е намерен.</value>
+  </data>
+  <data name="FileDuplication_NeedMoreDisks" xml:space="preserve">
+    <value>Нужда повече дискове в басейна.</value>
+  </data>
+  <data name="FileSizeTracking_FailedMeasuring" xml:space="preserve">
+    <value>Неуспешно измерване "{0}" (устройство #{1}, дял #{2}).</value>
+  </data>
+  <data name="FileSizeTracking_Failed_measuring2" xml:space="preserve">
+    <value>Неуспешно измервателен уред #{0}, дял #{1}.</value>
+  </data>
+  <data name="RemoveDriveFromPool_UnableToDeleteAllFiles" xml:space="preserve">
+    <value>Не може да изтрие всички файлове след премахване басейн част.</value>
+  </data>
+  <data name="Email_ErrorSendingEmail" xml:space="preserve">
+    <value>Грешка при изпращане на имейл: </value>
+  </data>
+  <data name="Email_UnableToSendEmail" xml:space="preserve">
+    <value>Не може да изпрати имейл.</value>
+  </data>
+  <data name="Email_Notification" xml:space="preserve">
+    <value>Уведомяване</value>
+  </data>
+  <data name="Ipc_PoolNotFound" xml:space="preserve">
+    <value>Басейнът не е намерен.</value>
+  </data>
+</root>

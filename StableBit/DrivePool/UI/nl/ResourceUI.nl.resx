@@ -1,0 +1,1591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>Kan huidige taak niet annuleren.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>Kan huidige taak niet starten.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;Annuleren</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;Sluiten</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>Een ogenblik geduld...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>Taak is mislukt.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>Klik om te annuleren</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>Fout details....</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>Schijf ontbreekt.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>Identificeren...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>Indien uitgeschakeld worden je bestanden niet beschermd tegen een falende harddisk. De schijfruimte die werd gebruikt voor de duplicatie van bestanden, zal nu weer vrijgegeven worden.
+
+Je kan ook het aantal beschikbare kopieën per bestand wijzigen.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;Schakel Duplicatie uit</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>U kunt de poel blijven gebruiken terwijl op de achtergrond uw bestanden worden gedupliceerd.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>Wijzig duplicatie</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>Indien ingeschakeld, blijven je bestanden beschikbaar, zelfs als een enkele harddisk faalt. Gedupliceerde bestanden nemen twee keer de hoeveelheid schijfruimte in als niet gedupliceerde bestanden.
+
+Je kan ervoor kiezen om je bestanden te beschermen tegen het falen van meerdere harddisks tegelijkertijd. Hierdoor zal er meer schijfruimte gebruikt worden.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;Schakel Duplicatie in</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>Je kunt de pool normaal blijven gebruiken terwijl de bestanden op de achtergrond worden gedupliceerd.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>Duplicatie inschakelen</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>Bestandsduplicatie beschermt je bestanden tegen falen van harde schijven.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>Harde schijf compartiment</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>Harde schijf behuizing</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>Je kunt de meest recente versie van  &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; installeren voor een nauwkeurigere schijf identificatie</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>Tip: Je kunt ook de behuizing en het compartiment in StableBit Scanner specificeren voor een makkelijkere identificatie.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>Om uit te vinden welke schijf ontbreekt, kan u alle verbonden schijven pingen.
+
+Voor 1 minuut zullen de lichtjes van de verbonden schijven oplichten zodat u kunt uitvinden welke schijf niet verbonden is.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>Harde schijf identificeren</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>Er is geen specifieke informatie beschikbaar over deze schijf.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;Ping alle aangesloten harde schijven voor 1 minuut</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>Dit is bekend over de missende harde schijf:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>EVALUATIEPERIODE AFLOOPT IN {0:0.0} DAGEN</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>Fout tijdens het invoeren van activatie ID</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>Een grensverleggend programma voor het samenvoegen van meerdere harde schijven met de mogelijkheid tot bestandsduplicatie.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_Balanceren...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>Pool _bestandsduplicatie...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>ONGEMETEN</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>Live _duplicatie</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>Her-_calculeren...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>Toevoegen...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>Fout bij het toevoegen van harde schijf</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>Wachten om toegevoegd te worden...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>Gedupliceerd: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>Overig: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Ongedupliceerd: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>Onbruikbaar voor duplicatie: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>Harde schijf wordt toegevoegd...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>Uitbalanceren...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>Berekenen...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>Wijzig duplicatie...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>Dupliceren van...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>Duplicatie inconsistent</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>Bestandsverspreiding niet optimaal.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>Calculeren...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>Harde schijf ontbreekt</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>geen pool</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>Pool organisatie</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>Vernieuwen...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>Harde schijf wordt verwijdert...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>Bezig...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>Maak een nieuwe pool aan</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>Fout bij het verwijderen van de harde schijf</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>Bezig met verwijderen...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>Wachten tot verwijdering...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>Meten van de pool begint op de achtergrond en zal niet meteen beginnen als de pool ergens anders mee bezig is.U kan uw computer normaal blijven gebruiken of uitzetten terwijl dit plaatsvindt.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>Herberekenen</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;Herberekenen</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>Dit zal de inhoud van de pool en de pool statistieken herberekenen.</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_Netwerk I/O boost</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>Striped_lezen</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>Netwerk I/O boost prioriteert lees aanvragen van het netwerk boven andere verzoeken wanneer de schijf bezig is.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>Lees striping leest gedupliceerde dossiers uit meerdere harde schijven op hetzelfde moment ter verbetering van de leesprestaties.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>Gedupliceerde bestanden worden op hetzelfde moment, parallel naar meerdere schijven geschreven. Als het selectievakje is uitgeschakeld zullen bestanden worden gedupliceerd gedurende de nacht.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>Niet mogelijk om de pool opties door te voeren.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>Statistieken zijn onvolledig.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>Bestand duplicatie is geactiveerd voor deze poel.
+Bestanden worden direct naar meerdere schijven weggeschreven.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>Bestand duplicatie is geactiveerd voor deze poel.
+Bestanden worden niet direct naar meerdere schijven weggeschreven. Dit zal 's nachts gebeuren.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>Het wordt aangeraden om een extra harde schijf aan de poel toe te voegen.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>Er zijn niet genoeg schijven in de pool om bestand duplicatie te onderhouden.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;Verhelp bestand duplicatie foutaanpassingen door de oudere bestandsonderdelen te verwijderen.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;Dupliceer nu</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>U kunt DrivePool automatisch de oude bestandsdelen laten verwijderen om dit probleem te verhelpen.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>Één of meerdere gedupliceerde bestanden heeft bestanden onderdelen die niet overeenkomen. Dit kan voorkomen wanneer een gedupliceerd bestand wordt gewijzigd op de schijf zelf en niet via de poel. Dit kan ook gebeuren wanneer een schijf gewijzigd is terwijl deze verdwenen was uit de poel.
+
+U kunt dit oplossen door handmatig de verkeerde bestandsdelen te verwijderen van de schijven uit de poel.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>Bestanden: </value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>Duplicatie Waarschuwingen</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>Sluit andere programma's dat deze bestanden uit de poel in gebruik hebben en start de duplicatie opnieuw.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>Om de duplicatie te wijzigen is op een bepaald niveau toegang tot het bestand nodig. Wanneer een ander programma dit bestand heeft geopend om erin te schrijven kan de duplicatie voor dat bestand niet gewijzigd worden.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>Er is niet genoeg schijfruimte over om duplicaties van alle bestanden aan te houden.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;Sla bestanden over die in gebruik zijn</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>Er waren problemen bij het controleren, dupliceren of het opschonen van één of meerdere bestanden in de poel.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>Waarschuwingen...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>Herbalanceren</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>Controleer duplicatie opnieuw</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>Controleren op nieuwe versies</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>Licentie beheren...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>Geef een melding bij ontbreken schijf</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>Niet mogelijk om de opties in te stellen</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>Verbinden met service</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>Verkrijg een licentie...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>Verkrijg een proef licentie of voeg uw gekochte licentie in</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>Verkrijg een nieuwe proef licentie voor deze versie of voeg uw aangeschafte licentie in</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>Verbinden...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>Uw licentie is voor een andere versie van dit product. Vraag een proef licentie aan of voeg voor deze versie uw aangeschafte licentie code in.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>Uw licentie moet verplaatst worden naar deze computer</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>U heeft geen geldige licentie</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>Een ogenblik</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>Service starten</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>Licentie overdracht starten</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>Uw proef licentie is verlopen. Koop een licentie om dit product te blijven gebruiken.</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>Ga voor hulp naar:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>Uw licentie kan niet worden gevalideerd.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>De achtergrond service heeft niet kunnen starten. Probeer uw computer opnieuw op te starten.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>Als u problemen heeft met de achtergrond service, start uw computer opnieuw op.
+
+Als u verbindingsproblemen heeft met een computer op afstand, dan kan het zijn dat deze achter een firewall zit.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>Temperatuur</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>Vrije ruimte: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>Gebruikte ruimte: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>Bay</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>PROEFTIJD VERLOPEN</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>Activeer een Retail Licentie</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>Een hercontrole van de poel zal controleren of het juiste aantal kopieën van elk bestand op de poel aanwezig is. Dit kan handig zijn wanneer duplicatie niet is aangezet op deze poel.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>De pool opnieuw herbalanceren dit zal de samengevoegde bestanden die zijn opgeslagen op elke afzonderlijke schijf reorganiseren.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>Melding per _email...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>Voeg één of meerdere email adressen toe, gescheiden met komma's:
+
+(Laat dit veld leeg en klik op OK om email notificaties uit te schakelen)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>Melding per email</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>Een schijf toevoegen aan de poel zal de huidige bestanden niet wijzigen of verwijderen.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>Om een nieuwe poel aan te maken, dient u een nieuwe schijf aan te sluiten.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>U dient uw computer opnieuw opstarten.</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>Herbalanceren</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>Configureer bestand plaatsing en organisatie</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>Balanceren...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>Geen instellingen</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>Selecteer een balanceer plug-in</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_Annuleren</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_Opslaan</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>Drive vulopties</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>Maak de drive leeg tot:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>Probeer een schijf niet te vullen boven:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>Of zoveel vrije ruimte:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB vrij</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% vol</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>Drive leegmaken opties</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>Bijvoorbeeld, 90% vol / 100GB vrij op een 2TB drive instellen, zal voorkomen dat een drive met meer dan 1.9TB gevuld wordt (100GB vrij)</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>Drive limiet opties</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>Gedupliceerd</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Niet gedupliceerd</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>Reset de geselecteerd balancer naar de standaard instellingen</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>Reset alles naar de standaard instellingen</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>Fout tijdens het terugzetten naar de standaard instellingen</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>Gedupliceerd bestandsplaatsings limiet ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>Gedupliceerde bestanden inzetten voor herbalancering</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>Limiet voor plaatsing van bestanden ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>Bestandsdoel voor herbalanceren</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>{0:0.0}</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Ongedupliceerde bestanden inzetten voor herbalancering</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>Sta balanceerplugins toe om onmiddelijk te balanceren.</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>Automatische balancering - starters</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>Automatisch balanceren</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>Balanceerders</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>Balanceer elke dag om:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>Balanceer onmiddelijk</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>Balanceer niet automatisch</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>Als de balanceerratio lager wordt dan:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>Of indien minstens zoveel data verplaatst dient te worden:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>Niet vaker dan elke:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>Bestandsevacuatie</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>Verplaats gedupliceerde bestanden van beschadigde drives</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>Verplaats gedupliceerde bestanden van drives met S.M.A.R.T. waarschuwingen</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>Haal ongedupliceerde bestanden van de beschadigde harde schijven</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>Haal ongedupliceerde bestanden van harde schijven met S.M.A.R.T. waarschuwingen</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>Probeer geen nieuwe bestanden te plaatsen op harde schijven welke de maximum temperatuur overschrijden</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>Temperatuurbeheer</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>Tenzij alle overige harde schijven gevuld zijn tot</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>Deze balanceerder werkt samen met StableBit Scanner (versie 2.2 en nieuwer)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>Sta toe dat bestanden worden geplaatst op te verwijderen harde schijven indien overige harde schijven gevuld zijn tot:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>Sta nooit toe dat bestanden op te verwijderen harde schijven geplaatst worden</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>Verwijder opties</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>Fout bij het opslaan van de instellingen</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>Sta _externe verbinding toe</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>Beheer een andere computer welke StableBit DrivePool draait.</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(nieuwere versie)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(oudere versie)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}' heeft geen permissie om te verbinden met deze computer. U moet Administrator rechten hebben om ze te kunnen beheren.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>Terug naar '{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>Zet beheer vanop afstand aan</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>De licentie op de externe computer is niet geactiveerd. Log lokaal in op de computer om de licentie te activeren.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>StableBit DrivePool Authenticatie</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>Geef uw credentials in</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>Log in als een andere gebruiker...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>Kan de map niet oplijsten.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>Bestand _bescherming</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_Map duplicatie...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>Performantie</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>Wijzig duplicatie...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>Map Duplicatie</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>Toon _verborgen mappen</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>Dupliceer files later (snellere drive verwijdering)</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>Forceer verwijdering van beschadigde drives (onleesbare bestanden blijven op de disk).</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>Verwijderopties</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>Klik om de verwijderopties te tonen.
+SHIFT+Klik om te verwijderen met de standaard opties.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>Duplicerings doelstelling voor herbalanceren</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>Nieuw limiet voor bestandsplaatsing</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>Nieuw limiet voor gedupliceerde bestandsplaatsing</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>Doel voor herbalancering</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>Ongedupliceerde doelstelling voor herbalanceren</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>Nieuw ongedupliceerd bestandsplaatsing limiet</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>Uitbreiden &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>Schijven</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>Performantie</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>Geen harde schijf activiteit in de pool</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>Harde schijf activiteit: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>Lezen</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>Schrijven</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>Schijfprestaties</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>I/O Boost</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>Pool prestaties</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Gesplitst lezen</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>Harde schijf stopt</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>Harde schijf schakelaars</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>per seconde</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>Beste harde schijf</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>Zwembad beheren</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool kan een deel van de data afkomstig van de externe computer niet laden.
+Indien de externe computer extensies heeft geïnstalleerd, zorg er dan voor dat dezelfde extensies ook op deze computer zijn geïnstalleerd.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>Zie details...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool kan een deel van de data afkomstig van de externe computer niet laden.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>Controleren...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>Uitgeschakeld</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>Bestanden in deze map zijn niet gedupliceerd.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>Ingeschakeld</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>Bestanden in deze map zijn gedupliceerd.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>Erven</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>Deze map neemt zijn duplicatieniveau over van de bovenliggende map.
+Het wijzigen van het duplicatieniveau van de bovenliggende map beïnvloedt het eigen en dat van alle onderliggende mappen die dat duplicatieniveau erven.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>Hoe veel kopieën wil je van ieder bestand bewaren?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>Aantal kopieën</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>Bescherm mijn bestanden tegen meer dan één falende schijf tegelijkertijd</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>Ververs</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>Bezig met: {0}\...{1}Nu verwerken: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>Bezig met de gehele pool.{0}Nu verwerken: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;Wijzig Duplicatie</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>Zwembad kan niet toegankelijk zijn.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>Deze groep heeft geen stationsletter is toegewezen aan het en het is geen onderdeel van een andere groep.
+Zwembaden zonder een stationsletter mogelijk niet toegankelijk zijn voor andere toepassingen.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>Over je nieuwe pool:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>Je nieuwe pool zal leeg starten.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>Kopieer er gewoon wat bestanden naartoe en gebruik het als elke andere schijf.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>Als je ooit zonder disk space valt, voeg dan gewoon een andere disk toe aan de pool.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>Bestaande bestanden worden niet automatisch toegevoegd aan de pool.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>U heeft zonet uw eerste pool gemaakt.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(dit wordt maar één keer getoond)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>Proficiat!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>Sorteer Op</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>Op Schijfruimte _Vrij</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>Op _Naam</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>Op % Schijfruimte _Gebruikt</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>Klik om de ontbrekende schijf te verwijderen</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>Notificaties</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>Vrije ruimte: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>Schijf</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>niet-samengevoegd</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>samengevoegd</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>Activeer _opstart registratie</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_Probleemoplossing</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>Opstart registratie zal logbestanden aanmaken met gedetailleerde opstartactiviteiten van StableBit DrivePool. De logbestanden worden in een voor mensen onleesbaar formaat (WPP) opgeslagen en dienen aan de technische ondersteuning overlegd te worden ter analyse.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;Inschakelen</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>Fout bij het registreren van de opstart registratie</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>Activeer opstart registratie</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>Fout bij het uitvoeren van een herstart</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>Forceer sluiten van niet-reagerende applicaties</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>Herstarten</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>&amp;Later herstarten</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>&amp;Nu herstarten</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>Herstart nu de computer om een logbestand aan te maken.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>Tijdens de volgende herstart zal er in {0} een logbestand aangemaakt worden.</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>Activeer bestandssysteem _registratie</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>Bestandssysteem registratie zal logbestanden aanmaken met gedetailleerde informatie over StableBit DrivePool's bestandssysteem activiteiten in de pool.
+De logbestanden worden in een voor mensen onleesbaar formaat (WPP) opgeslagen en dienen aan de technische ondersteuning overlegd te worden ter analyse.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>Bestandsplaatsing</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>Mappen</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>Regels</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>Selecteer een map of regel.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>Voer een passende regel voor het bestandspatroon in. ? staat voor ieder individueel teken, * staat voor 0 of meer tekens.
+
+Bijvoorbeel: "*.txt" or "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>Bestand plaatsingsmogelijkheden</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>Nooit toestaan bestanden op een andere schijf te plaatsen.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>Alle bestanden die overeenkomen met deze regel worden opgeslagen op de geselecteerde schijven.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>Overloop</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>Sta toe dat bestanden op andere harde schijven worden geplaatst indien de geselecteerde harde schijven vol zijn:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>Patroon kan niet leeg zijn.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>Een regel met dit patroon bestaat al.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>Toon verborgen</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>Balanceer regels voor bestandsplaatsing moeten worden toegepast.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>Balanceer plugings houden rekening met bestandsplaatsing regels.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>Indien aangevinkt, zullen balanceer extensies de limieten van de bestandsplaatsing regels niet schenden.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>Tenzij de harde schijf wordt leeggemaakt.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>Bestandsplaatsing instellingen</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>Bestandsplaatsingsregels houden rekening met real-time limieten gesteld door de balanceer extensies.</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>Eén of meerdere balanceerders kunnen direct limieten stellen aan één of meerdere harde schijven (bijvoorbeeld, wanneer een balanceerder van StableBit Scanner bezig is met het verwijderen van één of meerdere harde schijven).
+Wanneer dit is aangevinkt zullen bestandsplaatsingsregels deze limieten niet schenden.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>Extensie instellingen</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>Bestanden konden niet verplaatst worden om aan de bestandsplaatsings regels te voldoen ({0}) tijdens de laatste balanceer ronde.</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>Duplicatie: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>Grootte: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} Beschikbaar</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({1:0,#} B) kan niet worden verplaatst omdat er geen gepaste bestemming gevonden kan worden. Zorg ervoor dat er genoeg vrije schijfruimte beschikbaar is om aan de bestandsplaatsing criteria te voldoen en dat deze niet tegenstrijdig zijn met overige balanceer instellingen.</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_Alle instellingen terugzetten...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>Dit zal alle instellingen naar de standaard waardes terugzetten, inclusief de balanceer instellingen.
+Dit zal geen invloed hebben op de duplicatie instellingen voor data in de pool.
+De StableBit DrivePool dienst zal herstarten en de aanwezige pools zullen opnieuw gecalculeerd en op integriteit gecontroleerd worden.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>Fout bij het herstellen van de instellingen</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>Alle instellingen terugzetten</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>Terugzetten</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>Wil je alle instellingen naar de standaard waardes terugzetten?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>Afbreken</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>Prioriteit verhogen</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>Kan de prioriteit niet instellen</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>Nieuwe harde schijven</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>Wanneer een nieuwe harde schijf aan de pool wordt toegevoegd, dienen bestanden die aan deze regel voldoen op die harde schijf geplaatst te worden.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>Maximaliseren</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>Minimaliseren</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>Je test email is gestuurd naar "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>Test emails worden direct verstuurd, maar het kan een paar minuten duren voordat de emails worden doorgegeven. Indien je de test email niet ontvangt, controleer dan je spam map, het kan zijn dat deze door je spamfilter wordt tegengehouden.
+Alle emails van StableBit DrivePool zijn in het onderwerp voorzien van "[StableBit DrivePool]".</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>De test email kon niet naar "{0}" gestuurd worden.</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;Verbergen</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>Verstuur test email</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;Nee</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>Even geduld...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;Verstuur test email</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>De test email is succesvol verstuurd naar "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>Wil je een test email versturen naar "{0}"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>Omzeil bestandssysteemfilters</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>In volgorde wilt verhogen van de prestaties van de pool, bestandssysteem "filters" die actief zijn op elke afzonderlijke schijf die deel uitmaakt van het zwembad kan worden omzeild. Bijvoorbeeld als u een real-time anti-virus scanner geïnstalleerd hebt, zal dit voorkomen dat dubbel of tripple scannen van hetzelfde bestand wanneer het wordt benaderd vanuit het zwembad. Het bestand zal slechts één keer worden gescand.
+
+Dit kan leiden tot compatibiliteitsproblemen met software die is ontworpen om uit te voeren op de vlieg gegevensmanipulatie. De software van de ontdubbeling van de gegevens en data-encryptiesoftware zijn 2 voorbeelden van dergelijke software.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(gecorrigeerd)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} geleden</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>Ontslaan</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>Ontslaan van alle</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>Feedback:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>Fout die zijn ontslag van Item</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* Gebaseerd op de totale bestandsgrootte. Feitelijke schijfruimte gebruikt kan minder worden.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>Meten van {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>Meten van {0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>Bestandssysteem</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>Dwingen nauwe unduplicated open bestanden op de schijf wordt verwijderd.</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>Meer informatie...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>Bestand in gebruik</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>Sluit de toepassingen die deze bestanden open en probeer de schijf opnieuw te verwijderen.
+U kiezen "Kracht nauwe geopende unduplicated bestanden..." op het station verwijderen dialoogvenster te dwingen deze bestanden te sluiten.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>Procesnaam</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>Sommige bestanden zijn in gebruik en kunnen niet worden verplaatst</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>Bestanden in gebruik</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[Niet gevonden]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_Sluiten</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_Controleer na exemplaar</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>Nadat een bestand is gekopieerd als gevolg van sommige achtergrond proces, zoals bestand in evenwicht brengen of achtergrond duplicatie, zal het worden gelezen terug in en gecontroleerd op consistentie. Inschakelen van deze optie zal een negatief effect hebben op de prestaties van achtergrond bestand kopieerbewerkingen.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>Schakel alle anderen</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>Controleer alle</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>Dit is een wolk-station.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>Dit station werd opgericht door StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>Auto scroll</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>Logboek voor service</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>Dienst tracering ingeschakeld</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>Tracering niveaus</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>Fout bij het opslaan van gegevens.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>Service traceren zal logboekbestanden waarin de activiteit van de service van de StableBit DrivePool van maken
+De logboekbestanden worden geschreven in een menselijk leesbare indeling en kunnen worden ingediend bij de technische ondersteuning voor analyse. De logboekbestanden worden geschreven naar: %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>Hiermee bepaalt u het niveau van de log tracering voor elke module.
+Berichten in het logboek worden weggeschreven naar de log bestanden in %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>Logboek van de service...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>Wachten...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>Dit is een zwembad die geheel uit de cloud stations.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>Dit is een zwembad.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>Ongeldige regel op.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} totaal gebruikte ruimte ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Dit is een niet-toegewezen schijf.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Dit is een lege schijf.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>Fysieke schijf: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>Zwembad niet gevonden.</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>De aanduiding van het station...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>Stationsaanduiding in-/ uitschakelen.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>Stationsletter toewijzen...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>Stationsletter te verwijderen...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>Fout gelijkwaardige stationsaanduiding.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>Geen stationsletter is toegewezen.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;Toewijzen</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>Een stationsletter toewijzen aan uw zwembad maakt het zichtbaar voor Windows File Explorer en laat de meeste andere Windows-toepassingen toegang krijgen tot de inhoud ervan.
+
+Windows heeft een beperkt aantal beschikbare stationsletters. Zodra alle van hen zijn opgebruikt, zal nieuwe zwembaden geen stationsletters toegewezen aan hen automatisch.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>Stationsletter toewijzen</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>Een stationsletter toewijzen aan uw zwembad.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;Verwijderen</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>Verwijderen van de stationsletter van uw zwembad maakt het onzichtbare Windows File Explorer en meest andere Windows-toepassingen.
+
+Windows heeft een beperkt aantal beschikbare stationsletters. Zodra alle van hen zijn opgebruikt, zal nieuwe zwembaden geen stationsletters toegewezen aan hen automatisch.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>Kracht verwijderen</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>Stationsletter verwijderen</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>Verwijder de stationsletter van uw zwembad.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_Kracht bijwerken sortie nu...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>Een update controle stond. U ontvangt binnenkort als er updates worden gevonden.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>Door het nummer van de schijf van _Physical</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>Dit is een externe schijf.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10s gemiddelde: {0} / s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>Bestand open tarief: {0:#,0} / s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>Geopende bestanden</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>Gecontroleerd of er _duplication...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>Gecontroleerd of er dubbel</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;Gecontroleerd of er</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>Dit zal dwingen een opnieuw bestand dubbel in alle van de zwembaden.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>"{0}" aan een nieuwe groep toevoegen.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>Toevoegen "{0}" om te bundelen "{1}".</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>Berekenen van de betalingsbalans ratio voor "{0}".</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>Bereken map dubbel statistieken over "{0}".</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>Duplicatie van zwembad "{0}" omzetten in x {1:#,0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>Dubbel "{0}" op "{1}" omzetten in x {2:#,0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>Dubbel label consistentie op "{0}" controleren.</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>Zwembad de consistentie van de duplicatie van de metadata op "{0}" controleren.</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>Consistentie bestand dubbel op "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>Consistentie bestand dubbel op "{0}" in "{1}".</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>Meten van zwembad "{0}".</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>Mislukt meten:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- Pad: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- Gebundelde schijf: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- Fout: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>Ontbrekende schijf "{0}" verwijderen van zwembad "{1}".</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>Een kennisgeving test e-mail sturen naar "{0}".</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>Ping van alle schijven.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>Zoekt u nieuwe gebundelde schijven.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>Evenwicht zwembad "{0}".</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- Balancing regels toepassen.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- De plaatsing van de bestanden van de balans.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>Verwijderen "{0}" zwembad "{1}".</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>Stationsletter op pool {0} toe te wijzen.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>Stationsletter verwijderen uit pool {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>Taak is mislukt.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>De taak is voltooid.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>Stuurprogrammacontrole is ingeschakeld voor CoveFS.sys. Dit mag alleen worden gebruikt voor testdoeleinden en kan ernstig te traag zwembad.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>Voltooien</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>Versie: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>Gemaakt: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[MEERDERE]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[METAGEGEVENS]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0} "is niet een geldig e-mailadres.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>Dit zwembad is onderdeel van zwembad {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>Kracht...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>Taak "{0}", object niet meer in de winkel kan niet worden gestart.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>Zwembad niet gevonden.</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>Fout bij het laden van tracering niveaus. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>Werken...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>Wachten om te...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>Command Line argumenten</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>Een nieuwe pool aanmaken</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>Vorige pool</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>Op stationsletter</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>Update beschikbaar</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>Er is een update beschikbaar voor StableBit DrivePool (versie {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_Updates...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>Kan afstandsbediening niet inschakelen: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>Fout bij afstandsbediening</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>Synchroniseren met andere apps die verbonden zijn met uw StableBit Cloud account.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>StableBit Cloud e-mail notificaties ingeschakeld. Lokale e-mailfunctionaliteit is niet beschikbaar.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(kan onmiddellijke balancering afdwingen)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(kan limieten voor bestandsplaatsing instellen)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>De evacuatie van bestanden begint onmiddellijk nadat een probleem is gedetecteerd.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>Instellingen synchroniseren</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_Auto</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_Donker</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>Hoge _contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_Licht</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>Balanceringsinstellingen opnieuw instellen op de standaardwaarden?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>Weet je het zeker?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>Dagen</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>Uren</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>Notulen</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>Leeg</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>Laat gepoolde bestandskopieën op de verwijderde schijf staan (archivering verwijderen).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>Af</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>Ongeldige waarden opgegeven.</value>
+  </data>
+</root>

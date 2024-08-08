@@ -1,0 +1,1597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>Отмена задачи невозможна.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>Не удается запустить задачу.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;Отмена</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>Подождите пожалуйста...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>Задание не выполнено.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>Нажмите, чтобы отменить</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>Сведения об ошибке...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>Диск отсутствует.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>Идентификация…</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>Если отключить, то ваши файлы не будут защищены от отказов дисков. Вы освободите место на диске, которое было использовано для поддержания дублирования файлов. 
+
+Также, вы можете изменить количество хранимых копий для каждого файла.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;Отключить дупликацию</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>Вы можете продолжать использовать ваш массив, дублированные файлы будут обновляться в фоновом режиме.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>Изменить дупликацию</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>Если включено, то ваши файлы останутся доступны, даже если произойдет сбой одного из жестких дисков. Дублированные файлы занимают в два раза больше дискового пространства по сравнению с не дублированными файлами. 
+
+В зависимости от количества дисков в массиве вы можете увеличить количество дублированных файлов, это позволит защититься от сбоя более чем одного диска, но займет пропорционально больше места на диске.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;Включить Дублирование</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>Вы можете продолжать использовать ваш массив, дублированные файлы будут обновляться в фоновом режиме.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>Включить дупликацию</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>Дублирование защищает ваши файлы от отказов дисков.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>Отсек диска</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>Корпус дисков</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>Вы можете установить последнюю версию &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; 
+для более точной идентификации диска</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>Совет: Можно также указать «Корпус» и «Отсек» дисков в StableBit сканер для упрощения их идентификации.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>Для того чтобы помочь вам определить, какой диск отсутствует, можно проверить связь всех подключенных дисков. 
+
+В течение 1 минуты будут гореть индикаторы активности всех подключенных дисков, чтобы помочь вам определить какой диск отключен.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>Определить диск</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>Модель</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>Подробная информация об этом диске отсутствует.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;Проверить все подключенные диски в течение 1 минуты</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>Информация о пропавшем диске:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>ОКОНЧАНИЕ ПРОБНОЙ ЛИЦЕНЗИИ ЧЕРЕЗ {0:0.0} ДНЕЙ</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>Ошибка при установке ID активации.</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>Современное приложение для объединения дисков с дуплицированием файлов.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_Балансировка...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>Дублирование файлов в массиве...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>НЕ ИЗМЕРЯЕТСЯ</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>Дублирование в реальном времени</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>Повторное измерение</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>Добавление...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>Ошибка при добавлении диска</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>Подождите, идет добавление...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>Дуплицированных: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>Других: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Недуплицированных: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>Непригодные для дупликации: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>Добавление диска...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>Балансировка...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>Вычисление...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>Изменение дупликации...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>Дупликация...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>Дублирование противоречиво.</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>Файлы распределены не оптимально.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>Измерение...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>Диск отсутствует</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>Нет массива</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>Организация массива</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>Удаление диска...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>Выполняется...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>Создать новый массив</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>Не удалось удалить диск</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>Удаление...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>Подождите, идет удаление...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>Измерение массива начнется в фоновом режиме и не может начаться сразу же, если массив занят чем-то другим. Вы можете продолжать использовать компьютер в обычном режиме, в том числе и выключить его.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>Повторное измерение</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;Повторное измерение</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>Будет произведено повторное измерение содержимого массива и повторное вычисление статистики массива.</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>Повышение ввода/вывода сети</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>Чередование</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>Повышение приоритета сетевых запросов чтения над другими запросами, когда диск занят.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>При поочередном чтении дублированные файлы с нескольких дисков будут читаться одновременно, что позволит увеличить производительность операций чтения.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>Дублированные файлы записываются на несколько дисков одновременно. Если флажок не установлен, то файлы будут дублироваться в ночное время.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>Невозможно установить настройки массива.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>Статистика неполная.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>Дубликация файлов активна на этом массиве.
+Файлы записываются на несколько дисков одновременно.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>Дублирование файлов активно на этом массиве.
+Файлы не записываются на несколько дисков одновременно.
+Дублирование будет произведено ночью.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>Вы должны добавить еще один диск в массив.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>Недостаточно дисков в массиве для дублирования файлов.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;Автоматически разрешать рассогласования при дублировании при помощи удаления старых частей файла.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;Дуплицировать сейчас</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>Вы можете разрешить DrivePool автоматически удалять старые части файлов для разрешения конфликта.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>Один или несколько дуплицированных файлов отличаются друг от друга. Одной из причин этого может быть изменение дуплицированного файла непосредственно на диске в обход массива. Это также может произойти если изменения на диске произошли в то время когда диск был изъят из массива.
+
+Вы можете разрешить конфликты вручную, удалив спорные файлы из области массива.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>Файлы:</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>Предупреждения дедупликации</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>Закройте все другие программы, которые могут использовать эти файлы на массиве и запустите дублирование снова.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>Изменение уровня дубликации файла требует определенный уровень доступа к этому файлу. Если другая программа открыла файл для записи, то уровень дубликации этого файла не будет изменен.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>Недостаточно дискового пространства на массиве для дублирования всех файлов.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;Пропустить используемые файлы</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>Были проблемы при проверки, дублировании или очистке одного или более файлов в массиве.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>Предупреждения...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>Перебалансировка</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>Повторная проверка дубликатов</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>Проверять наличие новых версий</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>Управление лицензией...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>Уведомлять об отсутствующем диске</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>Невозможно установить опции</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>Подключение к сервису</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>Получить лицензию...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>Получить пробную лицензию или ввести ваш лицензионный код</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>Получить новую пробную лицензию для этой версии или ввести ваш лицензионный ключ</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>Ваша лицензия выдана для другой версии продукта. Получите пробную лицензию или введите ваш лицензионный ключ для этой версии.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>Вам необходимо перенести лицензию на этот компьютер.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>У Вас нет подтвержденной лицензии.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>Пожалуйста подождите...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>Запуск сервиса</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>Начать перенос лицензии</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>Истек срок действия вашей пробной лицензии. Приобретите полную лицензию для продолжения использования этого продукта.</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>Поддержка:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>Ваша лицензия не может быть подтверждена.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>Фоновая служба не смогла запуститься, попробуйте перезагрузить компьютер.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>Если у Вас проблемы с подключением к фоновой службе, то попробуйте перезагрузить компьютер.
+Если у Вас проблемы с подключением к удаленному компьютеру, проверьте правила брандмауэра.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>Температура</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>Свободное пространство: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>Используемое место: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>Отсек</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>Корпус</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>ПРОБНАЯ ВЕРСИЯ ЗАКОНЧИЛАСЬ</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>Активировать лицензию</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>Перепроверка дублирования массива позволит убедиться, что для каждого файла в массиве существует требуемое количество копий. 
+Это может быть полезно, даже если у Вы не используете функцию  дублирования на этом массиве.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>Повторная балансировка массива реорганизует файлы, которые хранятся на каждом отдельном диске.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>Уведомлять по e-mail</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>Введите один или более e-mail адресов, разделяя запятыми:
+
+(Оставьте поле пустым и нажмите ОК для отключения уведомлений  по электронной почте)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>Уведомлять по e-mail</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>Добавление диска в массив не сотрет и не изменит существующие файлы на этом диске.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>Для создания нового массива подключите новый диск к системе.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>Вы должны перезагрузить компьютер</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>Балансировка</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>Настройка размещения и организации файлов</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>Балансировка...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>Нет настроек</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>Выберите балансирующий плагин</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_Отмена</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_Сохранить</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>Параметры заполнения диска</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>Освободить диск до:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>Стараться не заполнять диск свыше:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>Или столько свободного места:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} ГБ свободно</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0} % от полного</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>Настройки очистки диска</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>Например, установка 90% / 100 ГБ свободного пространства на диске 2 Тб предотвратит заполнение диска свыше 1,9 ТБ (100 ГБ свободно).</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>Настройки предельных значений для диска</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>Дублированный</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Недублированные</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>Сбросить выбранный балансер на настройки по-умолчанию</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>По-умолчанию</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>Ошибка сброса настроек балансировки на настройки по-умолчанию.</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>Предел размещения дублированных файлов ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>Дублированные файлы, намеченные для повторной балансировки</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>Предел размещение файлов ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>Повторная балансировка файлов</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>Предел размещение не дублируемых файлов ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Повторная балансировка не дублируемых файлов </value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>Разрешить плагинам принудительно запускать балансировку.</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>Автоматическая балансировка - Триггеры</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>Автоматическая балансировка</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>Балансировщики</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>Балансировать каждый день в:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>Балансировать немедленно</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>Не балансировать автоматически</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>Если уровень балансировки упадет ниже:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>Или если объем данных для перемещения достиг:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>Не чаще каждых:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>Эвакуация файлов</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>Переместить дублированные файлы с поврежденных дисков</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>Переместить дублированные файлы с дисков с предупреждениями  S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>Переместить не дублированные файлы с поврежденных дисков</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>Переместить не дублированные файлы с дисков с предупреждениями S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>Стараться не размещать новые файлы на дисках, температура которых превысила максимальную</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>Контроль температуры</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>Если другие диски заполнены</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>Этот балансировщик работает вместе с StableBit Scanner (версии 2.2 или позднее)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>Разрешить размещение файлов на эвакуированных дисках, если другие диски заполнены:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>Никогда не размещать файлы на эвакуированных дисках</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>Настройки эвакуации</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>Ошибка сохранения настроек</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>Разрешить _удаленное управление</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>Управлять другим компьютером, на котором запущен StableBit DrivePool</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(новая версия)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(старая версия)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>' {0} ' запрещено подключаться к этому компьютеру. Вы должны быть администратором на удаленном компьютере для того, чтобы управлять им.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>Назад к '{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>Включить удаленное управление</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>Лицензия на удаленной машине не активирована. Войдите в машину локально для активации лицензии.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>Аутентификация StableBit DrivePool</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>Пожалуйста, введите учетные данные пользователя</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>Войти как другой пользователь ...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>Невозможно отобразить папку.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>_Защита файла</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>Дублирование папки...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>Производительность</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>Изменить дублирование...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>Дублирование папок</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>Показать скрытые папки</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>Дублировать файлы позже (для более быстрого удаления диска).</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>Принудительно удалить поврежденный диск из массива (нечитаемые файлы останутся на диске)</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>Настройки удаления</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>Кликните для просмотра вариантов удаления. 
+SHIFT + Click, чтобы начать удаление с параметрами по умолчанию.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>Объем дублированных файлов для перебалансировки</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>Ограничения для размещения новых файлов</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>Ограничения для размещения новых дублированных файлов</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>Цель для пере-балансировки</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>Объем не дублированных файлов для перебалансировки</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>Ограничения для размещения новых не дублированных файлов</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>Развернуть&gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>Диски</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>Производительность</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>Нет дисковой активности на этом массиве</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>Активность дисков: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>Чтение</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>Производительность диска</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>I/O Ускорение</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>Производительность массива</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Чтение с чередованием</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>Диск содержит</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>Диски переключены</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>в секунду</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>Лучший диск</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>Управление массивом</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool не может загрузить некоторые данные, поступающие от удаленного компьютера. 
+
+Если на удаленном компьютере установлены плагины, убедитесь что такие же плагины установлены и на этом компьютере.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>Подробнее...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool не может загрузить некоторые данные, поступающие от удаленного компьютера.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>Проверка...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>Файлы в этой папке не дублируются.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>Файлы в этой папке дублируются.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>Наследовать</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>Эта папка наследует уровень дублирования от родительской папки. 
+Изменение уровня дублирования родительской папки повлияет на 
+ все другие вложенные папки, которые наследуют этот уровень дублирования.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>Сколько копий вы хотите хранить для каждого файла?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>Количество копий</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>Защитить файлы от сбоя более чем одного диска.</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>Обработано: {0} \ ... {1} В обработке: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>Работаем над всем массиве.{0}Сейчас работаем над: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;Изменить дублирование</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>Массив может быть недоступен.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>Этому массиву не назначена буква диска, и он не является частью другого массива.
+Массивы без буквы диска не могут быть доступны для других приложений.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>О вашем новом массиве:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>При создании новый массив пусть.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>Скопируйте сюда несколько файлов и используйте массив так же, как и обычный диск.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>Если когда-нибудь у вас закончится дисковое пространство, то просто добавьте новый диск в массив.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>Существующие файлы не добавляются автоматически на массив.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>Вы только что создали свой первый массив.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(Это будет показано только один раз)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>Поздравляем!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>Сортировать по</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>По количеству свободного места</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>По имени</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>По проценту использованного места</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>Нажмите для удаления отсутствующего диска</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>Свободное пространство: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>Диск</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>Вне массива</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>В массиве</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>Включить ведение журнала время загрузки...</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_Поиск Неисправностей</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>Ведение журнала во время загрузки создаёт файлы, содержащие подробности о ходе запуска StableBit DrivePool. Файлы журнала записываются в нечитабельном для пользователя формате (WPP) и должны передаваться технической поддержке для анализа.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;Включить</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>Ошибка ведения журнала во время загрузки</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>Включить ведение журнала во время загрузки</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>Ошибка при запуске перезагрузки</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>Принудительное закрытие не отвечающих приложений</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>Перезагрузить</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>Перезагрузить позже</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>Перезагрузить сейчас</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>Перезагрузите компьютер сейчас, чтобы создать файл журнала.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>Файл журнала будет создан при следующей перезагрузке в {0} .</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>Включить ведение журнала файловой системы...</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>Ведение журнала файловой системы создаёт файлы, содержащие подробности о работе файловой системы StableBit DrivePool. Файлы журнала записываются в нечитабельном для пользователя формате (WPP) и должны передаваться технической поддержке для анализа.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>Размещение файла</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>Выберите папку или правило.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>Введите правило для соответствия файлов шаблону. "?" обозначает любой одиночный символ, "*" обозначает любое количество символов (от нуля и и более).
+
+Например: "* .txt" или "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>Варианты размещения файла</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>Никогда не позволять файлам размещаться на других дисках.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>Любые файлы, соответствующие этому правилу, будут храниться на выбранных дисках.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>Переполнение</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>Разрешить файлам размещаться на других дисках, если все выбранные диски заполнены:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>Шаблон не может быть пустым.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>Правило с этим шаблоном уже существует.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>Показать скрытые</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>Правила балансировки размещения файлов должны быть применены.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>Плагин балансировки не нарушает правила размещения файлов.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>Когда отмечено, плагины балансировки не будут нарушать правила размещения файлов.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>Кроме случаев, когда диск в процессе очистки.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>Настройки размещение файлов</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>Правила размещения файлов учитывают ограничения на размещение файлов, установленные балансировочными плагинами</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>Один или несколько балансировочных плагинов могут в реальном времени задать ограничения на размещение файлов на одном или нескольких дисках (например, когда балансировщик StableBit Scanner эвакуирует один или несколько дисков). Когда этот пункт отмечен, правила размещения файлов будут учитывать эти ограничения.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>Настройки плагина</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>Файлы не смогли быть перемещены в соответствии с правилами  размещения ({0}) в ходе последнего прохода балансировки.</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>Дублирование: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>Размер: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} свободно</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({1:0,#} не B) может быть перемещен, поскольку не удалось найти подходящего места назначения. Убедитесь, что у вас достаточно дискового пространства для того, чтобы удовлетворить ваши правила размещения файла и что они не конфликтуют с другими параметрами балансировки.</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_Сбросить все настройки...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>Это сбросит все настройки приложения по умолчанию, в том числе настройки балансировки. Это не повлияет на настройки дублирования или ваши объединенные данные.
+
+Служба StableBit DrivePool будет перезапущена и ваши массивы будут повторно измерены и проверены на согласованность.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>Ошибка сброса настроек</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>Сбросить все настройки</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>Сбросить все настройки приложения в состояние по умолчанию?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>Увеличить приоритет</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>Не удается установить приоритет</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>Новые диски</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>Когда новый диск добавляется в массив, файлы, соответствующие этому правилу должны быть размещены на этом диске.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>Увеличить до максимума</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>Уменьшить до минимума</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>Ваш тест электронной почты направляется «{0}».</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>Тестовые сообщения отправляются немедленно, но письмо может идти до адресата несколько минут. Если вы не получили тестовое сообщение, проверьте папку "Спам", возможно, что письмо было  отфильтровано вашим спам-фильтром.
+
+Все письма от StableBit DrivePool будут содержать текст «[StableBit DrivePool]» в заголовке.</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>Тестовое письмо не может быть отправлено в «{0}».</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;Скрыть</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>Отправить тестовое письмо</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;Нет</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>Подождите пожалуйста...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;Отправить тестовое письмо</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>Тестовое сообщение было успешно отправлено в «{0}».</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>Хотите отправить тестовое сообщение по электронной почте «{0}»?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>Обход фильтров файловой системы</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>Для того, чтобы увеличить производительность массива, "фильтры" файловой системы, которые применяются для каждого отдельного диска, могут быть пропущены. Например, если у вас работает антивирусный монитор, это предотвратит двойную или тройную проверку одного и того же дублированного файла на массиве. Он будет проверен только один раз.
+
+Это может вызвать проблемы совместимости с программным обеспечением, предназначением которого является изменение данных "на лету". Примеры такого ПО: программы для дедупликации данных и программы для шифрования данных.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(Исправлено)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} назад</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>Закрыть все</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>Сообщения о работе:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>Ошибка отключения элемента</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* На основе полного размера файлов. Фактическое использование  дискового пространства может быть меньше.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>Измерения {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>Измерения {0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>Файловая система</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>Принудительно закрыть все открытые недублированные файлы на удаляемом диске.</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>Подробнее...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>Файл в использовании</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>Закройте приложения, которые используют эти файлы и попробуйте удалить диск снова.
+Кроме того, если отметить «Принудительно закрыть все открытые файлы...» в диалоговом окне удаления диска, то это может прекратить доступ к открытым файлам.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>Имя процесса</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>Некоторые файлы используются и не могут быть перемещены</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>Файлы используются</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[Не найден]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_Закрыть</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_Проверить после копирования</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>После того, как файл будет скопирован фоновым процессом, таким как балансировка или фоновое дублирование, файл будет прочитан снова и проверен на согласованность. 
+Включение этого параметра окажет негативное влияние на производительность операций копирования файлов в фоновом режиме.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>Снять отметку с остальных</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>Отметить все</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>Это облачный диск.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>Этот диск был создан StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>Автопрокрутка</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>Сервисный журнал</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>Отслеживание службы включено</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>Уровни отслеживания</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>Ошибка при сохранении данных.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>Отслеживание службы будет создавать файлы журналов с описанием деятельности службы StableBit DrivePool.
+Файлы журналов записываются в читаемом формате и могут быть представлены технической поддержке для анализа. 
+Файлы журналов записываются в: %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>Контролирует уровень журнала отслеживания для каждого модуля.
+Сообщения журнала записываются в файлы в %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>Сервисный журнал...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>Ожидание...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>Этот массив полностью состоит из облачных дисков.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>Это массив.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>Недопустимое правило.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} всего используется пространства ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Это неразмеченный диск.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Это пустой диск.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>Физический диск: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>Массив не найден.</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>Буква диска...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>Переключает назначение буквы диска.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>Назначьте букву диска...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>Удаление буквы диска...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>Ошибка переключения назначения буквы диска.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>Не назначена буква диска.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;Назначить</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>Назначение буквы диска для вашего массива делает его видимым в проводнике Windows и позволяет большинству приложений Windows получить доступ к его содержимому.
+
+Windows имеет ограниченное количество доступных букв дисков. После того, как они закончатся, новым массивам не будут автоматически присваиваться буквы.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>Назначить букву диска</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>Назначить букву диска для вашего массива.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>Удаление буквы диска вашего массива cделает его невидимым для проводника Windows и других приложений Windows.
+
+Windows имеет ограниченное количество доступных букв дисков. После того, как они закончатся, новым массивам не будут автоматически присваиваться буквы.
+</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>Принудительное удаление</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>Удалить букву диска</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>Удаляет букву диска вашего массива.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_Немедленная проверка обновлений...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>Проверка обновлений запланирована. Вам будет сообщено при их обнаружении.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>По номеру физического диска</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>Это внешний диск.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>Среднее за 10 с. : {0} / с.</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>Частота открытия файлов: {0:#,0} / с.</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>Открытые файлы</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>Перепроверить дублирование...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>Еще раз проверит дублирование</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;Перепроверить</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>Это принудительно перепроверит дублирование файлов на всех массивах.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>Добавить «{0}» в новый массив.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>Добавить «{0}» к массиву «{1}».</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>Рассчитать соотношения баланса для «{0}».</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>Рассчитать статистику дублирования папок на «{0}».</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>Изменить дублирование на массиве «{0}» на x{1:#,0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>Изменить дублирование «{0}» в «{1}» на x{2:#,0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>Проверка согласованности тега дублирования на «{0}».</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>Проверка согласованности дублирование метаданных массива на «{0}».</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>Убедиться в согласованности дублирования файлов на «{0}».</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>Убедиться в согласованности дублирования файлов на «{0}» в «{1}».</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>Измерить массив «{0}».</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>Ошибка измерения:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- Путь: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- диск в массиве: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- Ошибка: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>Удаление отсутствующего диска «{0}» из массива «{1}».</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>Отправить тестовое сообщение «{0}».</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>Определить все диски.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>Поиск новых дисков в массивах.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>Балансировать массив «{0}».</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- Применить правила балансировки.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- Балансировать размещение файлов.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>Удалить «{0}» из массива «{1}».</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>Назначить букву диска массиву {0}.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>Удалить букву диска у массива {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>Задача не выполнена.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>Задача успешно завершена.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>Включена проверка драйвера для CoveFS.sys. Это должно использоваться только для целей тестирования и может серьезно ухудшить производительность массивов.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>Версия: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>Создан: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[НЕСКОЛЬКО]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[МЕТАДАННЫЕ]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>«{0}» не является действительным адресом электронной почты.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>Этот массив является частью массива {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>Принудительно...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>Не удается запустить задачу «{0}», объект более недоступен.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>Массив не найден.</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>Ошибка при загрузке уровней трассировки. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>Работаю...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>Ожидание...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>Аргументы командной строки</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>Создать новый массив</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>Предыдущий массив</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>По букве диска</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>Доступно обновление</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>Обновление доступно для StableBit DrivePool (версия {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_Обновления...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>Не удается включить пульт дистанционного управления: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>Ошибка дистанционного управления</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>Синхронизация с другими приложениями, подключенными к вашей учетной записи StableBit Cloud.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>Включены уведомления по электронной почте StableBit Cloud. Функции локальной электронной почты недоступны.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(может заставить немедленную балансировку)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(может устанавливать ограничения на размещение файлов)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>Эвакуация файлов начинается сразу после обнаружения проблемы.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>Синхронизация настроек</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_Авто</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_Темный</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>Высокая _contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_Свет</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>Сброс настроек балансировки до значений по умолчанию?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>Уверен?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>Закрывать</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>Дни недели</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>Протокол</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>Пустой</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>Оставьте копии файлов в пуле на удаленном диске (архивное удаление).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>Указаны недопустимые значения.</value>
+  </data>
+</root>

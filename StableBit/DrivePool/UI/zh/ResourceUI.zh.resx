@@ -1,0 +1,1612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>无法取消任务。</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>无法开始任务。</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;取消</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;关闭</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>稍等</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>任务失败。</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>单击以取消</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>错误详细信息...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>磁盘丢失。</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>识别。。。</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>如果禁用，则不会保护您的文件免受驱动器故障的影响。您将回收用于维护文件复制的磁盘空间。
+
+您还可以更改每个文件将保留的副本数量。</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;禁用重复</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>您可以继续正常使用池，同时在后台更新重复的文件。</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>更改重复</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>如果启用，即使任何单个硬盘驱动器发生故障，您的文件仍将保持可访问性。重复文件占磁盘空间的两倍，是非重复文件。
+
+您可以选择一次保护文件免受多个驱动器故障的影响，但因此每个文件将占据更多的磁盘空间。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;启用重复</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>当文件在后台重复时，您可以继续正常使用池。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>启用重复</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>文件重复可保护文件免受驱动器故障的影响。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>驱动器舱</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>驱动器箱</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>您可以安装最新版本的 &lt;A HREF="http://stablebit.com/Scanner"&gt; StableBit Scanner &lt;/A&gt;  
+以实现更精确的磁盘识别</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>提示：您还可以在 StableBit 扫描仪中指定驱动器的"案例"和"Bay"，以便于识别。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>为了帮助您识别丢失的磁盘，您可以平放所有连接的磁盘。
+
+在 1 分钟内，这将点亮所有连接磁盘上的磁盘访问灯，以帮助您识别断开的磁盘。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>识别磁盘</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>型</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>此磁盘没有具体信息。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;平所有连接磁盘 1 分钟</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>这就是我们对丢失磁盘的了解:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>试用期在 [0：0.0] 天内到期</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>错误设置激活 ID。</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>将应用程序与文件复制相联的最先进的磁盘状态。</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>平衡</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>池文件_备份</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>未测量</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>实时_备份</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>重新_测量...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>错误添加驱动器</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>等待添加</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>复制： {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>其他： {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>未备份： {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>无法备份：{0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>添加驱动器</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>平衡...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>更改重复...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>复制中</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>备份不一致。</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>文件分布不是最佳的。</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>测量中</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>缺少磁盘</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>没有池</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>池组织</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>刷新。。。</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>移除驱动器</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>工作中</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>创建新池</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>错误删除驱动器</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>删除。。。</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>等待移除...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>测量池将从后台开始，如果池忙于做其他事情，可能不会立即开始。您可以在发生这种情况时继续正常使用计算机，包括关闭计算机。</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>复测</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>复测</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>这将重新测量池的内容并重新计算池统计数据。</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_网络 I/O 提升</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>阅读_striping</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>当磁盘繁忙时，网络 I/O 提升将来自网络的读取请求优先于所有其他请求。</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>读取条带化会同时从多个硬盘读取重复的文件，以提高读取性能。</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>重复的文件同时写到多个磁盘上，
+并行。如果不加检查，文件将在夜间重复。</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>无法设置池选项。</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>统计数字是不完整的。</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>在此池上启用文件重复。
+文件同时被写到多个磁盘上。</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>在此池上启用文件重复。
+文件不会同时写入多个磁盘。
+文件将在夜间复制。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>您应该在池中添加另一个磁盘。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>池中没有足够的磁盘来维护文件的重复副本。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;通过删除旧文件部分自动解决文件重复不匹配问题</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;现在重复</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>您可以让 DrivePool 自动删除旧文件部分，以便解决此冲突。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>一个或多个重复的文件有不匹配的文件部分。发生这种情况的原因之一是，如果某些内容直接在池磁盘上而不是通过池更改了重复文件的部分。如果磁盘在池中丢失时进行了更改，也可能发生这种情况。
+
+您可以通过从集合磁盘中删除不正确的文件部分手动解决冲突。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>文件:
+
+</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>备份警告</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>关闭可能在池上使用这些文件的任何其他程序，并再次运行重复。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>更改文件的重复级别需要对该文件进行一定级别的访问。如果另一个程序有文件开放用于编写，则无法更改该文件的重复级别。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>池中没有足够的磁盘空间来维护所有文件的重复副本。</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;跳过使用中的文件</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>在检查、复制或清理池中的一个或多个文件时存在问题。</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>警告。。。</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>重新平衡</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>重新检查备份</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>查看新版本</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>管理许可证...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>在丢失的磁盘上通知</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>无法设置选项</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>连接到服务</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>获取许可证...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>获取试用许可证或输入您的零售许可证代码</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>获取此版本的新试用许可证或输入您的零售许可证代码</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>连接。。。</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>您的许可证用于产品的另一个版本。获取试用许可证或输入此版本的零售许可证代码。</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>您的许可证需要转移到此计算机</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>您没有有效的许可证</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>稍后</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>启动服务</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>开始许可证转让...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>您的试用许可证已过期。购买零售许可证，继续使用此产品。</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>寻求帮助访问:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>您的许可证无法验证。</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>背景服务启动失败，尝试重新启动计算机。</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>如果您在连接到后台服务时遇到问题，请尝试重新启动计算机。
+
+如果您在连接到远程计算机时遇到问题，则它可能在防火墙后面。</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>空闲空间：{0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>已使用空间：{0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>湾</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>箱</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>审判过期</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>激活零售许可证</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>重新检查池上的重复将验证
+池中每个文件都存在正确的副本数量。
+即使您没有启用重复，这也可能很有用
+在这个游泳池里</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>重新平衡池将重组池中文件
+存储在每个单独的磁盘上。</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>通过_email通知...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>输入一个或多个按逗号分隔的电子邮件地址：
+
+（留空并单击"确定"以禁用电子邮件通知)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>通过电子邮件通知</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>将磁盘添加到池中不会擦除或更改该磁盘上的现有文件。</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>为了创建新池，将新磁盘连接到系统。</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>您必须重新启动计算机。</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>平衡</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>配置文件放置和组织</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>平衡...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>无设置</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>选择平衡插件</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_取消</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>驱动器填充选项</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>清空驱动器到:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>尽量不要填充上面的驱动器:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>或者这么多的可用空间:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB 空闲</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% 满</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>驱动器清空选项</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>例如，在 2TB 驱动器上设置 90% 满 / 100 GB 免费将防止驱动器填充超过 1.9 TB（100 GB 免费）。</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>驱动器限制选项</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>未备份</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>将选定的余额器重置为默认值</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>将所有内容重置为默认值</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>将平衡设置重置为默认值的错误重置。</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>备份文件放置限制 （[0：0.0]%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>备份文件目标，用于再平衡</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>文件放置限制 （[0：0.0]%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>文件目标，用于再平衡</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>未重复的文件放置限制 （[0：0.0]%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>重新平衡的未重复文件目标</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>允许平衡插件以强制立即平衡。</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>自动平衡 - 触发器</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>自动平衡</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>平衡器</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>平衡每天在:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>立即平衡</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>不要自动平衡</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>如果余额比率低于:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>或者，如果至少需要移动这么多数据:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>并不比每一个都多:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>文件疏散</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>将重复的文件从损坏的驱动器中移出</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>将备份的文件从带有 S .M.A.R.T. 警告的驱动器中移出</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>将未备份的文件从损坏的驱动器中移出</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>将未重复的文件移出带有 S .M.A.R.T. 警告的驱动器</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>尽量不要在超过最大温度的驱动器上放置新文件</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>温度控制</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>除非所有其他驱动器都已满</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>此平衡器与稳定位扫描仪（版本 2.2 及以上）配合使用。</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>如果其他驱动器已满，请允许在已疏散的驱动器上放置文件:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>绝不允许在已疏散的驱动器上放置文件</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>疏散选项</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>错误保存设置</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>允许_remote控制</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>管理运行稳定位驱动器池的不同计算机。</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(较新版本)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(旧版本)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}'未获授权连接到此计算机。您必须是目的地计算机上的管理员才能管理它。</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>回到"{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>打开远程控制</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>远程机器上的许可证未激活。登录到本地的机器以激活许可证。</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>稳定位驱动器池身份验证</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>请输入用户凭据</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>以不同的用户身份登录...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>装载。。。</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>无法列举文件夹。</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>文件 _保护</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_文件夹复制...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>性能</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>更改为备份...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>文件夹备份</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>显示隐藏文件夹</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>稍后复制文件（更快的驱动器删除）。</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>强制损坏的驱动器删除（不可读文件将留在磁盘上）。</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>删除选项</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>单击以显示删除选项。
+Shift+单击以默认选项开始删除。</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>再平衡已备份目标</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>新文件放置限制</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>新的复制文件放置限制</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>再平衡目标</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>再平衡的未备份目标</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>新的未备份文件放置限制</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>扩大 &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>磁盘</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>性能</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>池中没有磁盘活动。</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>磁盘活动： [0：0.0] %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>读</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>写</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>磁盘性能</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>I/O 助推器</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>池性能</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>读取条带化</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>磁盘保持</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>磁盘开关</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>每秒</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>最佳磁盘</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>管理池</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>稳定位驱动器池无法加载来自远程计算机的某些数据。
+
+如果远程计算机已安装插件，请确保该计算机上也安装了相同的插件。</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>查看详细信息...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>稳定位驱动器池无法加载来自远程计算机的某些数据。</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>检查。。。</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>文件在此文件夹中不重复。</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>文件在此文件夹中重复。</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>继承</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>此文件夹从父文件夹继承其重复级别。
+更改父文件夹的重复级别会影响它
+以及继承该重复级别的所有其他子折机。</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>您希望保留每个文件的副本数量?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>副本数</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>保护我的文件，防止一次不止一次的驱动器故障。</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>工作： {0}] ... ...{1}现在处理： {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>在整个池上工作。{0}现在处理： {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;更改为备份</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>池可能无法访问。</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>此池没有分配给它的驱动器字母，它不是另一个池的一部分。
+没有驱动器字母的池可能无法访问其他应用程序。</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>关于您的新池:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>您的新池初始为空的。</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>只需复制一些文件到它，并像任何其他驱动器一样使用它。</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>如果您的磁盘空间耗尽，只需在池中添加另一个磁盘即可。</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>现有文件不会自动添加到池中。</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>您刚刚创建了第一个池。</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(这将只显示一次)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>祝贺!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>排序方式</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>按磁盘剩余空间</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>按名字</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>按磁盘已使用空间</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>单击以删除丢失的磁盘。</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>空闲空间：{0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>磁盘</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>未加入池</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>已加入池</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>启用_boot时间记录...</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_故障 排除</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>启动时间记录将创建记录文件，详细说明 StableBit 驱动器池的启动活动。日志文件不是以人可读格式 （WPP） 编写的，应提交技术支持进行分析。</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>错误注册启动时间记录</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>启用启动时间记录</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>启动重新启动的错误</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>强制关闭响应性应用程序</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>重新启动</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>稍后重启</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>现在重启</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>现在重新启动计算机以生成日志文件。</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>在下次重新启动时，将生成一个日志文件，{0}。</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>启用文件系统_logging</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>文件系统记录将创建记录文件，详细说明 StableBit 驱动器池的池化文件系统活动。
+日志文件不是以可读格式 （WPP） 编写的，应提交给
+分析的技术支持。</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>文件放置</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>选择文件夹或规则。</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>输入文件模式匹配规则。?匹配任何单个字符， * 匹配零或更多字符。
+
+例如："*.txt"或"[用户]下载\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>文件放置选项</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>绝不允许将文件放置在任何其他磁盘上。</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>任何符合此规则的文件都将存储在选定的驱动器上。</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>溢出</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>如果所有选定的磁盘都已满，请允许将文件放置在其他磁盘上:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>模式不能是空白的。</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>已有此模式的规则。</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>显示隐藏</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>需要应用文件放置平衡规则。</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>平衡插件尊重文件放置规则。</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>检查时，平衡插件不会违反文件放置规则限制。</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>除非驱动器被清空。</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>文件放置设置</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>文件放置规则尊重平衡插件设置的实时文件放置限制。</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>一个或多个余额器可以在一个或多个磁盘上设置实时文件放置限制（例如，
+当稳定位扫描仪平衡器正在疏散一个或多个磁盘时）。检查此情况时，文件
+放置规则不会违反这些限制。</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>插件设置</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>在最后一次平衡过程中，无法移动文件以满足文件放置规则（{0}）。</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>重复： {0} （[1：#，0] B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>尺寸： {0} （[1：#，0] B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - 空闲{1}</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0}（[1：0，#]B）无法移动，因为找不到合适的目的地。确保您有足够的磁盘空间，以满足您的文件放置规则，并确保它们与其他平衡设置不冲突。</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_重置所有设置...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>这将将所有设置和应用状态重置为默认值，包括平衡设置。它不会影响您的重复设置或您汇集的数据。
+
+稳定位驱动器池服务将重新启动，您的池将被重新测量和重新检查的一致性。</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>错误重置设置</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>重置所有设置</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>将所有应用设置和应用状态重置为默认值?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>流产</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>增加优先级</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>无法设置优先级</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>新驱动器</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>当将新驱动器添加到池中时，应将符合此规则的文件放在该驱动器上。</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>救</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>您的测试电子邮件将发送到"{0}"。</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>测试电子邮件会立即发送，但可能需要几分钟才能传播电子邮件。如果您没有收到测试电子邮件，请检查您的垃圾邮件文件夹，它可能已被您的垃圾邮件过滤器过滤掉。
+
+来自稳定位驱动器池的所有电子邮件都将包含主题中的文本"[稳定位驱动器池]"。</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>测试电子邮件无法发送到"{0}"。</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;隐藏</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>发送测试电子邮件</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;不</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>请稍候。。。</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;发送测试电子邮件</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>测试电子邮件已成功发送到"{0}"。</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>您想向"{0}发送测试电子邮件吗？"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>绕过文件系统过滤器</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>为了提高池的性能，可以绕过作为池一部分的每个单独驱动器上活动的文件系统“过滤器”。
+例如，如果您安装了实时防病毒扫描程序，这将防止在从池中访问同一文件时对其进行两次或三次扫描。
+该文件只会被扫描一次。
+
+这可能会导致执行动态数据操作的软件有兼容性问题。
+重复数据删除软件和数据加密软件是此类软件的两个示例。</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(纠正)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0}前</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>解雇</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>解雇所有</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>反馈:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>错误排除项目</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* 基于总文件大小。实际使用的磁盘空间可能更少。</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>测量{0}：{1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>测量{0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>文件系统</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>强制关闭正在删除的驱动器上的任何未重复文件。</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>详。。。</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>正在使用的文件</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>关闭打开这些文件的应用程序，并尝试再次删除驱动器。
+或者，选择"强制关闭任何未重复的未重复文件..."在驱动器删除对话上强制关闭这些文件。</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>流程名称</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>有些文件正在使用中，无法移动</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>正在使用的文件</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[未找到]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_关闭</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_复制后验证</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>由于某些背景过程（如文件平衡或背景复制）复制文件后，
+它将被读回并检查其一致性。启用此选项将产生负面影响
+关于背景文件复制操作的性能。</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>取消检查所有其他</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>检查所有</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>这是一个云驱动器。</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>此驱动器由稳定位云驱动器创建。</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>自动滚动</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>服务日志</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>启用了服务跟踪</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>跟踪级别</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>错误保存数据。</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>跟踪服务将创建一个详细的日志文件来记录 StableBit DrivePool 的活动。
+日志文件将以可读的方式呈现并可以提交给技术支持进行分析。
+日志文件被写入：
+%PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>控制每个模块的日志跟踪级别。
+日志消息写入 %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service 中的日志文件。</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>服务日志...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>等待。。。</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>这是一个完全由云驱动器组成的池。</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>这是一个池。</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>无效规则。</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0}总使用空间 （[1：0.0]%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>这是一个未分配的磁盘。</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>这是一个空盘。</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>物理磁盘：{0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>找不到池。</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>驱动器字母...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>切换驱动器字母分配。</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>分配驱动器信...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>删除驱动器信...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>错误拖动驱动字母分配。</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>未分配驱动器字母。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;分配</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>将驱动信分配到您的池使 Windows 文件资源管理器可见，并允许大多数其他 Windows 应用程序访问其内容。
+
+Windows 提供的驱动器字母总数有限。一旦全部用完，新的池将不会自动分配给它们的驱动器字母。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>分配驱动器信</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>将驱动器信分配到您的池中。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;删除</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>从池中删除驱动器信使 Windows 文件资源管理器和大多数其他 Windows 应用程序看不到它。
+
+Windows 提供的驱动器字母总数有限。一旦全部用完，新的池将不会自动分配给它们的驱动器字母。</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>强制删除</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>删除驱动器信</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>从池中取出驱动器信。</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_强制更新检查现在...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>已安排更新检查。如果发现任何更新，您将很快收到通知。</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>按物理磁盘编号</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>这是一个外部驱动器。</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10s 平均： {0}/s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>文件打开率： [0：#，0]/s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>打开文件</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>重新检查_duplication...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>重新检查重复</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;复核</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>这将强制对所有池中的文件重复进行重新检查。</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>将"{0}"添加到新池中。</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>将"{0}"添加到池"{1}"。</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>计算"{0}"的余额比率。</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>计算"{0}"的文件夹重复统计。</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>将池"{0}"的重复更改为 x [1：#，0]。</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>将"{1}"上的"{0}"重复更改为 x [2：#，0]。</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>检查"{0}"上的重复标记一致性。</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>检查池元数据重复一致性"{0}"。</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>确保"{0}"的文件重复一致性。</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>确保"{1}"中"{0}"的文件重复一致性。</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>测量池"{0}"。</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>测量失败:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- 路径： {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- 池磁盘：{0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- 错误： {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>从池"{1}"中删除丢失的磁盘"{0}"。</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>向"{0}"发送通知测试电子邮件。</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>平所有磁盘。</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>寻找新的拼盘。</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>平衡池"{0}"。</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- 应用平衡规则。</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- 平衡文件放置。</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>从池"{1}"中删除"{0}"。</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>在池{0}上分配驱动字母。</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>从池{0}中删除驱动字母。</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>任务失败。</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>任务圆满完成。</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>科夫斯启用了驾驶员验证器.sys。这仅应用于测试目的，并可能严重降低池性能。</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>版本: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>创建: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[倍数]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[元数据]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0}"不是有效的电子邮件地址。</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>这个池是池 {0} 的一部分</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>强制...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>无法启动任务"{0}"，对象不再存储。</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>找不到池。</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>错误加载跟踪级别。 </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>加工。。。</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>等待...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>命令线参数</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>创建新池</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>上一个池</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>按驱动器_首字母</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>可更新</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>稳定位驱动器池（版本{0}）可获得更新。</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_更新。。。</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>无法打开遥控器：{0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>远程控制错误</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>与连接到您的 StableBit Cloud 帐户的其他应用程序同步。</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>已启用 StableBit Cloud 电子邮件通知。本地电子邮件功能不可用。</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(可以强制即时平衡)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(可以设置文件放置限制)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>检测到问题后，文件撤出将立即开始。</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>同步设置</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_自动</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_黑暗</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>高_contrast</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_光</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>将平衡设置重置为其默认值?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>是否确定?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>纪要</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>在被移除的驱动器上留下池化文件副本（存档移除）。</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>指定了无效的值。</value>
+  </data>
+</root>

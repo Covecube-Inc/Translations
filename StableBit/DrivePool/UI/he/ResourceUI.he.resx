@@ -1,0 +1,1595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>לא ניתן לבטל את המשימה.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>אין אפשרות להפעיל את המשימה.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;ביטול</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;סגור</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>רגע אחד...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>המשימה נכשלה.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>להוסיף</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>לחץ כדי לבטל</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>פרטי שגיאה...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>הדיסק חסר.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>לזהות...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>אם האפשרות מנוטרלת, הקבצים שלך לא יהיה מוגן מפני כשלי כונן. אתה לפנות את שטח הדיסק שבו נעשה שימוש כדי לשמור על שכפול קובץ.
+
+באפשרותך גם לשנות את מספר העותקים זה יישמר של כל קובץ.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;בטל שכפול</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>באפשרותך להמשיך להשתמש הבריכה שלך בדרך כלל בזמן הקבצים המשוכפלת מתעדכנים ברקע.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>שינוי שכפול</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>אם מופעל, הקבצים שלך יישאר נגיש גם אם כשל בכונן קשיח יחיד כלשהו. משוכפלים קבצים תופסות פעמיים את כמות שטח הדיסק כקבצים שאינם משוכפלים.
+
+באפשרותך לבחור להגן על הקבצים שלך מפני כשל בכונן אחד או יותר בכל פעם, אך כתוצאה מכך כל קובץ יתפוס את זה הרבה יותר שטח דיסק.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;לאפשר שכפול</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>באפשרותך להמשיך להשתמש הבריכה שלך בדרך כלל בזמן קבצים משוכפלות ברקע.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>לאפשר שכפול</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>שכפול קובץ שומר את הקבצים שלך מפני כשלי כונן.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>תא כונן</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>תיק נסיעה</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>ניתן להתקין את הגרסה העדכנית ביותר של &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; לזיהוי דיסק מדויק יותר
+</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>עצה: באפשרותך גם לציין את 'מקרה' ואת 'ביי' של הכוננים שלך בסורק StableBit לזיהוי קל יותר.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>כדי לסייע לך לזהות באיזה דיסק חסר, באפשרותך לאותת כל הדיסקים המחוברים.
+
+במשך דקה אחת, זה יהיה להאיר את האורות גישה דיסק על כל הדיסקים המחובר כדי לסייע לך לזהות באיזה דיסק מנותקת.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>לזהות את הדיסק</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>מודל</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>אין מידע ספציפי זמין על הדיסק הזה.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;פינג דיסקים כולם קשורים במשך דקה אחת</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>. זה מה שאנו יודעים על הדיסק החסר:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>משפט תפוג בעוד ימים {0:0.0}</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>שגיאה בהגדרת הפעלת מזהה</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>דיסק משוכללת איגוד יישומים עם שכפול קובץ.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_איזון...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>מאגר בקובץ _duplication...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>לא נמדד</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>_Duplication בזמן אמת</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>Re-_measure...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>הוספת...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>שגיאה הוספת כונן</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>מחכה להוסיף...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>כפולות: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>אחרים: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Unduplicated: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>שמיש עבור שכפול: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>הוספת כונן...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>איזון...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>חישוב...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>לשנות כפילות...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>שכפול...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>שכפול לא עקבי.</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>חלוקת הקובץ אופטימלית.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>מדידת...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>הדיסק החסר</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>אין בריכה</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>בריכת הארגון</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>מרענן...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>הסרת כונן...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>עובד...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>יצירת מאגר חדש</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>שגיאת הסרת כונן</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>הסרת...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>מחכה כדי להסיר...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>מדידת הבריכה יתחיל ברקע, ייתכן לא יופעל באופן מיידי אם הבריכה היא עסוקה במשהו אחר. באפשרותך להמשיך להשתמש במחשב בדרך כלל בזמן יתבצע, לרבות סגירתו.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>למדוד מחדש</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;למדוד מחדש</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>זה מחדש למדוד את התוכן של הבריכה ולחשב מחדש את הסטטיסטיקה בריכה.</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_רשת קלט/פלט דחיפה</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>קריאה _striping</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>רשת קלט/פלט דחיפה קובע סדר עדיפויות של בקשות קריאה שבאים מן הרשת כל בקשות אחרות, כאשר הדיסק הוא עסוק.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>פיזור קריאה יקרא הקבצים המשוכפלת מ כוננים קשיחים מרובים בו זמנית על מנת לשפר את ביצועי הקריאה.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>הקבצים המשוכפלת נכתבות דיסקים מרובים בו זמנית, במקביל. אם האפשרות אינה מסומנת, קבצים ישוכפלו בלילה.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>אין אפשרות להגדיר אפשרויות בריכה.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>סטטיסטיקה לא הושלמו.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>שכפול קבצים מופעלת על מאגר זה.
+קבצים נצרבים דיסקים מרובים בו זמנית.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>שכפול קבצים מופעלת על מאגר זה.
+קבצים לא נכתבים לדיסקים מרובים בו זמנית.
+קבצים ישוכפלו בלילה.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>עליך להוסיף דיסק נוסף למאגר.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>אין די דיסקים בבריכה לשמור עותקים כפולים של קבצים.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;לפתור באופן אוטומטי אי-התאמות שכפול קובץ על-ידי מחיקת החלקים קובץ בוגרים</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;שכפל כעת</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>אתה יכול לקבל DrivePool למחוק באופן אוטומטי את החלק קבצים ישנים יותר כדי לפתור התנגשות זו.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>קובץ משוכפל אחד או יותר יש חלקים קובץ המאולתר. סיבה אחת למה זה יכול לקרות היא אם משהו השתנה החלקים של הקובץ המשוכפלת ישירות על הדיסק במאגר, לא מתחת למים. הדבר יכול להתרחש גם אם דיסק השתנה בזמן שהיה חסר מן הבריכה.
+
+ניתן לפתור את ההתנגשויות באופן ידני על-ידי מחיקת החלק קובץ שגוי מן הדיסקים במאגר.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>קבצים:
+
+</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>שכפול אזהרות</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>סגור כל תוכנית אחרת העשויות להשתמש קבצים אלה על הבריכה, שכפול לרוץ שוב.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>שינוי רמת שכפול קובץ דורש רמה מסוימת של גישה לקובץ זה. אם תוכנית אחרת יש את הקובץ פתוח לכתיבה, אין אפשרות לשנות את רמת שכפול של קובץ זה.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>אין די שטח דיסק השאיר על שפת הבריכה לשמור עותקים כפולים של כל הקבצים.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;דלג על קבצים הנמצאים בשימוש</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>היו בעיות בודק, שכפול או מנקה קובץ אחד או יותר על שפת הבריכה.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>אזהרות...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>לאזן מחדש</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>בדוק שנית את שכפול</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>הסימון עבור גירסאות חדשות</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>לנהל את הרישיון...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>נא להודיע על הדיסק החסר</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>אין אפשרות להגדיר אפשרויות</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>התחברות לשירות</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>לקבל רשיון-לידה...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>רישיון הניסיון או להזין קוד הרשיון שלך קמעונאית</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>רישיון הניסיון חדש עבור גירסה זו או להזין קוד הרשיון שלך קמעונאית</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>מתחבר...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>הרישיון שלך היא גרסה שונה של המוצר. רישיון הניסיון או להזין קוד הרשיון שלך קמעונאיות עבור גירסה זו.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>הרישיון שלך צריך להעביר למחשב זה</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>אין לך רישיון בתוקף</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>רגע אחד</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>הפעלת שירות</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>להתחיל העברת רשיון...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>רישיון הניסיון שלך פגה. לקנות רישיון הקמעונאי כדי להמשיך להשתמש במוצר זה.</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>לביקור עזרה:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>אין אפשרות לאמת את הרישיון שלך.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>השירות רקע נכשל להתחיל, נסה להפעיל מחדש את המחשב.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>אם אתה נתקל בבעיה בעת ניסיון להתחבר אל השירות רקע, נסה להפעיל מחדש את המחשב.
+
+אם אתה נתקל בבעיה בעת ניסיון להתחבר אל מחשב מרוחק, ייתכן מאחורי חומת אש.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>טמפרטורה</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>שטח: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>שימוש בחלל: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>ביי</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>התיק</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>המשפט פג</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>הפעל רישיון הקמעונאי</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>מחדש בדיקת כפילות על שפת הבריכה יוודא המספר הנכון של עותקים קיימים עבור כל קובץ על שפת הבריכה.
+אפשרות זו שימושית גם אם אין לך שכפול מופעלת מאגר זה.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>איזון מחדש את הבריכה תסדר מחדש במאגר הקבצים מאוחסנים עבור כל אחד מהדיסקים בודדים.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>הודע באמצעות _email...</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>הזן כתובות דואר אלקטרוני אחד או יותר המופרדים באמצעות פסיקים: (להשאיר ריק, לחץ על אישור כדי לבטל הודעות דוא ל)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>הודע באמצעות המייל</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>הוספת דיסק לבריכה לא למחוק או לשנות את הקבצים הקיימים בדיסק זה.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>כדי ליצור מאגר חדש, לחבר דיסק חדש למערכת.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>עליך להפעיל מחדש את המחשב.</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>איזון</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>קביעת תצורה של קובץ השמה וארגון</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>איזון...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>אין הגדרות</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>בחר איזון plug-in</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_ביטול</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_שמור</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>אפשרויות מילוי נסיעה</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>. רוקן את הכונן עד:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>לא לנסות למלא לעיל כונן:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>או שטח פנוי רב הזה:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} gb של שטח פנוי</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0} % מלא</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>נסיעה ריקון אפשרויות</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>לדוגמה, הגדרת 90% מלא / 100 gb של שטח פנוי בכונן 2 טרה-בתים ימנע כונן הממולא מעבר 1.9 טרה-בתים (100 ג'יגה-בתים ללא תשלום).</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>גבול אפשרויות כונן</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>משוכפלים</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Unduplicated</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>איפוס שאיזון שנבחר כברירת המחדל</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>איפוס הכל לברירות המחדל</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>שגיאה בעת איפוס הגדרות איזון להגדרות ברירת המחדל שלהן.</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>מגבלת מיקום הקבצים המשוכפלת ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>הקבצים המשוכפלת היעד לאיזון מחדש</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>מגבלת מיקום הקובץ ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>קובץ היעד לאיזון מחדש</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>מגבלת מיקום קובץ unduplicated ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Unduplicated קבצי היעד לאיזון מחדש</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>לאפשר איזון יישומי plug-in כדי לאלץ את איזון מיידי.</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>איזון אוטומטי - מפעיל</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>איזון אוטומטי</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>כוחות מאזנים</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>איזון כל יום:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>איזון מיד</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>לא מתאזנות באופן אוטומטי</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>אם היחס שיווי המשקל יורד מתחת:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>או אם לפחות כל כך הרבה נתונים יועברו:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>לא לעתים קרובות יותר מאשר כל:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>קובץ פינוי</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>להעביר את הקבצים המשוכפלת מתוך כוננים פגומים</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>להעביר את הקבצים המשוכפלת מתוך כוננים עם אזהרות S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>להעביר את הקבצים המשוכפלת האו ם מתוך כוננים פגומים</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>להעביר את הקבצים המשוכפלת האו ם מתוך כוננים עם אזהרות S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>לא לנסות למקם קבצים חדשים בכוננים אשר חרגו טמפרטורה מקסימלית שלהם</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>בקרת טמפרטורה</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>אלא אם כן כל הכוננים האחרים מלאים הזה</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>העומס הזה פועל יחד עם הסורק StableBit (גירסה 2.2 ומעלה).</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>לאפשר מיקום הקבצים בכוננים פונו אם הכוננים האחרים מלאים הזה:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>לעולם לא. תרשה מיקום הקבצים בכוננים פונו</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>אפשרויות הפינוי</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>שגיאה בעת שמירת הגדרות</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>לאפשר שליטה _ remote</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>ניהול מחשב אחר רץ StableBit DrivePool.</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(גירסה חדשה יותר)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(גרסה ישנה יותר)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0} ' שאינו מורשה להתחבר למחשב זה. עליך להיות מנהל מערכת במחשב היעד כדי לנהל אותו.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>חזרה אל ' {0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>להפעיל שלט רחוק</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>הרשיון במחשב המרוחק אינו מופעל. להיכנס לתוך המכונה באופן מקומי כדי להפעיל את הרשיון.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>אימות StableBit DrivePool</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>הזינו את אישורי המשתמש</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>היכנס כמשתמש אחר...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>טוען...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>אין אפשרות למנות את התיקיה.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>קובץ _protection</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_שכפול תיקיה...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>ביצועים</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>לשנות כפילות...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>שכפול תיקיה</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>הצג תיקיות _ מוסתרת</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>שכפול קבצים מאוחר יותר (הסרת הכונן מהר יותר).</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>כוח הסרת כונן פגום (קבצים בלתי קריא יישארו בדיסק).</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>הסר את האפשרויות</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>לחץ כדי להציג אפשרויות הסרה.
+SHIFT + לחיצה להתחיל הסרת עם אפשרויות ברירת המחדל.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>היעד המשוכפלת לאיזון מחדש</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>מגבלת מיקום קובץ חדש</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>מגבלת מיקום הקבצים המשוכפלת חדש</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>היעד לאיזון מחדש</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>האו ם המשוכפלת היעד לאיזון מחדש</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>מגבלת מיקום הקבצים המשוכפלת האו ם חדש</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>הרחב &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>דיסקים</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>ביצועים</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>אין דיסק פעילות הבריכה.</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>דיסק פעילות: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>קריאה</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>כתיבה</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>ביצועי דיסק</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>קלט/פלט דחיפה</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>בריכת בביצועים</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>לקרוא את פיזור</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>דיסק מחזיק</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>דיסק מתגים</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>לשניה</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>הדיסק הכי טוב</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>ניהול מאגר</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool אין אפשרות לטעון חלק מהנתונים מגיע מהמחשב המרוחק.
+
+אם המחשב המרוחק יש תוספים מותקנים, נא ודא כי באותו בתוספים מותקנים במחשב זה גם כן.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>ראה פרטים...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool אין אפשרות לטעון חלק מהנתונים מגיע מהמחשב המרוחק.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>בדיקת...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>בעלי מוגבלויות</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>קבצים לא משוכפלות בתיקיה זו.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>מופעל</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>קבצים משוכפלות בתיקיה זו.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>יורשים</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>תיקיה זו יורשות רמתו שכפול מתיקיית האב.
+שינוי רמת שכפול של תיקיית האב ישפיע זה ועל כל שאר המשנה היורשים לרמה זו כפילות.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>כמה עותקים אתה רוצה לשמור כל קובץ?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>מספר העותקים</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>להגן על הקבצים שלי כשל בכונן אחד או יותר בכל פעם.</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>רענון</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>עובד על: {0} /... {1} כעת עיבוד: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>עובד על הבריכה כולה. {0} כעת עיבוד: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;שינוי שכפול</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>בריכה לא יכול להיות נגיש.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>מאגר זה כולל אין אות הכונן שהוקצתה לו וזה לא חלק לבריכה אחרת.
+בריכות ללא אות כונן לא יכול להיות נגישים ליישומים אחרים.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>לגבי הבריכה החדשה שלך:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>הבריכה החדשה שלך מתחיל ריק.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>רק להעתיק קבצים מסוימים אליו ולהשתמש בו כמו בכל כונן אחר.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>אם אתה אי פעם לפעול מתוך שטח דיסק, לאחר מכן רק להוסיף דיסק נוסף למאגר.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>קבצים קיימים לא נוספים באופן אוטומטי למאגר.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>יצרת רק הבריכה הראשונה שלך.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(זה מופיע רק פעם אחת)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>מזל טוב!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>מיין לפי</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>על-ידי כמות הדיסק שטח _Free</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>על ידי _Name</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>על-ידי דיסק % שטח _Used</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>לחץ כדי להסיר את הדיסק החסר.</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>הודעות</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>שטח: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>דיסק</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>שאינם איחדו</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>איחדו</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>הפעל רישום זמן _boot...</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_פתרון בעיות</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>רישום זמן אתחול תיצור קבצי יומן הרישום המפרט את פעילות הפעלה של StableBit DrivePool. קבצי יומן הרישום אינם נכתבים לקריאה אנושית (WPP), יש להגיש תמיכה טכנית עבור ניתוח.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;לאפשר</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>שגיאה ברישום רישום זמן אתחול</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>לאפשר רישום זמן אתחול</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>אירעה שגיאה בהפעלת אתחול מחדש</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>כוח לסגור יישומים לא מגיבים</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>אתחול מחדש</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>אתחול מחדש &amp; מאוחר יותר</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>אתחול מחדש &amp; עכשיו</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>אתחל את המחשב עכשיו כדי ליצור קובץ יומן רישום.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>באתחול מחדש הבא, ייווצר קובץ יומן רישום ב- {0}.</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>הפעל קובץ מערכת _logging</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>קובץ מערכת הרישום תיצור קבצי יומן הרישום המפרט את פעילות מערכת קבצים שינוים של StableBit DrivePool.
+קבצי יומן הרישום אינם נכתבים לקריאה אנושית (WPP), יש להגיש תמיכה טכנית עבור ניתוח.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>מיקום קובץ</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>תיקיות</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>כללים</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>בחר תיקיה או כלל.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>להוסיף</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>הזן את תבנית הקובץ תואם כלל. ? תואם לכל תו יחיד, * תואם אפס או יותר תווים.
+
+לדוגמה: "*. txt" או "\Users\*\Downloads\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>עריכה</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>אפשרויות מיקום קובץ</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>אף פעם לא מאפשרים קבצים להיות ממוקם על דיסקים אחרים כלשהם.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>כל הקבצים התואמים לכלל זה יאוחסן בכוננים שנבחרו.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>גלישה</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>לאפשר שמירת קבצים ימוקמו על דיסקים אחרים אם כל הדיסקים הנבחרים מלאים הזה:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>דפוס יכול להיות ריק.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>כלל עם דפוס זה כבר קיים.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>רענון</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>הצג מוסתרת</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>כללי איזון מיקום הקובץ צריך להיות מיושם.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>איזון יישומי plug-in כבוד קובץ מיקום כללי.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>כאשר אפשרות זו מסומנת, איזון יישומי plug-in לא יפרו מגבלות כללי מיקום הקובץ.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>אלא אם כן להיות מרוקנת את הכונן.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>הגדרות מיקום קובץ</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>מיקום קובץ כללים לכבד קבצים בזמן אמת הצבת הגבולות שהציב את איזון יישומי plug-in.</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>כוחות מאזנים אחד או יותר ניתן להגדיר מגבלות מיקום קבצים בזמן אמת על אחד או יותר של הדיסקים שלך (לדוגמה, כאשר שאיזון סורק StableBit מפנה דיסקים אחד או יותר). כאשר זו מסומנת, מיקום קובץ החוקים לא יפרו הגבולות האלה.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>הגדרות יישום plug-in</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>לא היתה אפשרות להעביר קבצים כדי לספק להעביר חוקים מיקום הקובץ ({0}) במהלך האחרון איזון.</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>שכפול: {0} ({1: #, 0} B.)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>גודל: {0} ({1: #, 0} B.)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} חינם</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>{0} ({# 1:0,} ב) לא היתה אפשרות להעביר כי לא היתה אפשרות למצוא יעד מתאימים. ודא שיש לך די שטח דיסק כדי לספק את הכללים מיקום הקובץ שלך כי הם אינם מתנגשים עם הגדרות איזון אחרות.</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_איפוס כל הגדרות...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>זה יאפס הגדרות וכל יישום מצב ברירת המחדל, כולל ההגדרות איזון. לא תשפיע את הגדרות שכפול או הנתונים במאגר.
+
+StableBit DrivePool השירות יופעל מחדש, בריכות שלך ונמצא שהוא בגובה וחזרנו עקביות.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>שגיאה איפוס הגדרות</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>איפוס כל הגדרות</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>איפוס</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>איפוס כל הגדרות appliaction של המדינה יישום ברירת המחדל?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>להגדיל את עדיפות</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>אין אפשרות להגדיר את העדיפות</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>כוננים חדשים</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>כאשר כונן חדש מתווסף לבריכה, הקבצים התואמים לכלל יוצבו באותו כונן.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>למקסם</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>מזעור</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>הדוא ל שלך הבדיקה נשלח "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>בדיקת אימיילים נשלחים באופן מיידי, אבל זה עלול לקחת כמה דקות על הדואר האלקטרוני כדי להפיץ. אם אתה לא מקבל את הדואר האלקטרוני לבדיקה, בדוק את תיקיית דואר זבל שלך, זה עשוי עברו סינון על-ידי מסנן דואר הזבל שלך.
+
+כל הודעות דוא ל מ- StableBit DrivePool יכיל את הטקסט "[StableBit DrivePool]" את הנושא.</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>לא היתה אפשרות לשלוח את המייל מבחן ל "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;הסתר</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>שלח דוא ל מבחן</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;לא</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>חכה בבקשה...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;שלח דוא ל מבחן</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>הדואר האלקטרוני לבדיקה נשלח בהצלחה ל "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>ברצונך לשלוח הודעת דואר אלקטרוני ניסיון כדי "{0}"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>לעקוף את מסנני מערכת קבצים</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>בתוך סדר כדי לשפר את הביצועים של הבריכה, מערכת הקבצים "מסננים" הפעילים בכל כונן בודד הוא חלק הבריכה יכול להיות עקף. לדוגמה, אם יש לך סורק אנטי וירוס בזמן אמת מותקן, פעולה זו תמנע כפול או שינה סריקה של הקובץ אותו כשהוא נקרא מן הבריכה. הקובץ פעם אחת בלבד ייסרקו.
+
+זה יכול לגרום בעיות תאימות עם תוכנת desiged כדי לבצע על המניפולציה נתונים לטוס. תוכנת מניעת כפילויות נתונים המחפשים לשלב בין טיפול אלטרנטיבי ונוחות 2 דוגמאות תוכנה כזו תוכנת הצפנת נתונים.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(תוקן)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} לפני</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>התעלם מהכל</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>משוב:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>שגיאה מבטל פריט</value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* בהתבסס על גודל הקובץ הכולל. נעשה שימוש בשטח דיסק בפועל עשוי להיות קטן.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>מדידת {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>מדידת {0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>מערכת קבצים</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>כוח קרוב קבצים unduplicated פתוחים על הכונן הוסר.</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>פרטים...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>קובץ בשימוש</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>לסגור את היישומים שיש קבצים אלה פתח, נסה להסיר את הכונן שוב.
+לחלופין, בחרו ' כוח קרוב קבצים פתוחים unduplicated..."בתיבת הדו-שיח הסרת כונן כדי לאלץ את קבצים אלה כדי לסגור.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>שם התהליך</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>קבצים מסוימים נמצאים בשימוש ולא ניתן להעבירה</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>קבצים בשימוש</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[לא נמצא]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_סגור</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_ודא לאחר העתקה</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>אחרי הקובץ מועתק עקב תהליך רקע מסוימים, כמו שכפול איזון או רקע של הקובץ, זה להיות לקרוא פנימה, לבדוק עקביות. הפיכת אפשרות זו לזמינה תהיה השפעה שלילית על הביצועים של פעולות עותק של הקבצים רקע.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>בטל את הסימון של כל האחרים</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>סמן את כל</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>. זהו כונן ענן.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>כונן זה נוצר על ידי StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>גלילה אוטומטית</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>שירות יומן הרישום</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>שירות מעקב פעילה</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>רמות המעקב</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>שגיאה בעת שמירת נתונים.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>שירות מעקב תיצור קבצי יומן הרישום המפרט את פעילות השירות של StableBit DrivePool.
+קבצי יומן הרישום נכתבות לקריאה אנושית, ניתן להגיש תמיכה טכנית עבור ניתוח. קבצי יומן הרישום ייכתבו: %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>קובע את רמת יומן מעקב עבור כל מודול.
+הודעות של יומן ייכתבו בקבצי יומן ב- %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>יומן שירות...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>מחכה...</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>זה בריכה מורכבת כולה ענן כוננים.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>זה בריכה.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>לא חוקי בכלל.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} הכולל שימוש בחלל ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>זהו דיסק שלא הוקצה.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>זהו דיסק ריק.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>דיסק פיזי: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>בריכה לא נמצא.</value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>אות הכונן...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>להחליף באות הכונן.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>להקצות אות כונן...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>להסיר את אות הכונן...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>שגיאה החלפת באות הכונן.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>אין אות הכונן שהוקצתה.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;להקצות</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>הקצאת אות כונן הבריכה שלך הופך לגלויים סייר הקבצים של Windows ומאפשר יישומי Windows ביותר אחרים לגשת לתוכן שלה.
+
+Windows כולל הכולל מספר מצומצם של אותיות הכוננים הזמינים. ברגע כולם משמשים, בריכות החדשה לא יהיו אותיות הכונן שהוקצו להם באופן אוטומטי.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>להקצות אות כונן</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>להקצות אות כונן הבריכה שלך.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;הסר</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>להסיר את אות הכונן מן הבריכה שלך הופך בלתי נראה סייר הקבצים של Windows ויישומים ביותר אחרות של Windows.
+
+Windows כולל הכולל מספר מצומצם של אותיות הכוננים הזמינים. ברגע כולם משמשים, בריכות החדשה לא יהיו אותיות הכונן שהוקצו להם באופן אוטומטי.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>הסר כוח</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>להסיר אות כונן</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>הסר את אות הכונן הבריכה שלך.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_כוח בדיקת עדכונים עכשיו...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>עדכונים</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>בדיקת עדכונים תוזמנה. תקבל הודעה בקרוב אם נמצאו עדכונים.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>על ידי מספר הדיסק _Physical</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>. זהו כונן חיצוני.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>10s ממוצע: /s {0}</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>שיעור פתוח קובץ: {0: #, 0} /s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>קבצים פתוחים</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>בדיקה חוזרת של _duplication...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>בדיקה חוזרת של כפילות</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;בדוק מחדש</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>זה יהיה כוח בדיקה חוזרת של שכפול קובץ על-פני כל הבריכות.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>להוסיף "{0}" מאגר חדש.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>להוסיף "{0}" אספנו את "{1}".</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>חישוב יחס איזון של "{0}".</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>לחשב את התיקיה שכפול נתונים סטטיסטיים על "{0}".</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>לשנות כפילות של בריכת "{0}" x {1: #, 0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>לשנות כפילות של "{0}" על "{1}" x {2: #, 0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>בדוק שכפול עקביות תג על "{0}".</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>בדוק בריכה מטא-נתונים שכפול עקביות על "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>הבטח עקביות שכפול קובץ על "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>הבטח עקביות שכפול קובץ על "{0}" ב- "{1}".</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>למדוד בריכת "{0}".</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>נכשל מדידה:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- נתיב: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- דיסק במאגר: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- שגיאה: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>הסר את הדיסק החסר "{0}" בריכה "{1}".</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>לשלוח הודעת דיווח בדואר אלקטרוני מבחן "{0}".</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>שלח איתות ping בכל הדיסקים.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>חפש דיסקים חדשים במאגר.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>איזון בריכת "{0}".</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- להחיל כללים איזון.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- מיקום קובץ איזון.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>הסר "{0}" בריכה "{1}".</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>להקצות אות כונן בריכה {0}.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>להסיר את אות הכונן ממאגר {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>המשימה נכשלה.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>המשימה הושלמה בהצלחה.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>אזהרה</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>מאמת מנהלי ההתקנים מופעל עבור CoveFS.sys. זה ניתן להשתמש בו רק למטרות בדיקה, עלולים לפגוע קשות בריכת בביצועים.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>להשלים</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>גירסה: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>נוצר: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[מרובים]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[מטה-נתונים]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0} ' אינה כתובת דוא ל חוקית.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>מאגר זה מהווה חלק הבריכה {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>כוח...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>אין אפשרות להפעיל את המשימה "{0}", האובייקט כבר לא בחנות.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>בריכה לא נמצא.</value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>שגיאה בטעינת רמות המעקב. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>עובד...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>מחכה...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>ארגומנטי שורת פקודה</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>יצירת מאגר חדש</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>בריכת הקודם</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>על-ידי כונן _ Letter</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>עדכן זמין</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>עדכון זמין ל-StableBit DrivePool (גירסה {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_עדכונים...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>אין אפשרות להפעיל שלט רחוק: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>שגיאת שלט רחוק</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>סינכרון עם אפליקציות אחרות המחוברות לחשבון StableBit Cloud שלך.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>הודעות דואר אלקטרוני של StableBit Cloud זמינות. פונקציונליות דואר אלקטרוני מקומית אינה זמינה.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(יכול לכפות איזון מיידי)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(יכול להגדיר מגבלות מיקום קבצים)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>פינוי הקבצים מתחיל מיד לאחר שזוהתה בעיה.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>סינכרון הגדרות</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_אוטומטי</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_חשוך</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>_contrast גבוהה</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_אור</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>איפוס הגדרות איזון לברירת המחדל שלהן?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>אתה בטוח?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>קרוב</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>ימים</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>שעות</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>דקות</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>ריק</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>השאר עותקי קבצים במאגר בכונן שהוסר (הסרה בארכיון).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>כבוי</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>צוינו ערכים לא חוקיים.</value>
+  </data>
+</root>

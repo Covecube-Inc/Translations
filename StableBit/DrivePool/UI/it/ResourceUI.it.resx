@@ -1,0 +1,1603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataInfo_CantCancelTask" xml:space="preserve">
+    <value>Non è possibile annullare il task.</value>
+  </data>
+  <data name="DataInfo_CantStartTask" xml:space="preserve">
+    <value>Non è possibile avviare il task.</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>&amp;Annulla</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>&amp;Chiudi</value>
+  </data>
+  <data name="Dialog_PleaseWait" xml:space="preserve">
+    <value>Un attimo...</value>
+  </data>
+  <data name="Dialog_TaskFailed" xml:space="preserve">
+    <value>Task fallito.</value>
+  </data>
+  <data name="DiskItem_Add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="DiskItem_ClickToCancel" xml:space="preserve">
+    <value>Fai click per annullare</value>
+  </data>
+  <data name="DiskItem_Details" xml:space="preserve">
+    <value>Dettagli errore...</value>
+  </data>
+  <data name="DiskItem_DiskMissing" xml:space="preserve">
+    <value>Disco mancante.</value>
+  </data>
+  <data name="DiskItem_Identify" xml:space="preserve">
+    <value>Identificazione...</value>
+  </data>
+  <data name="DiskItem_Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
+    <value>Se disattivata, i tuoi file non saranno protetti da errori nei drive. Rioterrai lo spazio su disco usato per mantenere i file duplicati.
+
+Puoi anche cambiare il numero di copie che verranno tenute per ogni file.</value>
+  </data>
+  <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
+    <value>&amp;Disattiva duplicazione</value>
+  </data>
+  <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
+    <value>Puoi continuare a usare la tua unione manualmente mentre i file duplicati vengono aggiornati in background.</value>
+  </data>
+  <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
+    <value>Modifica duplicazione</value>
+  </data>
+  <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
+    <value>Se attivato, i tuoi file resteranno accessibili anche se ogni singolo drive dà errore. I file duplicati richiedono il doppio dello spazio su disco rispetto a quelli non duplicati.
+
+Puoi scegliere di proteggere i tuoi file da più di un errore alla volta dei drive, ma questo comporterà come i file richiederanno quello spazio in più su disco.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
+    <value>&amp;Attiva duplicazione</value>
+  </data>
+  <data name="DuplicationDialog_Enable_FooterText" xml:space="preserve">
+    <value>Puoi continuare a usare l'unione normalmente mentre i file vengono duplicati in background.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_InstructionText" xml:space="preserve">
+    <value>Attiva duplicazione</value>
+  </data>
+  <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
+    <value>La duplicazione dei file protegge i tuoi file da errori nei drive.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
+    <value>Drive bay</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Case" xml:space="preserve">
+    <value>Case del drive</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_install_Scanner" xml:space="preserve">
+    <value>Puoi installare l'ultima versione dello &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; 
+per una più precisa identificazione dei dischi</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
+    <value>Suggerimento: puoi pure specificare il 'Case' e la 'Bay' dei tuoi drive all'interno dello StableBit Scanner per un'identificazione più facile.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
+    <value>Per aiutarti a identificare quale dei dischi è mancante, è possibile eseguire il ping di tutti i dischi collegati.
+
+Per un minuto, questo accenderà la luce di accesso del disco su tutti i dischi collegati per scoprire quale disco è scollegato.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Identify_disk" xml:space="preserve">
+    <value>Identifica disco</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Model" xml:space="preserve">
+    <value>Modello</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_No_info" xml:space="preserve">
+    <value>Non sono disponibili informazioni specifiche per questo disco.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Ping_disks" xml:space="preserve">
+    <value>&amp;Esegui il ping di tutti i dischi collegati per un minuto</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_Serial" xml:space="preserve">
+    <value>Numero di serie</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_This_is_what_we_know" xml:space="preserve">
+    <value>Questo è quello che sappiamo sul disco mancante:</value>
+  </data>
+  <data name="LicenseDataInfo_GetRetailLicenseText_Trial_license_with__0_0_0__days_remaining__Click_here_to_purchase_a_retail_license_" xml:space="preserve">
+    <value>IL PERIODO DI PROVA SCADE TRA {0:0.0} GIORNI</value>
+  </data>
+  <data name="LicenseDataInfo_SetActivationId_Error_setting_activation_ID__" xml:space="preserve">
+    <value>Errore impostazione ID di attivazione.</value>
+  </data>
+  <data name="LicenseProfile_Create_A_drive_pooling_application" xml:space="preserve">
+    <value>Un'applicazione allo stato dell'arte per disk pooling con duplicazione file.</value>
+  </data>
+  <data name="Main_Balancing" xml:space="preserve">
+    <value>_Bilanciamento...</value>
+  </data>
+  <data name="Main_FileDuplication" xml:space="preserve">
+    <value>_Duplicazione file del pool...</value>
+  </data>
+  <data name="Main_NOT_MEASURED" xml:space="preserve">
+    <value>NON MISURATO</value>
+  </data>
+  <data name="Main_RealTimeDuplication" xml:space="preserve">
+    <value>_Duplicazione in tempo reale</value>
+  </data>
+  <data name="Main_ReMeasure" xml:space="preserve">
+    <value>Ri_misura...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_Adding" xml:space="preserve">
+    <value>Installazione in corso...</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_ErrorAdding" xml:space="preserve">
+    <value>Errore durante l'installazione del drive</value>
+  </data>
+  <data name="NonPooledVolumeDataInfo_WaitingToAdd" xml:space="preserve">
+    <value>In attesa di aggiungere...</value>
+  </data>
+  <data name="PoolChartDataInfo_Duplicated" xml:space="preserve">
+    <value>Duplicati: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Other" xml:space="preserve">
+    <value>Altro: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_Unduplicated" xml:space="preserve">
+    <value>Non duplicati: {0}</value>
+  </data>
+  <data name="PoolChartDataInfo_UnusableForDuplication" xml:space="preserve">
+    <value>Inutilizzabili per la duplicazione: {0}</value>
+  </data>
+  <data name="PoolConditionDataInfo_AddingDrive" xml:space="preserve">
+    <value>Aggiunta drive...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Balancing" xml:space="preserve">
+    <value>Bilanciamento...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Calculating" xml:space="preserve">
+    <value>Calcolo in corso...</value>
+  </data>
+  <data name="PoolConditionDataInfo_ChangeDuplication" xml:space="preserve">
+    <value>Modifica duplicazione...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplicating" xml:space="preserve">
+    <value>Duplicazione...</value>
+  </data>
+  <data name="PoolConditionDataInfo_DuplicationInconsistent" xml:space="preserve">
+    <value>Duplicazione non coerente.</value>
+  </data>
+  <data name="PoolConditionDataInfo_FileDistributionNotOptimal" xml:space="preserve">
+    <value>Distribuzione file non ottimale.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Measuring" xml:space="preserve">
+    <value>Misurazione...</value>
+  </data>
+  <data name="PoolConditionDataInfo_MissingDisk" xml:space="preserve">
+    <value>Disco mancante</value>
+  </data>
+  <data name="PoolConditionDataInfo_NoPool" xml:space="preserve">
+    <value>Nessun pool</value>
+  </data>
+  <data name="PoolConditionDataInfo_PoolOrganization" xml:space="preserve">
+    <value>Organizzazione Pool</value>
+  </data>
+  <data name="PoolConditionDataInfo_Refreshing" xml:space="preserve">
+    <value>Aggiornamento...</value>
+  </data>
+  <data name="PoolConditionDataInfo_RemovingDrive" xml:space="preserve">
+    <value>Rimozione unità...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Working" xml:space="preserve">
+    <value>In corso...</value>
+  </data>
+  <data name="PoolDataInfo_CreateNewPool" xml:space="preserve">
+    <value>Crea nuovo pool</value>
+  </data>
+  <data name="PooledDiskDataInfo_ErrorRemoving" xml:space="preserve">
+    <value>Errore durante la rimozione</value>
+  </data>
+  <data name="PooledDiskDataInfo_Removing" xml:space="preserve">
+    <value>Rimozione...</value>
+  </data>
+  <data name="PooledDiskDataInfo_WaitingToRemove" xml:space="preserve">
+    <value>In attesa di rimuovere...</value>
+  </data>
+  <data name="ReMeasureDialog_DetailsExpandedText" xml:space="preserve">
+    <value>La misurazione del pool partirà in background e potrebbe non partire immediatamente se il pool è occupato in un'altra operazione. Nel frattempo puoi continuare a usare il computer normalmente o anche spegnerlo.</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasure" xml:space="preserve">
+    <value>Misura di nuovo</value>
+  </data>
+  <data name="ReMeasureDialog_ReMeasureButton" xml:space="preserve">
+    <value>&amp;Misura di nuovo</value>
+  </data>
+  <data name="ReMeasureDialog_Text" xml:space="preserve">
+    <value>Questa operazione misurerà di nuovo il contenuto del pool e ne ricalcolerà le statistiche</value>
+  </data>
+  <data name="Main_NetworkIoBoost" xml:space="preserve">
+    <value>_Boost I/O del network</value>
+  </data>
+  <data name="Main_ReadStriping" xml:space="preserve">
+    <value>_Striping lettura</value>
+  </data>
+  <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
+    <value>Il boost I/O del network assegna la priorità alle richieste di lettura 
+che provengono dal network al di sopra di tutte le altre richieste, quando il disco è occupato.</value>
+  </data>
+  <data name="Main_ReadStripingTooltip2" xml:space="preserve">
+    <value>Lo striping in lettura attiverà la lettura contemporanea di file duplicati su diverse unità allo scopo di migliorare le prestazioni di lettura.</value>
+  </data>
+  <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
+    <value>I file duplicati vengono scritti su dischi multipli contemporaneamente, in parallelo. Se l'opzione è disabilitata, i file verranno duplicate nelle ore notturne.</value>
+  </data>
+  <data name="PoolOptionsDataInfo_UnableToSetPoolOptions" xml:space="preserve">
+    <value>Impossibile modificare le opzioni del pool.</value>
+  </data>
+  <data name="MeasuringTag_Tooltip" xml:space="preserve">
+    <value>Le statistiche sono incomplete.</value>
+  </data>
+  <data name="DuplicatedPoolTag_RealTimeTooltip" xml:space="preserve">
+    <value>Duplicazione file attivata in questa unione.
+I file verranno scritti su dischi multipli nello stesso momento.</value>
+  </data>
+  <data name="DuplicatedPoolTag_NonRealTimeTooltip" xml:space="preserve">
+    <value>Duplicazione file attivata in questa unione.
+I file non verranno scritti su dischi multipli nello stesso momento.
+I file verranno duiplicati di notte.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk" xml:space="preserve">
+    <value>Devi aggiungere un altro disco all'unione.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AddAnotherDisk_Expanded" xml:space="preserve">
+    <value>Non ci sono abbastanza dischi nell'unione per mantenere copie duplicate dei file.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
+    <value>&amp;Risolvi automaticamente le discrepanze nella duplicazione del file eliminando le parti più vecchie del file</value>
+  </data>
+  <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
+    <value>&amp;Duplica adesso</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts" xml:space="preserve">
+    <value>Puoi far sì che DrivePool elimini automaticamente le parti più vecchie del file in modo da risolvere questo conflitto.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_FileConflicts_Expanded" xml:space="preserve">
+    <value>Uno o più file duplicati hanno parti non combacianti. Questo può accadere se è cambiato qualcosa nelle parti del file duplicato direttamente nel disco unito e non attraverso l'unione. Può succedere anche se un disco è stato modificato mentre non era parte dell'unione.
+
+Il conflitto può essere risolto manualmente cancellando il file sbagliato dai dischi uniti.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
+    <value>File:
+
+</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InstructionText" xml:space="preserve">
+    <value>Avvertenze sulla duplicazione</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse" xml:space="preserve">
+    <value>Chiudere qualsiasi altro programma che potrebbe utilizzare questi file sul pool ed eseguire di nuovo la duplicazione.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_InUse_Expanded" xml:space="preserve">
+    <value>La modifica del livello di duplicazione di un file richiede un certo livello di accesso a quel file. Se un altro programma ha aperto il file per la scrittura, il livello di duplicazione di tale file non può essere modificato.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_NotEnoughDiskSpace" xml:space="preserve">
+    <value>Non è disponibile spazio nel pool sufficiente per mantenere copie duplicate di tutti i file.</value>
+  </data>
+  <data name="DuplicationWarningsDialog_SkipInUse" xml:space="preserve">
+    <value>&amp;Salta i file in uso</value>
+  </data>
+  <data name="DuplicationWarningsDialog_Text" xml:space="preserve">
+    <value>Ci sono stati problemi di verifica, duplicazione o pulizia di uno o più file nel pool.</value>
+  </data>
+  <data name="PoolOrganization_Warnings" xml:space="preserve">
+    <value>Avvertenze...</value>
+  </data>
+  <data name="PoolOrganization_ReBalance" xml:space="preserve">
+    <value>Riequilibra</value>
+  </data>
+  <data name="PoolOrganization_ReCheckDuplication" xml:space="preserve">
+    <value>Controlla di nuovo la duplicazione</value>
+  </data>
+  <data name="Main_CheckForNewVersions" xml:space="preserve">
+    <value>Verifica la presenza di nuove versioni</value>
+  </data>
+  <data name="Main_ManageLicense" xml:space="preserve">
+    <value>Gestione licenza...</value>
+  </data>
+  <data name="Main_NotifyOnMissingDisk" xml:space="preserve">
+    <value>Notifica se manca il disco</value>
+  </data>
+  <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
+    <value>Impossibile impostare le opzioni</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
+    <value>Connessione al servizio...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetLicense" xml:space="preserve">
+    <value>Ottieni una licenza...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialEnterRetail" xml:space="preserve">
+    <value>Ottieni una licenza di prova o inserisci il codice della tua licenza</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_GetTrialForNewVersion" xml:space="preserve">
+    <value>Ottieni una nuova licenza di prova per questa versione o inserisci il codice della tua licenza</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_Initializing" xml:space="preserve">
+    <value>Connessione...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_LicenseForDifferentVersionGetTrialEnterRetail" xml:space="preserve">
+    <value>La tua licenza è valida per una versione diversa del prodotto. Procurati una licenza di prova o inserisci il codice della licenza per questa versione.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NeedsTransfer" xml:space="preserve">
+    <value>Devi trasferire la licenza su questo computer</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_NoValidLicense" xml:space="preserve">
+    <value>Non hai una licenza valida</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_OneMoment" xml:space="preserve">
+    <value>Un momento</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartingService" xml:space="preserve">
+    <value>Avvio del servizio</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_StartTransfer" xml:space="preserve">
+    <value>Trasferimento licenza...</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_TrialExpired" xml:space="preserve">
+    <value>La tua licenza di prova è scaduta. Acquista una licenza completa per continuare a usare il prodotto</value>
+  </data>
+  <data name="Boot_ForHelpVisit" xml:space="preserve">
+    <value>Per assistenza visita:</value>
+  </data>
+  <data name="Boot_LicenseCannotBeValidated" xml:space="preserve">
+    <value>Non è stato possibile validare la tua licenza.</value>
+  </data>
+  <data name="Boot_ServiceFailed" xml:space="preserve">
+    <value>Il servizio in background non è riuscito a partire, prova a riavviare il computer.</value>
+  </data>
+  <data name="Boot_TryToRestart" xml:space="preserve">
+    <value>Se stai avendo problemi a connetterti al servizio in background, prova a riavviare il computer.
+
+Se stai avendo problemi a connetterti al computer remoto, potrebbe trovarsi dietro un firewall.</value>
+  </data>
+  <data name="Main_Settings" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SerialNumber" xml:space="preserve">
+    <value>Numero di serie</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Temperature" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_FreeSpace" xml:space="preserve">
+    <value>Spazio libero: {0}</value>
+  </data>
+  <data name="NonPooledVolumeToolTipDataInfo_UsedSpace" xml:space="preserve">
+    <value>Spazio utilizzato: {0}</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Bay" xml:space="preserve">
+    <value>Vano unità</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_Case" xml:space="preserve">
+    <value>Case</value>
+  </data>
+  <data name="LicenseDataInfo_TrialExpired" xml:space="preserve">
+    <value>PERIODO DI PROVA SCADUTO</value>
+  </data>
+  <data name="TrialBar_ActivateRetailLicense" xml:space="preserve">
+    <value>Attiva una licenza</value>
+  </data>
+  <data name="PoolOrganization_DuplicateToolTip" xml:space="preserve">
+    <value>La verifica dei file duplicati nel pool verificherà la presenza nel pool del numero corretto di copie di ciascun file. 
+Questo può essere utile anche se non hai abilitato la duplicazione in questo pool.</value>
+  </data>
+  <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
+    <value>Il riequilibrio del pool riorganizzerà i files presenti su ciascun disco.</value>
+  </data>
+  <data name="Main_NotifyByEmail" xml:space="preserve">
+    <value>Notifica via_e-mail.</value>
+  </data>
+  <data name="OptionsDataInfo_EnterEmail" xml:space="preserve">
+    <value>Inserisci uno o più indirizzi e-mail separati da una virgola:
+
+  (Lascia in bianco e fai clic su OK per disattivare le notifiche via e-mail)</value>
+  </data>
+  <data name="OptionsDataInfo_NotifyByemail" xml:space="preserve">
+    <value>Notifica via e-mail</value>
+  </data>
+  <data name="Main_CreatePoolInfo" xml:space="preserve">
+    <value>L'aggiunta di un disco a un pool non cancella o modifica i file che esistono su tale disco.</value>
+  </data>
+  <data name="Main_NoDisksInfo" xml:space="preserve">
+    <value>Per creare un nuovo pool, collega un nuovo disco al sistema.</value>
+  </data>
+  <data name="Boot_RestartComputer" xml:space="preserve">
+    <value>Devi riavviare il tuo computer.</value>
+  </data>
+  <data name="Balancing_Balancing" xml:space="preserve">
+    <value>Bilanciamento</value>
+  </data>
+  <data name="Balancing_Configure_file_balancing" xml:space="preserve">
+    <value>Configura posizionamento file e organizzazione</value>
+  </data>
+  <data name="OverviewDisks_Balancing___" xml:space="preserve">
+    <value>Bilanciamento...</value>
+  </data>
+  <data name="Balancing_No_settings" xml:space="preserve">
+    <value>Nessuna impostazione</value>
+  </data>
+  <data name="Balancing_Select_a_balancing_plug_in" xml:space="preserve">
+    <value>Seleziona un plug-in di bilanciamento</value>
+  </data>
+  <data name="Balancing__Cancel" xml:space="preserve">
+    <value>_Annulla</value>
+  </data>
+  <data name="Balancing__Save" xml:space="preserve">
+    <value>_Salva</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_fill_options" xml:space="preserve">
+    <value>Opzioni per riempimento del drive</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
+    <value>Svuota il drive fino a:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
+    <value>Cerca di non riempire un drive sopra:</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
+    <value>O questa quantità di spazio libero:</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
+    <value>{0} GB liberi</value>
+  </data>
+  <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
+    <value>{0}% pieno</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
+    <value>Opzioni per svuotamento del drive</value>
+  </data>
+  <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
+    <value>Per esempio, impostare 90% pieno / 100 GB liberi su un drive da 2TB eviterà che un drive venga riempito oltre gli 1,9 TB (100 GB liberi).</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
+    <value>Opzioni per il limite del drive</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Duplicated" xml:space="preserve">
+    <value>Duplicato</value>
+  </data>
+  <data name="Balancing_DriveLimitSettings_Unduplicated" xml:space="preserve">
+    <value>Sduplicato</value>
+  </data>
+  <data name="Balancing_Reset_to_default" xml:space="preserve">
+    <value>Reimpostare il bilanciamento selezionato ai valori di default</value>
+  </data>
+  <data name="Balancing_Reset_all_to_default" xml:space="preserve">
+    <value>Reimpostare tutto ai valori di default</value>
+  </data>
+  <data name="Balancing_Error_resetting_to_default" xml:space="preserve">
+    <value>Errore nel reimpostare le impostazioni di bilanciamento a quelle di default</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_limit" xml:space="preserve">
+    <value>Limite di posizionamento di file duplicati ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Duplicated_target" xml:space="preserve">
+    <value>Target file duplicati per ribilanciamento</value>
+  </data>
+  <data name="OverviewDisks_limit" xml:space="preserve">
+    <value>Limite di posizionamento file ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_target" xml:space="preserve">
+    <value>Target file per ribilanciamento</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_limit" xml:space="preserve">
+    <value>Limite di posizionamento di file non duplicati ({0:0.0}%)</value>
+  </data>
+  <data name="OverviewDisks_Unduplicated_target" xml:space="preserve">
+    <value>Target file non duplicati per ribilanciamento</value>
+  </data>
+  <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
+    <value>Permette ai plug-in di bilanciamento per forzare il bilanciamento immediata.</value>
+  </data>
+  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+    <value>Bilanciamento automatico - Interruttori</value>
+  </data>
+  <data name="Balancing_Automatic_balancing" xml:space="preserve">
+    <value>Bilanciamento automatico</value>
+  </data>
+  <data name="Balancing_Balancers" xml:space="preserve">
+    <value>Plug-in di bilanciamento</value>
+  </data>
+  <data name="Balancing_Balance_every_day_at" xml:space="preserve">
+    <value>Equilibra ogni giorno alle:</value>
+  </data>
+  <data name="Balancing_Balance_immediately" xml:space="preserve">
+    <value>Equilibra immediatamente</value>
+  </data>
+  <data name="Balancing_Do_not_balance_automatically" xml:space="preserve">
+    <value>Non equilibrare automaticamente</value>
+  </data>
+  <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
+    <value>Se il valore di bilanciamento scende sotto il:</value>
+  </data>
+  <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
+    <value>O se è necessario spostare almeno questa quantità di dati:</value>
+  </data>
+  <data name="Balancing_Settings" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="Balancing_Not_more_often_than" xml:space="preserve">
+    <value>Non più spesso di:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
+    <value>Evacuazione file</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
+    <value>Sposta file duplicati dai drive danneggiati</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
+    <value>Sposta file duplicati dai drive con avvisi S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
+    <value>Sposta file non duplicati dai drive danneggiati</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
+    <value>Sposta file non duplicati dai drive con avvisi S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
+    <value>Cerca di non posizionare nuovi file su drive che abbiano superato la propria temperatura massima</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
+    <value>Controllo temperatura</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Unless_others_are_full" xml:space="preserve">
+    <value>A meno che tutti gli altri drive siano così pieni</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
+    <value>Questo plug-in di bilanciamento funziona con lo StableBit Scanner (versione 2.2 e superiore).</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
+    <value>Consenti posizionamento file su drive evacuati se gli altri drive sono così pieni:</value>
+  </data>
+  <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
+    <value>Mai consentire posizionamento file su drive evacuati</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Options" xml:space="preserve">
+    <value>Opzioni di evacuazione</value>
+  </data>
+  <data name="SettingsControl_Commit_Error_saving_settings" xml:space="preserve">
+    <value>Errore durante il salvataggio</value>
+  </data>
+  <data name="Main_AllowRemoteControl" xml:space="preserve">
+    <value>Consenti controllo _remoto</value>
+  </data>
+  <data name="ComputerBar_ToolTip" xml:space="preserve">
+    <value>Gestisci un computer diverso su cui giri StableBit DrivePool.</value>
+  </data>
+  <data name="DetectedEndpointComputer_NewerVersion" xml:space="preserve">
+    <value>(versione più nuova)</value>
+  </data>
+  <data name="DetectedEndpointComputer_OlderVersion" xml:space="preserve">
+    <value>(versione più vecchia)</value>
+  </data>
+  <data name="Boot_InvalidCredentials" xml:space="preserve">
+    <value>'{0}' non è autorizzato a collegarsi a questo computer. Devi essere un Amministratore sul computer destinatario per poterlo gestire.</value>
+  </data>
+  <data name="ComputersDataInfo_ConnectToLocal" xml:space="preserve">
+    <value>Torna a  '{0}'</value>
+  </data>
+  <data name="ComputerBar_TurnOnRemoteControl" xml:space="preserve">
+    <value>Attiva il Controllo remoto</value>
+  </data>
+  <data name="Boot_InvalidRemoteLicense" xml:space="preserve">
+    <value>La licenza sull'apparecchio remoto non è attivata. Effettua il login nell'apparecchio localmente per attivare la licenza.</value>
+  </data>
+  <data name="Boot_DrivePoolAuthentication" xml:space="preserve">
+    <value>Autenticazione StableBit DrivePool</value>
+  </data>
+  <data name="Boot_EnterCredentials" xml:space="preserve">
+    <value>Per favore inserisci le credenziali utente</value>
+  </data>
+  <data name="Boot_LogInAs" xml:space="preserve">
+    <value>Effettua il login come un altro utente...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_Loading" xml:space="preserve">
+    <value>Caricamento...</value>
+  </data>
+  <data name="FolderDuplicationDataInfo_UnableToEnumerate" xml:space="preserve">
+    <value>Impossibile enumerare la cartella.</value>
+  </data>
+  <data name="Main_FileProtection" xml:space="preserve">
+    <value>_Protezione file</value>
+  </data>
+  <data name="Main_FolderDuplication" xml:space="preserve">
+    <value>_Duplicazione cartella...</value>
+  </data>
+  <data name="Main_Performance" xml:space="preserve">
+    <value>Prestazioni</value>
+  </data>
+  <data name="PerFolderDuplication_ChangeDuplication" xml:space="preserve">
+    <value>Modifica duplicazione...</value>
+  </data>
+  <data name="PerFolderDuplication_Title" xml:space="preserve">
+    <value>Duplicazione cartelle</value>
+  </data>
+  <data name="PerFolderDuplication_ShowHiddenFolders" xml:space="preserve">
+    <value>Mostra_cartelle nascoste</value>
+  </data>
+  <data name="RemoveOptions_DuplicateLater" xml:space="preserve">
+    <value>Duplica i file più tardi (eliminazione rapida delle unità).</value>
+  </data>
+  <data name="RemoveOptions_ForceRemoval" xml:space="preserve">
+    <value>Eliminazione forzata delle unità danneggiate (i file non leggibili resteranno sul disco).</value>
+  </data>
+  <data name="RemoveOptions_Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="RemoveOptions_Title" xml:space="preserve">
+    <value>Elimina le opzioni</value>
+  </data>
+  <data name="DiskItem_ClickToRemove" xml:space="preserve">
+    <value>Fai click per mostrare le opzioni di rimozione.
+SHIFT+Click per iniziare a rimuovere con le opzioni di default.</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_DuplicatedTargetToolTip" xml:space="preserve">
+    <value>Oggetto duplicato da riequilibrare</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_LimitToolTip" xml:space="preserve">
+    <value>Nuovo limite di allocazione dei file</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
+    <value>Nuovo limite di allocazione dei file duplicati</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
+    <value>Oggetto da riequilibrare</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnduplicatedTargetToolTip" xml:space="preserve">
+    <value>Oggetto non duplicato da riequilibrare</value>
+  </data>
+  <data name="PooledDiskSizeMarkersDataInfo_UnprotectedLimitToolTip" xml:space="preserve">
+    <value>Nuovo limite di allocazione dei file non duplicati</value>
+  </data>
+  <data name="PoolOrganization_Expand" xml:space="preserve">
+    <value>Espandi &gt;</value>
+  </data>
+  <data name="PoolSelectionBar_Disks" xml:space="preserve">
+    <value>Dischi</value>
+  </data>
+  <data name="PoolSelectionBar_Performance" xml:space="preserve">
+    <value>Prestazioni</value>
+  </data>
+  <data name="FilePerformance_FilePerformance" xml:space="preserve">
+    <value>Nessuna attività dei dischi nel pool.</value>
+  </data>
+  <data name="PerformanceItem_DiskActivity" xml:space="preserve">
+    <value>Attività disco: {0:0.0} %</value>
+  </data>
+  <data name="PerformanceItem_Read" xml:space="preserve">
+    <value>Leggi</value>
+  </data>
+  <data name="PerformanceItem_Write" xml:space="preserve">
+    <value>Scrivi</value>
+  </data>
+  <data name="Performance_FilePerformance" xml:space="preserve">
+    <value>Prestazioni del disco</value>
+  </data>
+  <data name="Performance_IoPrioritization" xml:space="preserve">
+    <value>Boost I/O</value>
+  </data>
+  <data name="Performance_PoolPerformance" xml:space="preserve">
+    <value>Prestazioni del pool</value>
+  </data>
+  <data name="Performance_ReadStriping" xml:space="preserve">
+    <value>Striping lettura</value>
+  </data>
+  <data name="Performance_DiskHolds" xml:space="preserve">
+    <value>Il disco contiene</value>
+  </data>
+  <data name="Performance_DiskSwitches" xml:space="preserve">
+    <value>Interruttori disco</value>
+  </data>
+  <data name="Performance_PerSecond" xml:space="preserve">
+    <value>al secondo</value>
+  </data>
+  <data name="Performance_Optimal" xml:space="preserve">
+    <value>Disco migliore</value>
+  </data>
+  <data name="PoolSelectionBar_PoolOptions2" xml:space="preserve">
+    <value>Gestione pool</value>
+  </data>
+  <data name="Boot_SerializationError" xml:space="preserve">
+    <value>StableBit DrivePool non riesce a caricare alcuni dei dati provenienti dal computer remoto.
+
+Se il computer remoto ha dei plug-in installati, per favore assicurati che gli stessi plug.in siano installati anche su questo computer.</value>
+  </data>
+  <data name="Boot_SeeDetails" xml:space="preserve">
+    <value>Vedi i dettagli...</value>
+  </data>
+  <data name="Boot_SerializationErrorTitle" xml:space="preserve">
+    <value>StableBit DrivePool non riesce a caricare alcuni dei dati provenienti dal computer remoto.</value>
+  </data>
+  <data name="PoolConditionDataInfo_Checking" xml:space="preserve">
+    <value>Verifica in corso...</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled" xml:space="preserve">
+    <value>Disabilitato</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationDisabled_Tooltip" xml:space="preserve">
+    <value>I file non sono duplicati in questa cartella.</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="PerFolderDuplication_DuplicationEnabled_Tooltip" xml:space="preserve">
+    <value>I file sono duplicati in questa cartella.</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting" xml:space="preserve">
+    <value>Eredita</value>
+  </data>
+  <data name="PerFolderDuplication_Inheriting_Tooltip" xml:space="preserve">
+    <value>Questa cartella sta ereditando il proprio livello di duplicazione dalla cartella principale. L'eventuale modifica del livello di duplicazione della cartella principale influenzerà sia la cartella che tutte le altre sottocartelle che stanno ereditando tale livello di duplicazione.</value>
+  </data>
+  <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
+    <value>Quante copie vorresti tenere di ogni file?</value>
+  </data>
+  <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
+    <value>Numero di copie</value>
+  </data>
+  <data name="DuplicationDialog_Enable_ProtectMe" xml:space="preserve">
+    <value>Protegge i miei file da più di un errore alla volta nei drive.</value>
+  </data>
+  <data name="PerFolderDuplication_Refresh_Tooltip" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPath" xml:space="preserve">
+    <value>In funzione: {0}\...{1} Processando: {2}</value>
+  </data>
+  <data name="PoolConditionDataInfo_Duplication_WorkingOnPool" xml:space="preserve">
+    <value>In funzione nel pool.{0}Processando: {1}</value>
+  </data>
+  <data name="DuplicationDialog_Change_ChangeDuplication" xml:space="preserve">
+    <value>&amp;Modifica duplicazione</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssigned2" xml:space="preserve">
+    <value>Il pool potrebbe non essere accessibile.</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLettersAssignedTooltip2" xml:space="preserve">
+    <value>A questo pool non è stata assegnata una lettera di unità e non è parte di un altro pool.
+I pool senza lettera di unità potrebbero non essere accessibili da altre applicazioni.</value>
+  </data>
+  <data name="FirstPoolCreated_About" xml:space="preserve">
+    <value>Informazioni sul tuo nuovo pool:</value>
+  </data>
+  <data name="FirstPoolCreated_About1" xml:space="preserve">
+    <value>Il tuo nuovo pool parte vuoto.</value>
+  </data>
+  <data name="FirstPoolCreated_About2" xml:space="preserve">
+    <value>Copiaci alcuni file e utilizzalo come qualsiasi altra unità disco.</value>
+  </data>
+  <data name="FirstPoolCreated_About3" xml:space="preserve">
+    <value>Se mai ti capitasse di finire a corto di spazio su disco, basterebbe aggiungere un altro disco al pool.</value>
+  </data>
+  <data name="FirstPoolCreated_About4_2" xml:space="preserve">
+    <value>I file esistenti non vengono automaticamente aggiunti al pool.</value>
+  </data>
+  <data name="FirstPoolCreated_Created" xml:space="preserve">
+    <value>Hai appena creato il tuo primo pool.</value>
+  </data>
+  <data name="FirstPoolCreated_Footer" xml:space="preserve">
+    <value>(questo viene visualizzato solo una volta)</value>
+  </data>
+  <data name="FirstPoolCreated_Title" xml:space="preserve">
+    <value>Congratulazioni!</value>
+  </data>
+  <data name="Global_SortBy" xml:space="preserve">
+    <value>Ordina per</value>
+  </data>
+  <data name="DiskGroupSort_ByFree" xml:space="preserve">
+    <value>Per quantità di spazio_libero su disco</value>
+  </data>
+  <data name="DiskGroupSort_ByName" xml:space="preserve">
+    <value>Per_nome</value>
+  </data>
+  <data name="DiskGroupSort_ByPercentUsed" xml:space="preserve">
+    <value>Per % di spazio su disco_usato</value>
+  </data>
+  <data name="DiskItem_ClickToRemoveMissing" xml:space="preserve">
+    <value>Fai click per rimuovere il disco mancante.</value>
+  </data>
+  <data name="Main_Notifications" xml:space="preserve">
+    <value>Notifiche</value>
+  </data>
+  <data name="PoolChartDataInfo_FreeSpace" xml:space="preserve">
+    <value>Spazio libero: {0}</value>
+  </data>
+  <data name="DataInfo_Disk" xml:space="preserve">
+    <value>Disco</value>
+  </data>
+  <data name="DataInfo_NonPooled" xml:space="preserve">
+    <value>Non in pool</value>
+  </data>
+  <data name="DataInfo_Pooled" xml:space="preserve">
+    <value>In pool</value>
+  </data>
+  <data name="Main_EnableBootTimeLogging" xml:space="preserve">
+    <value>Abilita registrazione all'_avvio</value>
+  </data>
+  <data name="Main_Troubleshooting" xml:space="preserve">
+    <value>_Risoluzione dei problemi</value>
+  </data>
+  <data name="BootTimeLogging_DetailsExpandedText" xml:space="preserve">
+    <value>La registrazione all'avvio creerà dei file di log contenenti i dettagli relativi all'attività di StableBit DrivePool. I file di log non sono scritti in un formato direttamente interpretabile (WPP) e vanno inviati al servizio di assistenza tecnica per l'analisi.</value>
+  </data>
+  <data name="BootTimeLogging_Enable" xml:space="preserve">
+    <value>&amp;Abilita</value>
+  </data>
+  <data name="BootTimeLogging_Error" xml:space="preserve">
+    <value>Si è verificato un errore durante la registrazione all'avvio</value>
+  </data>
+  <data name="BootTimeLogging_InstructionText" xml:space="preserve">
+    <value>Attiva la registrazione all'avvio</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Error" xml:space="preserve">
+    <value>Errore in fase di riavvio</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_ForceClose" xml:space="preserve">
+    <value>Chiusura forzata delle applicazioni che non rispondono</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_InstructionText" xml:space="preserve">
+    <value>Riavvia</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Later" xml:space="preserve">
+    <value>Riavvia &amp;più tardi</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_RebootNow" xml:space="preserve">
+    <value>Riavvia &amp;subito</value>
+  </data>
+  <data name="BootTimeLogging_Reboot_Text" xml:space="preserve">
+    <value>Riavvia subito il computer per creare un file di log.</value>
+  </data>
+  <data name="BootTimeLogging_Text" xml:space="preserve">
+    <value>Al prossimo riavvio verrà creato un file di log in {0}.</value>
+  </data>
+  <data name="Main_EnableFileSystemTracing" xml:space="preserve">
+    <value>Abilita _registrazione del file system</value>
+  </data>
+  <data name="Main_EnableFileSystemTracingToolTip" xml:space="preserve">
+    <value>La registrazione del file system creerà dei file di log contenenti dettagli relativi all'attività di pooling del file system di StableBit DrivePool.
+I file di log non sono scritti in un formato direttamente interpretabile (WPP) e vanno inviati al
+servizio di assistenza tecnica per l'analisi.</value>
+  </data>
+  <data name="Balancing_FilePlacement" xml:space="preserve">
+    <value>Posizionamento file</value>
+  </data>
+  <data name="Balancing_Folders" xml:space="preserve">
+    <value>Cartelle</value>
+  </data>
+  <data name="Balancing_Rules" xml:space="preserve">
+    <value>Regole</value>
+  </data>
+  <data name="Balancing_Select_Folder" xml:space="preserve">
+    <value>Seleziona una cartella o regola.</value>
+  </data>
+  <data name="Balancing_AddRule" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="Balancing_AddRule_Content" xml:space="preserve">
+    <value>Specifica una maschera di ricerca. "?" equivale a un singolo carattere qualsiasi, "*" corrisponde a zero o più caratteri.
+
+Per esempio, "*.txt" oppure "\Utenti\*\Download"\*"</value>
+  </data>
+  <data name="Balancing_Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="Balancing_Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings" xml:space="preserve">
+    <value>Opzioni di posizionamento dei file</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NoOverflow" xml:space="preserve">
+    <value>Non permettere mai che i file siano posizionati su altri dischi.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
+    <value>Qualsiasi file corrispondente a questa regola sarà archiviato sulle unità selezionate.</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
+    <value>Overflow</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
+    <value>Consenti che i file siano posizionati su altri dischi se tutti i dischi selezionati hanno raggiunto questo livello di riempimento:</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
+    <value>La maschera non può essere vuota.</value>
+  </data>
+  <data name="Balancing_FilePlacement_PatternExists" xml:space="preserve">
+    <value>Esiste già una regola con questa maschera.</value>
+  </data>
+  <data name="Balancing_Refresh" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="Balancing_ShowHidden" xml:space="preserve">
+    <value>Mostra nascosti</value>
+  </data>
+  <data name="DiskItem_FileTag" xml:space="preserve">
+    <value>Le regole di bilanciamento del posizionamento dei file devono essere applicate.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules" xml:space="preserve">
+    <value>I plug-in di bilanciamento rispettano le regole di posizionamento dei file.</value>
+  </data>
+  <data name="Balancing_BalancersRespectFileRules_Tooltip" xml:space="preserve">
+    <value>Quando selezionati, i plug-in di bilanciamento non violeranno i limiti specificati dalle regole di posizionamento dei file.</value>
+  </data>
+  <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
+    <value>A meno che l'unità non sia in fase di svuotamento.</value>
+  </data>
+  <data name="Balancing_FileRuleSettings" xml:space="preserve">
+    <value>Impostazioni di posizionamento dei file</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits" xml:space="preserve">
+    <value>Le regole di posizionamento dei file rispettano i limiti di posizionamento dei file in tempo reale impostati dai plug-in di bilanciamento.</value>
+  </data>
+  <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
+    <value>Uno o più servizi di bilanciamento possono impostare limiti di posizionamento dei file in tempo reale su uno o più dei tuoi dischi (per esempio,
+quando il servizio di bilanciamento StableBit Scanner sta evacuando uno o più dischi).
+Se selezionato, le regole
+di posizionamento dei file non violeranno tali limiti.</value>
+  </data>
+  <data name="Balancing_PluginSettings" xml:space="preserve">
+    <value>Impostazioni plug-in</value>
+  </data>
+  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+    <value>Non è stato possibile spostare i file per soddisfare le regole di posizionamento dei file ({0}) durante l'ultimo passaggio di bilanciamento.</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
+    <value>Duplicazione: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="FolderDuplicationStatisticsDataInfo_Size" xml:space="preserve">
+    <value>Dimensione: {0} ({1:#,0} B)</value>
+  </data>
+  <data name="Global_Name_FreeSpace" xml:space="preserve">
+    <value>{0} - {1} libero</value>
+  </data>
+  <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
+    <value>Impossibile spostare {0} ({1:0,#} B) perché non è stato possibile trovare una destinazione adatta. Assicurati di disporre di spazio su disco sufficiente a soddisfare le regole di posizionamento dei file e che queste non siano in conflitto con altre impostazioni di bilanciamento.</value>
+  </data>
+  <data name="Main_ResetAllSettings" xml:space="preserve">
+    <value>_Ripristina tutte le impostazioni...</value>
+  </data>
+  <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
+    <value>Questo riporterà tutte le impostazioni e lo stato dell'applicazione alle impostazioni predefinite, incluse le impostazioni di bilanciamento. Non avrà effetto sulle impostazioni di duplicazione o sui dati nel pool.
+
+Il servizio StableBit DrivePool sarà riavviato e i tuoi pool saranno nuovamente misurati e controllati per verificarne la coerenza.</value>
+  </data>
+  <data name="ResetAllSettings_Error" xml:space="preserve">
+    <value>Si è verificato un errore durante il ripristino delle impostazioni</value>
+  </data>
+  <data name="ResetAllSettings_InstructionText" xml:space="preserve">
+    <value>Ripristina tutte le impostazioni</value>
+  </data>
+  <data name="ResetAllSettings_Reset" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="ResetAllSettings_Text" xml:space="preserve">
+    <value>Ripristino tutti i settaggi e lo stato delle applicazioni al loro valore iniziale ?</value>
+  </data>
+  <data name="PoolOrganization_Abort" xml:space="preserve">
+    <value>Interrompi</value>
+  </data>
+  <data name="PoolOrganization_IncreasePriority" xml:space="preserve">
+    <value>Aumenta priorità</value>
+  </data>
+  <data name="DataInfo_CantSetTaskPriority" xml:space="preserve">
+    <value>Impossibile impostare priorità</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrives" xml:space="preserve">
+    <value>Nuove unità</value>
+  </data>
+  <data name="Balancing_FilePlacement_Settings_NewDrivesRule" xml:space="preserve">
+    <value>Quando una nuova unità viene aggiunta al pool, i file che corrispondono a questa regola vengono posizionati su quella unità.</value>
+  </data>
+  <data name="Main_Maximize" xml:space="preserve">
+    <value>Massimizza</value>
+  </data>
+  <data name="Main_Minimize" xml:space="preserve">
+    <value>Minimizza</value>
+  </data>
+  <data name="EmailNotifications_Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SendTestEmailDialog_BeingSentTo" xml:space="preserve">
+    <value>La tua e-mail di prova verrà inviata a "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Details" xml:space="preserve">
+    <value>Le e-mail di prova vengono inviate istantaneamente, ma potrebbero volerci alcuni minuti prima che l'e-mail si propaghi. Se non dovessi ricevere l'e-mail di prova, controlla la tua cartella di posta indesiderata, perché potrebbe essere stata intercettata dal tuo filtro anti-spam.
+
+Tutte le e-mail provenienti da StableBit DrivePool contengono il testo  "[StableBit DrivePool]" nell'oggetto.</value>
+  </data>
+  <data name="SendTestEmailDialog_FailedSend" xml:space="preserve">
+    <value>Non è stato possibile inviare l'e-mail di prova a "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Hide" xml:space="preserve">
+    <value>&amp;Nascondi</value>
+  </data>
+  <data name="SendTestEmailDialog_Instructions" xml:space="preserve">
+    <value>Invia e-mail di prova</value>
+  </data>
+  <data name="SendTestEmailDialog_No" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="SendTestEmailDialog_PleaseWait" xml:space="preserve">
+    <value>Attendere prego...</value>
+  </data>
+  <data name="SendTestEmailDialog_SendTest" xml:space="preserve">
+    <value>&amp;Invia e-mail di prova</value>
+  </data>
+  <data name="SendTestEmailDialog_SuccessfullySent" xml:space="preserve">
+    <value>L'e-mail di prova è stata inviata a: "{0}".</value>
+  </data>
+  <data name="SendTestEmailDialog_Text" xml:space="preserve">
+    <value>Desideri inviare un'e-mail di prova a "{0}"?</value>
+  </data>
+  <data name="Main_BypassFilters" xml:space="preserve">
+    <value>Ignora filtri di file system</value>
+  </data>
+  <data name="Main_BypassFiltersTooltip" xml:space="preserve">
+    <value>Allo scopo di migliorare le prestazioni del pool è possibile ignorare eventuali filtri di file system attivi su ciascuna unità presente nel pool. Ad esempio, in presenza di uno scanner antivirus in tempo reale, questa opzione impedirebbe la scansione doppia o tripla dello stesso file quando vi si accede dal pool. Il file verrà analizzato solo una volta.
+
+Questo può comportare problemi di compatibilità con altro software che svolge manipolazione immediata di dati, come ad esempio software di deduplicazione o di crittografia dati.</value>
+  </data>
+  <data name="PoolChartDataInfo_Corrected" xml:space="preserve">
+    <value>(corretti)</value>
+  </data>
+  <data name="DateToAgoConverter_Format" xml:space="preserve">
+    <value>{0} fa</value>
+  </data>
+  <data name="NotificationPopup_Dismiss" xml:space="preserve">
+    <value>Ignora</value>
+  </data>
+  <data name="NotificationPopup_DismissAll" xml:space="preserve">
+    <value>Ignora tutto</value>
+  </data>
+  <data name="NotificationPopup_Feedback" xml:space="preserve">
+    <value>Feedback:</value>
+  </data>
+  <data name="Generic_None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="UserFeedback_ErrorDismissing" xml:space="preserve">
+    <value>Si è verificato un errore mentre l'oggetto veniva respinto </value>
+  </data>
+  <data name="PoolChartDataInfo_CapacityCorrectedInfo" xml:space="preserve">
+    <value>* Basato su dimensioni totali dei file. Lo spazio effettivamente utilizzato su disco potrebbe essere inferiore.</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip1" xml:space="preserve">
+    <value>Misurazione {0}: {1}</value>
+  </data>
+  <data name="PoolConditionDataInfo_MeasuringTooltip2" xml:space="preserve">
+    <value>Misurazione {0}...</value>
+  </data>
+  <data name="Main_FileSystem" xml:space="preserve">
+    <value>File system</value>
+  </data>
+  <data name="RemoveOptions_ForceClose" xml:space="preserve">
+    <value>Chiudi forzatamente ogni file non duplicato sul drive che stai rimuovendo</value>
+  </data>
+  <data name="Action_Details" xml:space="preserve">
+    <value>Dettagli...</value>
+  </data>
+  <data name="FilesInUseOnRemove_FileInUse" xml:space="preserve">
+    <value>File in utilizzo</value>
+  </data>
+  <data name="FilesInUseOnRemove_Info" xml:space="preserve">
+    <value>Chiudere le applicazioni che utilizzano attualmente questi file, quindi provare nuovamente a rimuovere l'unità.
+In alternativa, per forzare la chiusura dei file, selezionare "Chiudi forzatamente i file aperti non duplicati..." nella finestra di dialogo di rimozione dell'unità.</value>
+  </data>
+  <data name="FilesInUseOnRemove_ProcessName" xml:space="preserve">
+    <value>Nome processo</value>
+  </data>
+  <data name="FilesInUseOnRemove_SubTitle" xml:space="preserve">
+    <value>Alcuni file sono in utilizzo e non è possibile spostarli</value>
+  </data>
+  <data name="FilesInUseOnRemove_Title" xml:space="preserve">
+    <value>File in utilizzo</value>
+  </data>
+  <data name="General_NotFound" xml:space="preserve">
+    <value>[Non trovato]</value>
+  </data>
+  <data name="Generic_WpfButtonClose" xml:space="preserve">
+    <value>_Chiudi</value>
+  </data>
+  <data name="Main_VerifyAfterCopy" xml:space="preserve">
+    <value>_Verifica dopo la copia</value>
+  </data>
+  <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
+    <value>Un file, dopo essere stato copiato a causa di processi in background, ad esempio per bilanciamento file o duplicazione, verrà riletto e controllato per verificarne la coerenza. L'abilitazione di questa opzione avrà un impatto negativo sulle prestazioni di copia in background dei file.</value>
+  </data>
+  <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
+    <value>Deseleziona tutti gli altri</value>
+  </data>
+  <data name="Generic_CheckAll" xml:space="preserve">
+    <value>Controlla tutto</value>
+  </data>
+  <data name="DiskToolTipDictionary_CloudDrive" xml:space="preserve">
+    <value>Questa è un'unità cloud.</value>
+  </data>
+  <data name="IdentifyMissingDiskDialog_CloudDrive" xml:space="preserve">
+    <value>Questa unità è stata creata con StableBit CloudDrive.</value>
+  </data>
+  <data name="Console_AutoScroll" xml:space="preserve">
+    <value>Scorrimento automatico</value>
+  </data>
+  <data name="Console_ServiceLog" xml:space="preserve">
+    <value>Registro di servizio</value>
+  </data>
+  <data name="Console_ServiceTracingEnabled" xml:space="preserve">
+    <value>Traccia del servizio abilitata</value>
+  </data>
+  <data name="Console_TracingLevels" xml:space="preserve">
+    <value>Livelli di traccia</value>
+  </data>
+  <data name="General_ErrorSaving" xml:space="preserve">
+    <value>Errore durante il salvataggio dei dati.</value>
+  </data>
+  <data name="Main_EnableServiceTracingToolTip" xml:space="preserve">
+    <value>La traccia del servizio creerà dei file di log che registrano le attività di servizio di StableBit DrivePool. 
+I file di log sono in formato leggibile e possono essere inviati all'assistenza tecnica. I file di log vengono creati in: 
+%PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service</value>
+  </data>
+  <data name="Main_TracingToolTip" xml:space="preserve">
+    <value>Controlla i livelli di traccia di log per ciascun modulo. I messaggi di log vengono scritti su file di log in %PROGRAMDATA%\StableBit DrivePool\Service\Logs\Service.</value>
+  </data>
+  <data name="Main_ServiceLog" xml:space="preserve">
+    <value>Registro di servizio...</value>
+  </data>
+  <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
+    <value>Attesa... </value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
+    <value>Questo è un pool che consiste interamente di unità cloud.</value>
+  </data>
+  <data name="DiskToolTipDictionary_OtherPool" xml:space="preserve">
+    <value>Questo è un pool.</value>
+  </data>
+  <data name="Balancing_FilePlacement_InvalidRule" xml:space="preserve">
+    <value>Regola non valida.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>{0} spazio utilizzato totale ({1:0.0}%)</value>
+  </data>
+  <data name="NonPooledUnallocatedDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Questo disco non è allocato.</value>
+  </data>
+  <data name="NonPooledEmptyDiskToolTipDataInfo_SizeText" xml:space="preserve">
+    <value>Questo disco è vuoto.</value>
+  </data>
+  <data name="PooledDiskToolTipDataInfo_PhysicalDriveText" xml:space="preserve">
+    <value>Disco fisico: {0}</value>
+  </data>
+  <data name="Dialog_PoolNotFound" xml:space="preserve">
+    <value>Pool non trovato. </value>
+  </data>
+  <data name="Main_DriveLetter" xml:space="preserve">
+    <value>Lettera di unità...</value>
+  </data>
+  <data name="Main_DriveLetter_Tooltip" xml:space="preserve">
+    <value>Attiva assegnazione lettera di unità.</value>
+  </data>
+  <data name="PoolConditionDataInfo_AssigningDriveLetter" xml:space="preserve">
+    <value>Assegna lettera di unità...</value>
+  </data>
+  <data name="PoolConditionDataInfo_UnassigningDriveLetter" xml:space="preserve">
+    <value>Rimuovi lettera di unità...</value>
+  </data>
+  <data name="PoolSelectionBar_ErrorToggleDriveLetter" xml:space="preserve">
+    <value>Errore durante la commutazione dell'assegnazione della lettera di drive.
+</value>
+  </data>
+  <data name="PoolSelectionBar_NoDriveLetterToolTip" xml:space="preserve">
+    <value>Nessuna lettera disco assegnata.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Assign" xml:space="preserve">
+    <value>&amp;Assegna</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignDetails" xml:space="preserve">
+    <value>Assegnare una lettera di unità al tuo pool lo renderà visibile al'Esplora risorse di Windows, permettendo alla maggior parte delle applicazioni di Windows l'accesso ai contenuti.
+
+Windows dispone di una quantità limitata di lettere di unità. Una volta utilizzate tutte, ai nuovi pool non verrà assegnato automaticamente una lettera di unità.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignInstruction" xml:space="preserve">
+    <value>Assegna lettera di unità</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_AssignText" xml:space="preserve">
+    <value>Assegna una lettera di unità  al tuo pool.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_Remove" xml:space="preserve">
+    <value>&amp;Rimuovi</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveDetails" xml:space="preserve">
+    <value>La rimozione della lettera di unità dal tuo pool lo renderà invisibile all'Esplora risorse di Windows e alla maggior parte delle altre applicazioni di Windows.
+
+Windows dispone di una quantità limitata di lettere di unità. Una volta utilizzate tutte, ai nuovi pool non verrà assegnato automaticamente una lettera di unità.</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveForce" xml:space="preserve">
+    <value>Forza la rimozione
+</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveInstruction" xml:space="preserve">
+    <value>Rimuovi lettera di unità</value>
+  </data>
+  <data name="ToggleDriveLettersDialog_RemoveText" xml:space="preserve">
+    <value>Rimuovi la lettera di unità dal tuo pool.</value>
+  </data>
+  <data name="Main_ForceUpdateCheck" xml:space="preserve">
+    <value>_Forza il controllo immediato degli aggiornamenti...</value>
+  </data>
+  <data name="Main_Updates" xml:space="preserve">
+    <value>Aggiornamenti</value>
+  </data>
+  <data name="Options_ForcedUpdateCheck" xml:space="preserve">
+    <value>È stato fissato un controllo degli aggiornamenti. Se verranno trovati nuovi aggiornamenti se ne riceverà a breve una notifica.</value>
+  </data>
+  <data name="DiskGroupSort_ByDiskNumber" xml:space="preserve">
+    <value>Per Numero di disco _fisico</value>
+  </data>
+  <data name="DiskToolTipDictionary_ExternalDrive" xml:space="preserve">
+    <value>Questa è un'unità esterna.</value>
+  </data>
+  <data name="PerformanceItem_10SAverage" xml:space="preserve">
+    <value>media 10s: {0}/s</value>
+  </data>
+  <data name="PerformanceItem_FileOpenRate" xml:space="preserve">
+    <value>Rapporto apertura file: {0:#,0}/s</value>
+  </data>
+  <data name="PerformanceItem_OpenFiles" xml:space="preserve">
+    <value>File aperti</value>
+  </data>
+  <data name="Main_RecheckDuplication" xml:space="preserve">
+    <value>Ricontrolla _duplicazione...</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Instruction" xml:space="preserve">
+    <value>Ricontrolla la duplicazione</value>
+  </data>
+  <data name="RecheckDuplicationDialog_ReCheckButton" xml:space="preserve">
+    <value>&amp;Ricontrolla</value>
+  </data>
+  <data name="RecheckDuplicationDialog_Text" xml:space="preserve">
+    <value>Questa azione forzerà un nuovo controllo della duplicazione del file in tutti i pool.</value>
+  </data>
+  <data name="ModelConverter_AddToNewPool" xml:space="preserve">
+    <value>Aggiungi "{0}" a un nuovo pool.</value>
+  </data>
+  <data name="ModelConverter_AddToPool" xml:space="preserve">
+    <value>Aggiungi "{0}" al pool "{1}".</value>
+  </data>
+  <data name="ModelConverter_CalculateBalanceRatio" xml:space="preserve">
+    <value>Calcola il rapporto di bilanciamento per "{0}".</value>
+  </data>
+  <data name="ModelConverter_CalculateFolderDuplicationStatistics" xml:space="preserve">
+    <value>Calcola le statistiche di duplicazione cartella su "{0}".</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfPool" xml:space="preserve">
+    <value>Cambia la duplicazione del pool "{0}" a x{1:#,0}.</value>
+  </data>
+  <data name="ModelConverter_ChangeDuplicationOfOnTo" xml:space="preserve">
+    <value>Cambia la duplicazione di "{0}" su "{1}" a x{2:#,0}.</value>
+  </data>
+  <data name="ModelConverter_CheckDuplicationTagConsistencyOn" xml:space="preserve">
+    <value>Controlla la coerenza di tag di duplicazione su "{0}".</value>
+  </data>
+  <data name="ModelConverter_CheckPoolMetadataDuplicationConsistencyOn" xml:space="preserve">
+    <value>Controlla la coerenza di duplicazione metadati del pool su "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOn" xml:space="preserve">
+    <value>Verifica coerenza di duplicazione file su "{0}".</value>
+  </data>
+  <data name="ModelConverter_EnsureFileDuplicationConsistencyOnIn" xml:space="preserve">
+    <value>Verifica coerenza di duplicazione file su "{0}" in "{1}".</value>
+  </data>
+  <data name="ModelConverter_MeasurePool" xml:space="preserve">
+    <value>Misurazione pool "{0}".</value>
+  </data>
+  <data name="ModelConverter_FailedMeasuring" xml:space="preserve">
+    <value>Misurazione non riuscita:</value>
+  </data>
+  <data name="ModelConverter_Path" xml:space="preserve">
+    <value>- Percorso: {0}</value>
+  </data>
+  <data name="ModelConverter_PooledDisk" xml:space="preserve">
+    <value>- Dischi in pool: {0}</value>
+  </data>
+  <data name="ModelConverter_Error" xml:space="preserve">
+    <value>- Errore: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoveMissingDiskFromPool" xml:space="preserve">
+    <value>Rimuovi il disco mancante "{0}" dal pool "{1}".</value>
+  </data>
+  <data name="ModelConverter_SendTestEmail" xml:space="preserve">
+    <value>Invia un'email di prova di notifica a "{0}".</value>
+  </data>
+  <data name="ModelConverter_PingAllDisks" xml:space="preserve">
+    <value>Effettua il ping di tutti i dischi.</value>
+  </data>
+  <data name="ModelConverter_LookForNewPooledDisks" xml:space="preserve">
+    <value>Ricerca nuovi dischi in pool.</value>
+  </data>
+  <data name="ModelConverter_BalancePool" xml:space="preserve">
+    <value>Bilanciamento pool "{0}".</value>
+  </data>
+  <data name="ModelConverter_ApplyBalancingRules" xml:space="preserve">
+    <value>- Applica regole di bilanciamento.</value>
+  </data>
+  <data name="ModelConverter_BalanceFilePlacement" xml:space="preserve">
+    <value>- Bilancia collocazione file.</value>
+  </data>
+  <data name="ModelConverter_RemoveFromPool" xml:space="preserve">
+    <value>Rimuovi "{0}" dal pool "{1}".</value>
+  </data>
+  <data name="ModelConverter_AssignDriveLetterOnPool" xml:space="preserve">
+    <value>Assegna lettera di unità al pool {0}.</value>
+  </data>
+  <data name="ModelConverter_RemoveDriveLetterFromPool" xml:space="preserve">
+    <value>Rimuovi lettera di unità dal pool {0}.</value>
+  </data>
+  <data name="ModelConverter_TaskFailed" xml:space="preserve">
+    <value>Task fallito.</value>
+  </data>
+  <data name="ModelConverter_TaskCompletedSuccessfully" xml:space="preserve">
+    <value>Operazione riuscita.</value>
+  </data>
+  <data name="ModelConverter_Warning" xml:space="preserve">
+    <value>Attenzione</value>
+  </data>
+  <data name="ModelConverter_DriverVerifierEnabled" xml:space="preserve">
+    <value>Il verificatore di driver per CoveFS.sys è abilitato. Questa opzione andrebbe utilizzata esclusivamente a scopo di testing e inciderà molto negativamente sulle prestazioni del pool.</value>
+  </data>
+  <data name="ModelConverter_Error2" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="ModelConverter_Complete" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="BalancerDataInfo_Version" xml:space="preserve">
+    <value>Versione: </value>
+  </data>
+  <data name="BalancerDataInfo_Created" xml:space="preserve">
+    <value>Creato: </value>
+  </data>
+  <data name="FilePlacementRuleSetDataInfo_MULTIPLE" xml:space="preserve">
+    <value>[MULTIPLO]</value>
+  </data>
+  <data name="FolderDataInfo_METADATA" xml:space="preserve">
+    <value>[METADATI]</value>
+  </data>
+  <data name="OptionsDataInfo_NotAValidEmail" xml:space="preserve">
+    <value>"{0}" non è un indirizzo email valido.</value>
+  </data>
+  <data name="PoolDataInfo_ThisPoolIsPartOfPool" xml:space="preserve">
+    <value>Questo pool è parte del pool {0}</value>
+  </data>
+  <data name="ForceUnassignDriveLetterAction_Force" xml:space="preserve">
+    <value>Forza...</value>
+  </data>
+  <data name="TaskExtensions_CannotStartTask" xml:space="preserve">
+    <value>Impossibile avviare la funzione "{0}", l'oggetto non è più  nel negozio.</value>
+  </data>
+  <data name="ChangeDuplicationDialog_PoolNotFound" xml:space="preserve">
+    <value>Pool non trovato. </value>
+  </data>
+  <data name="Console_ErrorLoadingTracingLevels" xml:space="preserve">
+    <value>Errore durante il caricamento dei livelli di traccia. </value>
+  </data>
+  <data name="DiskItem_Working" xml:space="preserve">
+    <value>In corso...</value>
+  </data>
+  <data name="DiskItem_Waiting_to" xml:space="preserve">
+    <value>In attesa di...</value>
+  </data>
+  <data name="CommandLineArguments_CommandLineArguments" xml:space="preserve">
+    <value>Argomenti della riga di comando</value>
+  </data>
+  <data name="PoolSelectionBar_CreateNewPool" xml:space="preserve">
+    <value>Crea nuovo pool</value>
+  </data>
+  <data name="PoolSelectionBar_PreviousPool" xml:space="preserve">
+    <value>Pool precedente</value>
+  </data>
+  <data name="DiskGroupSort_ByDriveLetterName" xml:space="preserve">
+    <value>Dal Disco _Lettera</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailable" xml:space="preserve">
+    <value>Aggiornamento disponibile</value>
+  </data>
+  <data name="ModelConverter_UpdateAvailableText" xml:space="preserve">
+    <value>È disponibile un aggiornamento per StableBit DrivePool (versione {0}).</value>
+  </data>
+  <data name="Main_CloudUpdates" xml:space="preserve">
+    <value>_Aggiornamenti...</value>
+  </data>
+  <data name="ModelConverter_RemoteControlErrorText" xml:space="preserve">
+    <value>Impossibile accendere il telecomando: {0}</value>
+  </data>
+  <data name="ModelConverter_RemoteControlError" xml:space="preserve">
+    <value>Errore del telecomando</value>
+  </data>
+  <data name="CloudTip_SyncApps" xml:space="preserve">
+    <value>Sincronizzazione con altre app collegate al tuo account StableBit Cloud.</value>
+  </data>
+  <data name="OptionsDataInfo_CloudEmailEnabled" xml:space="preserve">
+    <value>Notifiche email StableBit Cloud abilitate. La funzionalità di posta elettronica locale non è disponibile.</value>
+  </data>
+  <data name="BalancerDataInfo_CanForceImmediate" xml:space="preserve">
+    <value>(può forzare il bilanciamento immediato)</value>
+  </data>
+  <data name="BalancerDataInfo_CanSetLimits" xml:space="preserve">
+    <value>(può impostare limiti di posizionamento dei file)</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Evacuation_Immediate" xml:space="preserve">
+    <value>La rimozione del file inizia immediatamente dopo il rilevamento di un problema.</value>
+  </data>
+  <data name="ServiceConnectionDataInfo_SynchronizingSettings" xml:space="preserve">
+    <value>Sincronizzazione delle impostazioni</value>
+  </data>
+  <data name="Main_Auto" xml:space="preserve">
+    <value>_Automatico</value>
+  </data>
+  <data name="Main_Dark" xml:space="preserve">
+    <value>_Scuro</value>
+  </data>
+  <data name="Main_HighContrast" xml:space="preserve">
+    <value>_Contrasto elevato</value>
+  </data>
+  <data name="Main_Light" xml:space="preserve">
+    <value>_Chiaro</value>
+  </data>
+  <data name="Balancing_ConfirmReset" xml:space="preserve">
+    <value>Ripristina le impostazioni di bilanciamento ai valori predefiniti?</value>
+  </data>
+  <data name="StandardDialogs_AreYouSure" xml:space="preserve">
+    <value>Sei sicuro?</value>
+  </data>
+  <data name="Telerik_Close" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="Telerik_Days" xml:space="preserve">
+    <value>Giorni</value>
+  </data>
+  <data name="Telerik_Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="Telerik_Hours" xml:space="preserve">
+    <value>Ore</value>
+  </data>
+  <data name="Telerik_Minutes" xml:space="preserve">
+    <value>Minuti</value>
+  </data>
+  <data name="Generic_Empty" xml:space="preserve">
+    <value>Vuoto</value>
+  </data>
+  <data name="RemoveOptions_NoDelete" xml:space="preserve">
+    <value>Lasciare le copie dei file raggruppati sul disco rigido rimosso (rimozione dell'archivio).</value>
+  </data>
+  <data name="General_Off" xml:space="preserve">
+    <value>Spento</value>
+  </data>
+  <data name="Balancing_InvalidValues" xml:space="preserve">
+    <value>Valori specificati non validi.</value>
+  </data>
+</root>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MessageForm_ActivationRequired" xml:space="preserve">
+    <value>Activation nécessaire</value>
+  </data>
+  <data name="MessageForm_Close" xml:space="preserve">
+    <value>&amp;Fermer</value>
+  </data>
+  <data name="MessageForm_MissingDisk" xml:space="preserve">
+    <value>Disque manquant</value>
+  </data>
+  <data name="MessageForm_NeverRemindOnMissingDisk" xml:space="preserve">
+    <value>Ne jamais me prévenir en cas de disques manquants</value>
+  </data>
+  <data name="MessageForm_Open" xml:space="preserve">
+    <value>Ouvrez StableBit &amp;DrivePool</value>
+  </data>
+  <data name="MessageForm_ShowNewVersion" xml:space="preserve">
+    <value>Une nouvelle version ({0}) de StableBit DrivePool est disponible . Cliquez ici pour mettre à jour.</value>
+  </data>
+  <data name="NotifyActivationRequired_BalloonText" xml:space="preserve">
+    <value>La licence de StableBit DrivePool requiert votre attention.
+
+Vous ne pourrez pas créer de nouveaux dossiers dans la combinaison avant d'avoir résolu ce point.</value>
+  </data>
+  <data name="NotifyActivationRequired_BalloonText_TrialRenewal" xml:space="preserve">
+    <value>Vous recevez une nouvelle licence d'essai car vous avez mis à niveau vers cette version BETA.</value>
+  </data>
+  <data name="NotifyMissingDisks_BalloonText" xml:space="preserve">
+    <value>Un ou plusieurs disques sont déconnectés de la combinaison.</value>
+  </data>
+  <data name="NotifyUpdate_BalloonText" xml:space="preserve">
+    <value>Mise à jour StableBit DrivePool trouvée.</value>
+  </data>
+  <data name="UpdateDialog_Aborted" xml:space="preserve">
+    <value>Téléchargement abandonné</value>
+  </data>
+  <data name="UpdateDialog_Aborted_Text" xml:space="preserve">
+    <value>Vous pouvez visiter http://stablebit.com/DrivePool pour télécharger la dernière version.</value>
+  </data>
+  <data name="UpdateDialog_Cancel" xml:space="preserve">
+    <value>&amp;Annuler</value>
+  </data>
+  <data name="UpdateDialog_Downloading" xml:space="preserve">
+    <value>Téléchargement de l’application en cours...</value>
+  </data>
+  <data name="UpdateDialog_FooterCheckBoxText" xml:space="preserve">
+    <value>Ne jamais me rappeler de cette version</value>
+  </data>
+  <data name="UpdateDialog_InstructionText" xml:space="preserve">
+    <value>Mettre à jour StableBit DrivePool</value>
+  </data>
+  <data name="UpdateDialog_ProblemDownloading" xml:space="preserve">
+    <value>Problème pendant le téléchargement de la mise à jour</value>
+  </data>
+  <data name="UpdateDialog_ProblemDownloading_Text" xml:space="preserve">
+    <value>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez visiter http://stablebit.com/DrivePool pour télécharger la dernière version.</value>
+  </data>
+  <data name="UpdateDialog_RebootRequired" xml:space="preserve">
+    <value>Après avoir installé cette mise à jour, vous devrez redémarrer votre ordinateur.</value>
+  </data>
+  <data name="UpdateDialog_Text" xml:space="preserve">
+    <value>Une nouvelle version ({0}) de StableBit DrivePool est disponible.</value>
+  </data>
+  <data name="UpdateDialog_Update" xml:space="preserve">
+    <value>&amp;Télécharger et installer</value>
+  </data>
+  <data name="UpdateDialog_WhatsNew" xml:space="preserve">
+    <value>Nouveautés:</value>
+  </data>
+</root>
