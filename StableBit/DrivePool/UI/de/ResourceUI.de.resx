@@ -612,7 +612,7 @@ Wenn Sie Probleme haben, eine Verbindung zum Remote-Computer aufzubauen, sollten
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Balancing-Plug-Ins erlauben, um einen sofortigen Ausgleich zu erzwingen.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Automatisches Balancing - Auslöser</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -761,7 +761,7 @@ Klicken Sie mit gedrückter Umschalttaste, um mit den Standardoptionen zu entfer
     <value>Neue Höchstgrenze für die Platzierung von Dateien</value>
   </data>
   <data name="PooledDiskSizeMarkersDataInfo_ProtectedLimitToolTip" xml:space="preserve">
-    <value>Neue Höchstgrenze für die Platzierung von kopierten Dateien.</value>
+    <value>Neue Höchstgrenze für die Platzierung von duplizierten Dateien.</value>
   </data>
   <data name="PooledDiskSizeMarkersDataInfo_TargetToolTip" xml:space="preserve">
     <value>Ziel für den Neuausgleich</value>
@@ -853,7 +853,7 @@ Wenn der Remote-Computer Plug-ins installiert hat, sollten Sie sicherstellen, da
     <value>Dieser Ordner übernimmt seinen Vervielfältigungsgrad vom Mutterordner. Änderungen am Vervielfältigungsgrad des Mutterordners werden auf ihn und alle anderen Unterordner, die diesen Vervielfältigungsgrad übernehmen, Auswirkungen haben.</value>
   </data>
   <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
-    <value>Wie viele Kopien möchten Sie von jeder Datei erstellen?</value>
+    <value>Wie viele Kopien möchten Sie von jeder Datei behalten?</value>
   </data>
   <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
     <value>Anzahl der Kopien</value>
@@ -1012,7 +1012,7 @@ Zum Beispiel: "*.txt" oder "\Benutzer\*\Downloads\*"</value>
     <value>Niemals erlauben, dass Dateien auf anderen Festplatten platziert werden.</value>
   </data>
   <data name="Balancing_FilePlacement_Settings_Note" xml:space="preserve">
-    <value>Sämtliche Dateien, auf die diese Regel zutrifft, werden auf den ausgewählten Festplatten gespeichert?</value>
+    <value>Sämtliche Dateien, auf die diese Regel zutrifft, werden auf den ausgewählten Festplatten gespeichert.</value>
   </data>
   <data name="Balancing_FilePlacement_Settings_Overflow" xml:space="preserve">
     <value>Überlauf</value>
@@ -1056,7 +1056,7 @@ Zum Beispiel: "*.txt" oder "\Benutzer\*\Downloads\*"</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Plugin-Einstellungen</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Dateien konnten während des letzten Ausgleichs-Durchlaufs nicht verschoben werden, um die Datei-Platzierungs-Regeln ({0}) zu erfüllen.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

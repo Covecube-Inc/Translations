@@ -611,7 +611,7 @@
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>לאפשר איזון יישומי plug-in כדי לאלץ את איזון מיידי.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>איזון אוטומטי - מפעיל</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1057,7 +1057,7 @@ SHIFT + לחיצה להתחיל הסרת עם אפשרויות ברירת המח
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>הגדרות יישום plug-in</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>לא היתה אפשרות להעביר קבצים כדי לספק להעביר חוקים מיקום הקובץ ({0}) במהלך האחרון איזון.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

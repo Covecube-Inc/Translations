@@ -162,7 +162,7 @@ Puoi anche cambiare il numero di copie che verranno tenute per ogni file.</value
     <value>&amp;Disattiva duplicazione</value>
   </data>
   <data name="DuplicationDialog_Change_FooterText" xml:space="preserve">
-    <value>Puoi continuare a usare la tua unione manualmente mentre i file duplicati vengono aggiornati in background.</value>
+    <value>Puoi continuare a usare il pool normalmente mentre i file duplicati vengono aggiornati in background.</value>
   </data>
   <data name="DuplicationDialog_Change_InstructionText" xml:space="preserve">
     <value>Modifica duplicazione</value>
@@ -182,7 +182,7 @@ Puoi scegliere di proteggere i tuoi file da più di un errore alla volta dei dri
     <value>Attiva duplicazione</value>
   </data>
   <data name="DuplicationDialog_Enable_Text" xml:space="preserve">
-    <value>La duplicazione dei file protegge i tuoi file da errori nei drive.</value>
+    <value>La duplicazione dei file protegge i tuoi file da malfunzionamenti dei dischi.</value>
   </data>
   <data name="IdentifyMissingDiskDialog_Bay" xml:space="preserve">
     <value>Drive bay</value>
@@ -614,7 +614,7 @@ Questo può essere utile anche se non hai abilitato la duplicazione in questo po
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Permette ai plug-in di bilanciamento per forzare il bilanciamento immediata.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Bilanciamento automatico - Interruttori</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1001,7 +1001,7 @@ servizio di assistenza tecnica per l'analisi.</value>
   <data name="Balancing_AddRule_Content" xml:space="preserve">
     <value>Specifica una maschera di ricerca. "?" equivale a un singolo carattere qualsiasi, "*" corrisponde a zero o più caratteri.
 
-Per esempio, "*.txt" oppure "\Utenti\*\Download"\*"</value>
+Ad esempio, "*.txt" oppure "\Utenti\*\Download"\*"</value>
   </data>
   <data name="Balancing_Edit" xml:space="preserve">
     <value>Modifica</value>
@@ -1063,7 +1063,7 @@ di posizionamento dei file non violeranno tali limiti.</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Impostazioni plug-in</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Non è stato possibile spostare i file per soddisfare le regole di posizionamento dei file ({0}) durante l'ultimo passaggio di bilanciamento.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

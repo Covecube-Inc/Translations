@@ -177,7 +177,7 @@
   <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
     <value>Изчакване масива да бъде закачен...</value>
   </data>
-  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+  <data name="ChangeDuplication_CantSetOnReparse" xml:space="preserve">
     <value>Не може да определи броя на дублирането на точка за повторна обработка.</value>
   </data>
   <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
@@ -320,5 +320,8 @@
   </data>
   <data name="Ipc_PoolNotFound" xml:space="preserve">
     <value>Басейнът не е намерен.</value>
+  </data>
+  <data name="AddDriveToPool_HierarchyLimitReached" xml:space="preserve">
+    <value>Не може да се добави този пул. Ще бъде надхвърлено йерархичното ограничение.</value>
   </data>
 </root>

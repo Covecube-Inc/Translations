@@ -619,7 +619,7 @@ som er lagret på hver enkelt disk.</value>
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>La plugin-moduler for balansering tvinge frem umiddelbar balansering (uavhengig av den automatiske balanseringsinnstillingen).</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Automatisk balansering - Utløsere</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1069,7 +1069,7 @@ plasseringsregler vil ikke bryte disse grensene.</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Innstillinger for plugin-modul</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Filer kan ikke flyttes for å oppfylle reglene for filplassering ({0}) under siste balansegang.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

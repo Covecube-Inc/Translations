@@ -342,7 +342,7 @@ Durante 1 minuto, esto encenderá la luz de acceso de disco de todos los discos 
 que provienen de la red frente a las demás solicitudes cuando el disco está ocupado.</value>
   </data>
   <data name="Main_ReadStripingTooltip2" xml:space="preserve">
-    <value>Read striping leerá archivos duplicados de varios discos duros al mismo tiempo para mejorar el rendimiento de lectura.</value>
+    <value>La fragmentación de lectura leerá los archivos duplicados de varios discos duros al mismo tiempo para mejorar el rendimiento de lectura.</value>
   </data>
   <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
     <value>Los archivos duplicados se escriben en varios discos al mismo tiempo, en paralelo. Si no se seleccionan, los archivos se duplicarán por la noche.</value>
@@ -614,7 +614,7 @@ Puede ser útil incluso si no ha habilitado la duplicación en esta agrupación.
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Permitir a los complementos de equilibrio forzar un equilibrio inmediato.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Equilibrio automático - Disparadores</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1060,7 +1060,7 @@ Por ejemplo: "*.txt" o "\Users\*\Downloads \*"</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Ajustes de Plug-in</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>No se pudieron mover los archivos para satisfacer las reglas de colocación de ficheros ({0}) durante el último pase de balanceo.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
@@ -1588,7 +1588,7 @@ Windows tiene un número total limitado de letras de unidad disponibles. Una vez
     <value>Vacío</value>
   </data>
   <data name="RemoveOptions_NoDelete" xml:space="preserve">
-    <value>Deje copias de archivos agrupados en la unidad extraída (eliminación de archivos).</value>
+    <value>Dejar una copia de los archivos en la unidad al quitarla de la agrupación (retirar con fines de archivo).</value>
   </data>
   <data name="General_Off" xml:space="preserve">
     <value>Apagado</value>

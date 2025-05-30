@@ -133,7 +133,7 @@
     <value>Ouvrez StableBit &amp;DrivePool</value>
   </data>
   <data name="MessageForm_ShowNewVersion" xml:space="preserve">
-    <value>Une nouvelle version ({0}) de StableBit DrivePool est disponible . Cliquez ici pour mettre à jour.</value>
+    <value>Une nouvelle version de StableBit DrivePool ({0}) est disponible. Cliquez ici pour mettre à jour.</value>
   </data>
   <data name="NotifyActivationRequired_BalloonText" xml:space="preserve">
     <value>La licence de StableBit DrivePool requiert votre attention.
@@ -147,7 +147,7 @@ Vous ne pourrez pas créer de nouveaux dossiers dans la combinaison avant d'avoi
     <value>Un ou plusieurs disques sont déconnectés de la combinaison.</value>
   </data>
   <data name="NotifyUpdate_BalloonText" xml:space="preserve">
-    <value>Mise à jour StableBit DrivePool trouvée.</value>
+    <value>Mise à jour de StableBit DrivePool disponible.</value>
   </data>
   <data name="UpdateDialog_Aborted" xml:space="preserve">
     <value>Téléchargement abandonné</value>

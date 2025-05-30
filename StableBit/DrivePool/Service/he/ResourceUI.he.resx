@@ -177,7 +177,7 @@
   <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
     <value>מחכה הבריכה לעלות...</value>
   </data>
-  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+  <data name="ChangeDuplication_CantSetOnReparse" xml:space="preserve">
     <value>אין אפשרות להגדיר שכפול ספירה על נקודת ניתוח מבנה חוזר.</value>
   </data>
   <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
@@ -320,5 +320,8 @@
   </data>
   <data name="Ipc_PoolNotFound" xml:space="preserve">
     <value>הבריכה לא נמצאה.</value>
+  </data>
+  <data name="AddDriveToPool_HierarchyLimitReached" xml:space="preserve">
+    <value>לא ניתן להוסיף מאגר זה. מגבלת ההיררכיה תחרוג.</value>
   </data>
 </root>

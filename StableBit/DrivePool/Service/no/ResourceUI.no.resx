@@ -177,7 +177,7 @@
   <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
     <value>Venter på bassenget å montere ...</value>
   </data>
-  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+  <data name="ChangeDuplication_CantSetOnReparse" xml:space="preserve">
     <value>Kan ikke angi et dupliseringsantall på et reanalyseringspunkt.</value>
   </data>
   <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
@@ -320,5 +320,8 @@
   </data>
   <data name="Ipc_PoolNotFound" xml:space="preserve">
     <value>Basseng ikke funnet.</value>
+  </data>
+  <data name="AddDriveToPool_HierarchyLimitReached" xml:space="preserve">
+    <value>Denne poolen kan ikke legges til. Hierarkigrensen ville bli overskredet.</value>
   </data>
 </root>

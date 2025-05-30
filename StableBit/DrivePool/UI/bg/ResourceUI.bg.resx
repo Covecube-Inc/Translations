@@ -611,7 +611,7 @@
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Позволи балансиращи плъгини да стартират ребалансиране веднага</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Автоматично балансиране - Тригери</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1055,7 +1055,7 @@ SHIFT+Click за да започне премахването със станд�
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Настройки на добавки</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Файловете не можаха да бъдат преместени, за да отговарят на правилата за разположение на файлове ({0}) по време на последната фаза за балансиране.
 </value>
   </data>

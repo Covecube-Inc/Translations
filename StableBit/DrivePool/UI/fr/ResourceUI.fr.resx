@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -154,9 +154,9 @@
     <value>Supprimer</value>
   </data>
   <data name="DuplicationDialog_Change_DetailsExpandedText" xml:space="preserve">
-    <value>Si désactivé, vos fichiers ne seront pas protégés des erreurs de disque. Vous réclamerez l'espace disque qui a été utilisé pour maintenir la duplication de fichiers.
+    <value>Si cette option est désactivée, vos fichiers ne seront pas protégés contre les défaillances de disque. Vous récupérerez l'espace disque utilisé pour maintenir la duplication de fichiers.
 
-Vous pouvez aussi changer le nombre de copies qui seront gardées pour chaque fichier.</value>
+Vous pouvez également modifier le nombre de copies conservées pour chaque fichier.</value>
   </data>
   <data name="DuplicationDialog_Change_DisableDuplication" xml:space="preserve">
     <value>&amp;Désactiver la duplication</value>
@@ -168,9 +168,10 @@ Vous pouvez aussi changer le nombre de copies qui seront gardées pour chaque fi
     <value>Changer la duplication</value>
   </data>
   <data name="DuplicationDialog_Enable_DetailsExpandedText" xml:space="preserve">
-    <value>Si activé, les fichiers resteront accessibles même si un seul disque est en échec. Les fichiers dupliqués prendront deux fois plus d'espace disque que les fichiers non dupliqués.
+    <value>Si cette option est activée, vos fichiers resteront accessibles même si un seul disque dur est en panne. Les fichiers dupliqués prennent deux fois plus d'espace disque que les fichiers non dupliqués.
 
-Vous pouvez choisir de protéger vos fichiers de plus d'une panne disque à la fois, mais ainsi, chaque fichier prendra plus d'espace disque.</value>
+Vous pouvez choisir de protéger vos fichiers contre plusieurs pannes de disque à la fois, mais par conséquent, chaque fichier prendra d'autant plus d'espace disque.
+    </value>
   </data>
   <data name="DuplicationDialog_Enable_Duplication" xml:space="preserve">
     <value>&amp;Activer la duplication</value>
@@ -194,7 +195,7 @@ Vous pouvez choisir de protéger vos fichiers de plus d'une panne disque à la f
     <value>Vous pouvez installer la dernière version de &lt;A HREF="http://stablebit.com/Scanner"&gt;StableBit Scanner&lt;/A&gt; pour une identification plus précise du disque</value>
   </data>
   <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
-    <value>Conseil : Vous pouvez également spécifier la "valise" et "l'emplacement" de vos disques dans le scanner StableBit pour une identification plus facile.</value>
+    <value>Conseil : Vous pouvez également spécifier le 'boîtier' et "l'emplacement" de vos disques dans le scanner StableBit pour une identification plus facile.</value>
   </data>
   <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
     <value>Afin de vous aider à identifier le disque manquant, vous pouvez effectuer un test ping sur tous les disques connectés.
@@ -232,13 +233,13 @@ Pendant une minute, cela allumera les lumières d'accès de disque sur tous les 
     <value>_Équilibrage...</value>
   </data>
   <data name="Main_FileDuplication" xml:space="preserve">
-    <value>Duplication_de la combinaison de fichiers...</value>
+    <value>_Duplication des fichiers du pool...</value>
   </data>
   <data name="Main_NOT_MEASURED" xml:space="preserve">
     <value>PAS MESURÉ</value>
   </data>
   <data name="Main_RealTimeDuplication" xml:space="preserve">
-    <value>Duplication_en temps réel</value>
+    <value>Duplication _en temps réel</value>
   </data>
   <data name="Main_ReMeasure" xml:space="preserve">
     <value>Re_mesurer...</value>
@@ -338,10 +339,10 @@ Pendant une minute, cela allumera les lumières d'accès de disque sur tous les 
   </data>
   <data name="Main_NetworkIoBoostTooltip" xml:space="preserve">
     <value>Le réseau I/O boost donne la priorité aux demande de lecture
-provenant du réseau lorsque le disque est occupé.</value>
+provenant du réseau lorsque les disques sont occupés.</value>
   </data>
   <data name="Main_ReadStripingTooltip2" xml:space="preserve">
-    <value>La lecture des bandes lit les fichiers dupliqués à partir de plusieurs disques durs en même temps afin d'améliorer les performances de lecture.</value>
+    <value>La lecture en bande lit les fichiers dupliqués à partir de plusieurs disques durs en même temps afin d'améliorer les performances de lecture.</value>
   </data>
   <data name="Main_ReadTimeDuplicationTooltip2" xml:space="preserve">
     <value>Les fichiers dupliqués sont écrits sur plusieurs disques en même temps, en parallèle. S'ils ne sont pas cochés, les fichiers seront dupliqués la nuit.</value>
@@ -368,7 +369,7 @@ Les fichiers seront dupliqués pendant la nuit.</value>
     <value>Il n'y a pas assez de disques dans la combinaison pour maintenir des duplicatas des fichiers.</value>
   </data>
   <data name="DuplicationWarningsDialog_AutoResolve" xml:space="preserve">
-    <value>&amp;Résoudre automatiquement les erreurs de duplication du fichier en effaçant les parties du fichier les anciennes</value>
+    <value>&amp;Résoudre automatiquement les conflits de fichiers dupliqués en supprimant les parties de fichiers les plus anciennes</value>
   </data>
   <data name="DuplicationWarningsDialog_DuplicateNow" xml:space="preserve">
     <value>&amp;Dupliquer  dès maintenant</value>
@@ -382,7 +383,7 @@ Les fichiers seront dupliqués pendant la nuit.</value>
 Vous pouvez résoudre les conflits manuellement en supprimant les parties de fichiers incorrectes des disques.</value>
   </data>
   <data name="DuplicationWarningsDialog_Files" xml:space="preserve">
-    <value>Dossiers:
+    <value>Fichiers:
 
 </value>
   </data>
@@ -423,7 +424,7 @@ Vous pouvez résoudre les conflits manuellement en supprimant les parties de fic
     <value>Notifier sur le disque manquant</value>
   </data>
   <data name="OptionsDataInfo_UnableToSetOptions" xml:space="preserve">
-    <value>Désactiver pour configurer les options</value>
+    <value>Impossible de définir les options</value>
   </data>
   <data name="ServiceConnectionDataInfo_ConnectingToService" xml:space="preserve">
     <value>Connexion au service</value>
@@ -509,8 +510,7 @@ Cela peut être utile même si la duplication n'est pas activée
 sur ce pool.</value>
   </data>
   <data name="PoolOrganization_ReBalanceToolTip" xml:space="preserve">
-    <value>Le rééquilibrage du pool réorganisera les fichiers du pool
-qui sont stockés sur chacun des disques.</value>
+    <value>Le rééquilibrage du pool réorganisera les fichiers du pool qui sont stockés sur chacun des disques.</value>
   </data>
   <data name="Main_NotifyByEmail" xml:space="preserve">
     <value>Notifier par e-mail...</value>
@@ -557,25 +557,25 @@ qui sont stockés sur chacun des disques.</value>
     <value>Options de remplissage du disque</value>
   </data>
   <data name="Balancing_DriveFillSettings_Empty_up_to" xml:space="preserve">
-    <value>Vider le disque jusqu'à:</value>
+    <value>Vider le disque jusqu'à :</value>
   </data>
   <data name="Balancing_DriveFillSettings_No_fill_above" xml:space="preserve">
-    <value>Essayer de ne pas remplir un disque au-delà de:</value>
+    <value>Essayer de ne pas remplir un disque au-delà de :</value>
   </data>
   <data name="Balancing_DriveFillSettings_or_free_space" xml:space="preserve">
-    <value>Ou cette quantité d'espace disponible:</value>
+    <value>Ou laisser au moins cette quantité d'espace disponible :</value>
   </data>
   <data name="Balancing_DriveFillDataInfo_GB_free" xml:space="preserve">
     <value>{0} Go libre(s)</value>
   </data>
   <data name="Balancing_DriveFillDataInfo_percent_full" xml:space="preserve">
-    <value>Rempli à {0} %</value>
+    <value>Rempli à {0} %</value>
   </data>
   <data name="Balancing_DriveFillSettings_Drive_emptying_options" xml:space="preserve">
     <value>Options de vidage du disque</value>
   </data>
   <data name="Balancing_DriveFillSettings_Example" xml:space="preserve">
-    <value>Par exemple, en réglant 90 % plein / 100 GB libres sur un lecteur de 2 TB, un disque ne sera pas rempli au delà de 1.9 TB (100 GB libres)</value>
+    <value>Par exemple, en réglant 90 % plein / 100 Go libres sur un lecteur de 2 To, un disque ne sera pas rempli au-delà de 1,9 To (100 Go libres).</value>
   </data>
   <data name="Balancing_DriveLimitSettings_Drive_limit_options" xml:space="preserve">
     <value>Options de limitation du disque</value>
@@ -616,7 +616,7 @@ qui sont stockés sur chacun des disques.</value>
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Autoriser les plug-ins d'équilibrage à forcer un équilibrage immédiat.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Équilibrage automatique : Déclencheurs</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -626,7 +626,7 @@ qui sont stockés sur chacun des disques.</value>
     <value>Équilibreurs</value>
   </data>
   <data name="Balancing_Balance_every_day_at" xml:space="preserve">
-    <value>Équilibrer tous les jours à:</value>
+    <value>Équilibrer tous les jours à :</value>
   </data>
   <data name="Balancing_Balance_immediately" xml:space="preserve">
     <value>Équilibrer immédiatement</value>
@@ -635,16 +635,16 @@ qui sont stockés sur chacun des disques.</value>
     <value>Ne pas équilibrer automatiquement</value>
   </data>
   <data name="Balancing_If_the_balancing_ratio_falls_below" xml:space="preserve">
-    <value>Si le ratio d'équilibre tombe en dessous de:</value>
+    <value>Si le ratio d'équilibre tombe en dessous de :</value>
   </data>
   <data name="Balancing_Or_if_this_much_data_needs_to_be_moved" xml:space="preserve">
-    <value>ou si au moins ce volume de données doit être déplacé:</value>
+    <value>ou si au moins ce volume de données doit être déplacé :</value>
   </data>
   <data name="Balancing_Settings" xml:space="preserve">
     <value>Réglages</value>
   </data>
   <data name="Balancing_Not_more_often_than" xml:space="preserve">
-    <value>Pas plus souvent que tous les:</value>
+    <value>Pas plus souvent que tous les :</value>
   </data>
   <data name="Balancing_ScannerSettings_File_evacuation" xml:space="preserve">
     <value>Évacuation de fichier</value>
@@ -656,13 +656,13 @@ qui sont stockés sur chacun des disques.</value>
     <value>Déplacer les fichiers dupliqués hors des disques qui ont des avertissements S.M.A.R.T</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
-    <value>Déplacer les fichiers dé-dupliqués hors des disques endommagés.</value>
+    <value>Déplacer les fichiers non dupliqués hors des disques endommagés.</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
-    <value>Déplacer les fichiers dé-dupliqués hors des disques avec des avertissements S.M.A.R.T.</value>
+    <value>Déplacer les fichiers non dupliqués hors des disques avec des avertissements S.M.A.R.T.</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
-    <value>Essayer de ne pas placer de nouveaux fichiers sur des disques qui ont déplacés leur température maximale</value>
+    <value>Essayer de ne pas placer de nouveaux fichiers sur des disques dont la température a dépassé la température maximale</value>
   </data>
   <data name="Balancing_ScannerSettings_Temperature_Control" xml:space="preserve">
     <value>Contrôle de la température</value>
@@ -674,7 +674,7 @@ qui sont stockés sur chacun des disques.</value>
     <value>L'équilibreur travaille avec le StableBit Scanner (version 2.2 ou plus)</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
-    <value>Autoriser le placement de fichiers sur des disques évacués si les autres disques sont pleins:</value>
+    <value>Autoriser le placement de fichiers sur des disques évacués si les autres disques sont pleins :</value>
   </data>
   <data name="Balancing_ScannerSettings_No_files_on_evacuated_drives" xml:space="preserve">
     <value>Ne pas autoriser le placement de fichiers sur des disques évacués</value>
@@ -1025,8 +1025,8 @@ Par exemple : "*.txt" ou "\Utilisateurs\*\Téléchargements\*"</value>
     <value>Dépassement de capacité</value>
   </data>
   <data name="Balancing_FilePlacement_Settings_YesOverflow" xml:space="preserve">
-    <value>Autoriser les fichiers à être placés sur d'autres disques si tous les disques sélectionnés sont pleins:</value>
-  </data>
+    <value>Autoriser les fichiers à être placés sur d'autres disques si tous les disques sélectionnés sont pleins à :</value>
+</data>
   <data name="Balancing_FilePlacement_PatternBlank" xml:space="preserve">
     <value>Le modèle ne peut rester vide.</value>
   </data>
@@ -1049,7 +1049,7 @@ Par exemple : "*.txt" ou "\Utilisateurs\*\Téléchargements\*"</value>
     <value>Après la vérification nécessaire, ajuster les modules d'extension ne dépassera pas les limites établies par la règle d'emplacement de fichier.</value>
   </data>
   <data name="Balancing_FileMoverViolatesFilePatternLimitsOnDriveEmpty" xml:space="preserve">
-    <value>Sauf si le pilote est en train d'être formaté.</value>
+    <value>Sauf si le disque est en train d'être vidé.</value>
   </data>
   <data name="Balancing_FileRuleSettings" xml:space="preserve">
     <value>Paramètres d'emplacement des fichiers</value>
@@ -1058,12 +1058,12 @@ Par exemple : "*.txt" ou "\Utilisateurs\*\Téléchargements\*"</value>
     <value>Les règles d'emplacement des fichiers respectent les limites en temps réel d'emplacement des fichiers établies par l'équilibrage des modules d'extension.</value>
   </data>
   <data name="Balancing_FileRulesRespectLimits_Tooltip" xml:space="preserve">
-    <value>Un ou plusieurs balancers peuvent établir des limites en temps réel d'emplacement de fichier sur un ou plusieurs disques (par exemple, lorsque le balancer du StableBit Scanner est en train de formater un ou plusieurs disques). Après vérification, les règles d'emplacement de fichier ne s'appliqueront pas au-delà de ces limites.</value>
+    <value>Un ou plusieurs équilibreurs peuvent établir des limites en temps réel d'emplacement de fichier sur un ou plusieurs disques (par exemple, lorsque le balancer du StableBit Scanner est en train de formater un ou plusieurs disques). Après vérification, les règles d'emplacement de fichier ne s'appliqueront pas au-delà de ces limites.</value>
   </data>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Paramètres des modules d'extension</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Les fichiers n'ont pu être déplacés pour respecter les règles d'emplacement de fichiers ({0}) durant la phase d'équilibrage.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
@@ -1076,13 +1076,13 @@ Par exemple : "*.txt" ou "\Utilisateurs\*\Téléchargements\*"</value>
     <value>{0} - {1} Libre</value>
   </data>
   <data name="BalancingWarnings_FilePlacementNotMoved" xml:space="preserve">
-    <value>{0} ({1:0,#} B) n'a pu être déplacé car une destination adéquate n'a pu être trouvée. Assurez-vous d'avoir suffisamment d'espace sur le disque afin de respecter les règles d'emplacement de fichier et faire en sorte qu'elles ne gênent pas les autres paramètres d'équilibrage.</value>
+    <value>{0} ({1:0,#} B) n'ont pas pu être déplacés car une destination adéquate n'a pas pu être trouvée. Assurez-vous d'avoir suffisamment d'espace sur le disque afin de respecter les règles d'emplacement de fichiers et qu'elles ne soient pas en conflit avec d'autres paramètres d'équilibrage.</value>
   </data>
   <data name="Main_ResetAllSettings" xml:space="preserve">
     <value>_Réinitialiser tous les paramètres...</value>
   </data>
   <data name="ResetAllSettings_DetailsExpandedText" xml:space="preserve">
-    <value>Cela réinitialisera tous les paramètres et l'état de l'application en position défaut, y compris les paramètres d'équilibrage. Cela n'aura pas d'incidence sur vos paramètres de duplication ni sur le regroupement de vos données.
+    <value>Cela réinitialisera tous les paramètres et l'état de l'application en position défaut, y compris vos paramètres d'équilibrage. Cela n'aura pas d'incidence sur vos paramètres de duplication ni sur le regroupement de vos données.
 
 Le service de StableBit DrivePool redémarrera et vos regroupements seront réévalués afin que tout soit en ordre.</value>
   </data>
@@ -1117,7 +1117,7 @@ Le service de StableBit DrivePool redémarrera et vos regroupements seront réé
     <value>Augmenter</value>
   </data>
   <data name="Main_Minimize" xml:space="preserve">
-    <value>Réduire</value>
+    <value>Minimiser</value>
   </data>
   <data name="EmailNotifications_Save" xml:space="preserve">
     <value>Enregistrer</value>
@@ -1269,7 +1269,7 @@ Les messages de journal sont écrits dans les fichiers journaux %PROGRAMDATA%\St
     <value>Journal de service...</value>
   </data>
   <data name="PoolConditionDataInfo_Waiting" xml:space="preserve">
-    <value>Merci de patienter...</value>
+    <value>En attente...</value>
   </data>
   <data name="DiskToolTipDictionary_OtherCloudPool" xml:space="preserve">
     <value>Ceci est un groupe entièrement composé de lecteurs sur le cloud.</value>

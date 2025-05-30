@@ -608,7 +608,7 @@ Als u verbindingsproblemen heeft met een computer op afstand, dan kan het zijn d
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Sta balanceerplugins toe om onmiddelijk te balanceren.</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Automatische balancering - starters</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1054,7 +1054,7 @@ Wanneer dit is aangevinkt zullen bestandsplaatsingsregels deze limieten niet sch
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Extensie instellingen</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Bestanden konden niet verplaatst worden om aan de bestandsplaatsings regels te voldoen ({0}) tijdens de laatste balanceer ronde.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

@@ -617,7 +617,7 @@
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>允许平衡插件以强制立即平衡。</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>自动平衡 - 触发器</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1067,7 +1067,7 @@ Shift+单击以默认选项开始删除。</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>插件设置</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>在最后一次平衡过程中，无法移动文件以满足文件放置规则（{0}）。</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

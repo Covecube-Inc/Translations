@@ -619,7 +619,7 @@ that are stored on each individual disk.</value>
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>Allow balancing plug-ins to force immediate balancing (regardless of the automatic balancing setting).</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>Automatic balancing - Triggers</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -862,7 +862,7 @@ Changing the duplication level of the parent folder will affect it
 and all the other subfolders that are inheriting that duplication level.</value>
   </data>
   <data name="DuplicationDialog_Enable_HowManyCopies" xml:space="preserve">
-    <value>How many copies would you like to keep of each file?</value>
+    <value>How many copies would you like to keep for each file?</value>
   </data>
   <data name="DuplicationDialog_Enable_NumberOfCopies" xml:space="preserve">
     <value>Number of Copies</value>
@@ -1069,7 +1069,7 @@ placement rules will not violate those limits.</value>
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>Plug-in settings</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>Files could not be moved to satisfy file placement rules ({0}) during the last balancing pass.</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">
@@ -1102,7 +1102,7 @@ The StableBit DrivePool service will restart and your pools will be remeasured a
     <value>Reset</value>
   </data>
   <data name="ResetAllSettings_Text" xml:space="preserve">
-    <value>Reset all appliaction settings and application state to the default?</value>
+    <value>Reset all application settings and application state to the default?</value>
   </data>
   <data name="PoolOrganization_Abort" xml:space="preserve">
     <value>Abort</value>

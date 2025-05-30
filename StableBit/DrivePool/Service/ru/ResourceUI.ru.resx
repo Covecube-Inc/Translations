@@ -177,7 +177,7 @@
   <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
     <value>Ожидание подключения массива...</value>
   </data>
-  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+  <data name="ChangeDuplication_CantSetOnReparse" xml:space="preserve">
     <value>Невозможно установить счетчик дублирования на точке повторной обработки.</value>
   </data>
   <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
@@ -321,5 +321,8 @@
   </data>
   <data name="Ipc_PoolNotFound" xml:space="preserve">
     <value>Бассейн не найден.</value>
+  </data>
+  <data name="AddDriveToPool_HierarchyLimitReached" xml:space="preserve">
+    <value>Невозможно добавить этот пул. Будет превышено ограничение иерархии.</value>
   </data>
 </root>

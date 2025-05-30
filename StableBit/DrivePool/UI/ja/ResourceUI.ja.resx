@@ -617,7 +617,7 @@
   <data name="Balancing_Allow_immediate_balancing" xml:space="preserve">
     <value>即時強制的にバランスすることをバランスプラグインに許可します。</value>
   </data>
-  <data name="Balancing_Automatice_balancing_triggers" xml:space="preserve">
+  <data name="Balancing_Automatic_balancing_triggers" xml:space="preserve">
     <value>自動バランシングのトリガー</value>
   </data>
   <data name="Balancing_Automatic_balancing" xml:space="preserve">
@@ -1067,7 +1067,7 @@ StableBit Scannerバランサが、1つまたは複数のディスクを排出�
   <data name="Balancing_PluginSettings" xml:space="preserve">
     <value>プラグイン設定</value>
   </data>
-  <data name="PoolOrganiationDataInfo_FilePlacementNotMoved" xml:space="preserve">
+  <data name="PoolOrganizationDataInfo_FilePlacementNotMoved" xml:space="preserve">
     <value>最後のバランシングパスの間のファイル配置ルール（{0}）を満たすようにファイルを移動させることができませんでした。</value>
   </data>
   <data name="FolderDuplicationStatisticsDataInfo_Duplication" xml:space="preserve">

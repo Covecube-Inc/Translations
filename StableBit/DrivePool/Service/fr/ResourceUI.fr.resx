@@ -157,7 +157,7 @@
     <value>Initialisation du disque...</value>
   </data>
   <data name="AddDriveToPool_NoFreeDriveLetters" xml:space="preserve">
-    <value>Pas de lettres d'entraînement de disque disponible. Essayez d'ajouter cet entraînement de disque en tant qu'entraînement de disque caché.</value>
+    <value>Aucune lettre de lecteur disponible. Essayez d'ajouter ce lecteur en tant que lecteur caché.</value>
   </data>
   <data name="AddDriveToPool_NoPooledDisksConnected" xml:space="preserve">
     <value>Au moins un disque combiné doit être connecté pour ajouter un nouveau disque à une combinaison existante.</value>
@@ -177,7 +177,7 @@
   <data name="AddDriveToPool_WaitingToMount" xml:space="preserve">
     <value>En attente du montage de la combinaison...</value>
   </data>
-  <data name="ChangeDupliaction_CantSetOnReparse" xml:space="preserve">
+  <data name="ChangeDuplication_CantSetOnReparse" xml:space="preserve">
     <value>Impossible d'établir un compteur de duplication sur un point d'analyse .</value>
   </data>
   <data name="ChangeDuplication_NotEnoughPhysicalDrives" xml:space="preserve">
@@ -187,19 +187,19 @@
     <value>Garantit qu'aucun disque ne sera rempli à son maximum de capacité, s'il reste de l'espace disque sur d'autres disques.</value>
   </data>
   <data name="DriveFillBalancer_Name" xml:space="preserve">
-    <value>Empêcher le débordement de disque</value>
+    <value>Éviter la saturation des disques</value>
   </data>
   <data name="DriveLimitBalancer_Description" xml:space="preserve">
     <value>Limite le placement de fichiers à certains disques.</value>
   </data>
   <data name="DriveLimitBalancer_Name" xml:space="preserve">
-    <value>Limiteur de placement de fichiers</value>
+    <value>Limiteur d'utilisation de disque</value>
   </data>
   <data name="DuplicationBalancer_Description" xml:space="preserve">
     <value>Garantit la disponibilité d'un maximum d'espace disque pour stocker les fichiers dupliqués.</value>
   </data>
   <data name="DuplicationBalancer_Name" xml:space="preserve">
-    <value>Optimisateur d'espace de duplication</value>
+    <value>Optimisation de l'espace pour la duplication</value>
   </data>
   <data name="FileDuplication_FileInUse" xml:space="preserve">
     <value>Le fichier est en cours d'utilisation.</value>
@@ -220,8 +220,8 @@
     <value>Application des règles de fichier suivant le motif</value>
   </data>
   <data name="FilePatternMover_MovingFiles" xml:space="preserve">
-    <value>Déplacement des fichiers selon le motif définies par "{0}"...</value>
-  </data>
+    <value>Déplacement des fichiers en fonction des règles de motif à partir de « {0} »...</value>
+</data>
   <data name="ForgetDriveFromPool_CannotFindPoolPart" xml:space="preserve">
     <value>Impossible de trouver la partie de la combinaison à retirer.</value>
   </data>
@@ -271,7 +271,7 @@
     <value>Ce disque ne peut pas être supprimé du groupe car certains fichiers sont en cours d'utilisation.</value>
   </data>
   <data name="RemoveDriveFromPool_Migrating" xml:space="preserve">
-    <value>Migration des dossiers...</value>
+    <value>Migration des fichiers...</value>
   </data>
   <data name="RemoveDriveFromPool_PoolPartNotFound" xml:space="preserve">
     <value>Partie du bassin introuvable.</value>
@@ -283,7 +283,7 @@
     <value>Redémarrage des programmes...</value>
   </data>
   <data name="ScannerBalancer_Description" xml:space="preserve">
-    <value>Permet l'évacuation des fichiers et le contrôle de la température.</value>
+    <value>Fournit l'évacuation des fichiers et le contrôle de la température.</value>
   </data>
   <data name="Tasks_DiskMissingCannotContinue" xml:space="preserve">
     <value>Impossible de continuer tant qu'un autre disque est manquant. Rebranchez le disque manquant, ou retirez-le de la combinaison.</value>
@@ -320,5 +320,8 @@
   </data>
   <data name="Ipc_PoolNotFound" xml:space="preserve">
     <value>Bassin introuvable.</value>
+  </data>
+  <data name="AddDriveToPool_HierarchyLimitReached" xml:space="preserve">
+    <value>Impossible d'ajouter ce pool. La limite de hiérarchie serait dépassée.</value>
   </data>
 </root>
