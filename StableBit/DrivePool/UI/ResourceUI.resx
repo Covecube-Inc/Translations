@@ -195,7 +195,7 @@ You can choose to protect your files from more than one drive failure at a time,
 for more precise disk identification</value>
   </data>
   <data name="IdentifyMissingDiskDialog_Expanded_specify_Case_Bay" xml:space="preserve">
-    <value>Tip: You can also specify the 'Case' and 'Bay' of your drives in the StableBit Scanner for easier identification.</value>
+    <value>Tip: You can also specify the 'Case' and 'Bay' of your drives in the StableBit Scanner or the StableBit Cloud Disk Scanner for easier identification.</value>
   </data>
   <data name="IdentifyMissingDiskDialog_Expanded_text" xml:space="preserve">
     <value>In order to help you identify which disk is missing, you can ping all the connected disks.
@@ -655,14 +655,26 @@ that are stored on each individual disk.</value>
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Move duplicated files out of damaged drives</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Move duplicated files out of failing drives</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Move duplicated files out of drives with S.M.A.R.T. warnings</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Move duplicated files out of drives with on-disk health warnings</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Move un-duplicated files out of damaged drives</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Move un-duplicated files out of failing drives</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Move un-duplicated files out of drives with S.M.A.R.T. warnings</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Move un-duplicated files out of drives with on-disk health warnings</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Try not to place new files on drives that have exceeded their maximum temperature</value>
@@ -675,6 +687,9 @@ that are stored on each individual disk.</value>
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>This balancer works together with the StableBit Scanner (version 2.2 and above).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>This balancer works together with the StableBit Cloud Disk Scanner (build 687 and above).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Allow file placement on evacuated drives if the other drives are this full:</value>
@@ -1166,7 +1181,7 @@ All emails from StableBit DrivePool will contain the text "[StableBit DrivePool]
   <data name="Main_BypassFiltersTooltip" xml:space="preserve">
     <value>In order to increase performance of the pool, file system "filters" that are active on 
 each individual drive that is part of the pool can be bypassed. For example, if you have 
-a real-time anti-virus scanner installed, this will prevent double or triple scanning 
+a real-time antivirus scanner installed, this will prevent double or triple scanning 
 of the same file when it is accessed from the pool. The file will only be scanned once.
 
 This can cause compatibility issues with software that is designed to perform on the fly 
@@ -1238,9 +1253,7 @@ Alternatively, choose "Force close any open unduplicated files..." on the drive 
     <value>_Verify after copy</value>
   </data>
   <data name="Main_VerifyAfterCopyToolTip" xml:space="preserve">
-    <value>After a file is copied due to some background process, like file balancing or background duplication, 
-it will be read back in and checked for consistency. Enabling this option will have a negative impact 
-on the performance of background file copy operations.</value>
+    <value>After a file is copied due to some background process, like file balancing or background duplication, it will be read back in and checked for consistency. Enabling this option will have a negative impact on the performance of background file copy operations.</value>
   </data>
   <data name="Balancing_FilePlacement_UncheckAllOthers" xml:space="preserve">
     <value>Uncheck All Others</value>
