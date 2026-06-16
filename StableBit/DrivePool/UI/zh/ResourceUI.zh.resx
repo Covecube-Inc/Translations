@@ -653,14 +653,26 @@
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>将重复的文件从损坏的驱动器中移出</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>将重复的文件移出故障驱动器</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>将备份的文件从带有 S .M.A.R.T. 警告的驱动器中移出</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>将重复的文件移出有磁盘健康警告的驱动器</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>将未备份的文件从损坏的驱动器中移出</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>将未重复的文件移出故障驱动器</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>将未重复的文件移出带有 S .M.A.R.T. 警告的驱动器</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>将未重复的文件移出有磁盘健康警告的驱动器</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>尽量不要在超过最大温度的驱动器上放置新文件</value>
@@ -673,6 +685,9 @@
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>此平衡器与稳定位扫描仪（版本 2.2 及以上）配合使用。</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>此均衡器可与 StableBit Cloud Disk Scanner (构建版本 687 及以上) 配合使用.</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>如果其他驱动器已满，请允许在已疏散的驱动器上放置文件:</value>

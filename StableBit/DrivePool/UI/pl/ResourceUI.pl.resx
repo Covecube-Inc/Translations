@@ -652,14 +652,26 @@ plików w ramach tej puli, przechowywanych na każdym z dysków.</value>
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Przenieś zduplikowane pliki z uszkodzonych dysków</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Przenieś zduplikowane pliki z dysków ulegających awarii</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Przenieś zduplikowane pliki z dysków z ostrzeżeniami S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Przenieś zduplikowane pliki z dysków z ostrzeżeniami dotyczącymi kondycji dysku</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Przenieś niezduplikowane pliku z uszkodzonych dysków</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Przenieś niezduplikowane pliki z dysków ulegających awarii</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Przenieś niezduplikowane pliku z dysków z ostrzeżeniami S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Przenieś niezduplikowane pliki z dysków z ostrzeżeniami dotyczącymi kondycji dysku</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Unikaj umieszczania nowych plików na dyskach, które przekroczyły maksymalną temperaturę</value>
@@ -672,6 +684,9 @@ plików w ramach tej puli, przechowywanych na każdym z dysków.</value>
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Ta usługa równoważenia współpracuje z programem StableBit Scanner (wersja 2.2 i nowsze).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Ten moduł równoważenia działa razem ze StableBit Cloud Disk Scanner (kompilacja 687 i nowsze).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Zezwalaj na umieszczanie plików na ususniętych dyskach, jeśli pozostałe dyski są zapełnione do tego poziomu:</value>

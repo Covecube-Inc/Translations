@@ -650,14 +650,26 @@ Questo può essere utile anche se non hai abilitato la duplicazione in questo po
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Sposta file duplicati dai drive danneggiati</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Sposta i file duplicati dalle unità in errore</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Sposta file duplicati dai drive con avvisi S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Sposta i file duplicati dalle unità con avvisi di integrità sul disco</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Sposta file non duplicati dai drive danneggiati</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Sposta i file non duplicati dalle unità in errore</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Sposta file non duplicati dai drive con avvisi S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Sposta i file non duplicati dalle unità con avvisi di integrità sul disco</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Cerca di non posizionare nuovi file su drive che abbiano superato la propria temperatura massima</value>
@@ -670,6 +682,9 @@ Questo può essere utile anche se non hai abilitato la duplicazione in questo po
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Questo plug-in di bilanciamento funziona con lo StableBit Scanner (versione 2.2 e superiore).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Questo bilanciatore funziona insieme a StableBit Cloud Disk Scanner (build 687 e successive).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Consenti posizionamento file su drive evacuati se gli altri drive sono così pieni:</value>

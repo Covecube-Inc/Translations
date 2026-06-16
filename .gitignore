@@ -1,3 +1,5 @@
 *.exe
 *.json
 .templates/
+translation-report-*.md
+!GLOSSARY.json

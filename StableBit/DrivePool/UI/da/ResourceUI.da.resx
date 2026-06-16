@@ -654,14 +654,26 @@ gemt på hver enkelt disk.</value>
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Flytte dublerede filer ud af beskadigede drev</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Flyt duplikerede filer væk fra drev, der er ved at svigte</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Flyt dublerede filer ud af drev med advarsler om S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Flyt duplikerede filer væk fra drev med sundhedsadvarsler på disken</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Flyt un-dublerede filer ud af beskadigede drev</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Flyt ikke-duplikerede filer væk fra drev, der er ved at svigte</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Flyt un-dublerede filer ud af drev med advarsler om S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Flyt ikke-duplikerede filer væk fra drev med sundhedsadvarsler på disken</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Prøv ikke at placere nye filer på drev, der har overskredet deres maksimale temperatur</value>
@@ -674,6 +686,9 @@ gemt på hver enkelt disk.</value>
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Denne balancer arbejder sammen med StableBit Scanner (version 2.2 og derover).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Denne balancer fungerer sammen med StableBit Cloud Disk Scanner (build 687 og nyere).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Tillad filplacering på evakuerede drev, hvis de andre drev er fulde:</value>

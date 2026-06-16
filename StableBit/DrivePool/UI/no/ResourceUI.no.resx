@@ -655,14 +655,26 @@ som er lagret på hver enkelt disk.</value>
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Flytt dupliserte filer ut av skadede stasjoner</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Flytt dupliserte filer ut av sviktende stasjoner</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Flytt dupliserte filer ut av stasjoner med S.M.A.R.T. advarsler</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Flytt dupliserte filer ut av stasjoner med helseadvarsler på disken</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Flytt ikke-dupliserte filer ut av skadede stasjoner</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Flytt ikke-dupliserte filer ut av sviktende stasjoner</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Flytt ikke-dupliserte filer ut av stasjoner med S.M.A.R.T.-advarsler</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Flytt ikke-dupliserte filer ut av stasjoner med helseadvarsler på disken</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Prøv å ikke plassere nye filer på stasjoner som har overskredet sin maksimale temperatur</value>
@@ -675,6 +687,9 @@ som er lagret på hver enkelt disk.</value>
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Denne balanseren fungerer sammen med StableBit-skanneren (versjon 2.2 og nyere).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Denne balansereren fungerer sammen med StableBit Cloud Disk Scanner (build 687 og nyere).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Tillat filplassering på evakuerte stasjoner hvis de andre stasjonene er så fulle:</value>

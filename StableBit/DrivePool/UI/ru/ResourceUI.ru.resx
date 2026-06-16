@@ -646,14 +646,26 @@
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Переместить дублированные файлы с поврежденных дисков</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Перемещать дублированные файлы с дисков, выходящих из строя</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Переместить дублированные файлы с дисков с предупреждениями  S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Перемещать дублированные файлы с дисков с предупреждениями о состоянии диска</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Переместить не дублированные файлы с поврежденных дисков</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Перемещать недублированные файлы с дисков, выходящих из строя</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Переместить не дублированные файлы с дисков с предупреждениями S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Перемещать недублированные файлы с дисков с предупреждениями о состоянии диска</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Стараться не размещать новые файлы на дисках, температура которых превысила максимальную</value>
@@ -666,6 +678,9 @@
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Этот балансировщик работает вместе с StableBit Scanner (версии 2.2 или позднее)</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Этот балансировщик работает совместно со StableBit Cloud Disk Scanner (сборка 687 и выше).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Разрешить размещение файлов на эвакуированных дисках, если другие диски заполнены:</value>

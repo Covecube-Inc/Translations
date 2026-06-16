@@ -644,14 +644,26 @@ Als u verbindingsproblemen heeft met een computer op afstand, dan kan het zijn d
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Verplaats gedupliceerde bestanden van beschadigde drives</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Gedupliceerde bestanden van falende schijven verplaatsen</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Verplaats gedupliceerde bestanden van drives met S.M.A.R.T. waarschuwingen</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Gedupliceerde bestanden van schijven met waarschuwingen over schijfgezondheid verplaatsen</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Haal ongedupliceerde bestanden van de beschadigde harde schijven</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Niet-gedupliceerde bestanden van falende schijven verplaatsen</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Haal ongedupliceerde bestanden van harde schijven met S.M.A.R.T. waarschuwingen</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Niet-gedupliceerde bestanden van schijven met waarschuwingen over schijfgezondheid verplaatsen</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Probeer geen nieuwe bestanden te plaatsen op harde schijven welke de maximum temperatuur overschrijden</value>
@@ -664,6 +676,9 @@ Als u verbindingsproblemen heeft met een computer op afstand, dan kan het zijn d
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Deze balanceerder werkt samen met StableBit Scanner (versie 2.2 en nieuwer)</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Deze balancer werkt samen met de StableBit Cloud Disk Scanner (build 687 en hoger).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Sta toe dat bestanden worden geplaatst op te verwijderen harde schijven indien overige harde schijven gevuld zijn tot:</value>

@@ -650,14 +650,26 @@ Puede ser útil incluso si no ha habilitado la duplicación en esta agrupación.
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Quite los archivos duplicados de las unidades dañadas</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Mover los archivos duplicados fuera de las unidades que están fallando</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Traslada los archivos duplicados de los discos con advertencias SMART.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Mover los archivos duplicados fuera de las unidades con advertencias de estado en disco</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Traslada los archivos no duplicados de los discos dañados</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Mover los archivos no duplicados fuera de las unidades que están fallando</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Traslada los archivos no duplicados de los discos con advertencias SMART</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Mover los archivos no duplicados fuera de las unidades con advertencias de estado en disco</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Intente no colocar archivos nuevos en unidades que hayan excedido su máxima temperatura</value>
@@ -670,6 +682,9 @@ Puede ser útil incluso si no ha habilitado la duplicación en esta agrupación.
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Este balanceador funciona junto a StableBit Scanner (versión 2.2 y superior).</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Este equilibrador funciona junto con StableBit Cloud Disk Scanner (compilación 687 y posteriores).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Permita reemplazar los archivos en los discos evacuados si los otros discos están llenos:</value>

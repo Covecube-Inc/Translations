@@ -653,14 +653,26 @@
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>複製されたファイルをダメージのあるドライブから移動する</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>重複されたファイルを障害が発生しているドライブから移動する</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>複製されたファイルをS.M.A.R.T.警告のあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>重複されたファイルをディスク上の健全性警告があるドライブから移動する</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>複製されていないファイルをダメージのあるドライブから移動する</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>重複されていないファイルを障害が発生しているドライブから移動する</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>複製されていないファイルをS.M.A.R.T.警告のあるドライブから移動する</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>重複されていないファイルをディスク上の健全性警告があるドライブから移動する</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>指定した最高温度を超えたドライブに新しいファイルを配置しないようにする。</value>
@@ -673,6 +685,9 @@
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>このバランサはStableBit Scanner（バージョン2.2以上）と一緒に動作します。</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>このバランサーは StableBit Cloud Disk Scanner (ビルド 687 以降) と連携して動作します。</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>他のドライブが一杯になった場合に退避ドライブ上にファイルの配置を許可します：</value>

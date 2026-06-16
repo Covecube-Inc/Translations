@@ -1,0 +1,8 @@
+{
+  "doNotTranslate": [ "StableBit", "Covecube", "DrivePool", "BETA" ],
+  "terms": [
+    { "en": "Pool", "translations": {} },
+    { "en": "Drive", "translations": {} },
+    { "en": "Disk", "translations": {} }
+  ]
+}

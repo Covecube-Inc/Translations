@@ -648,14 +648,26 @@ Wenn Sie Probleme haben, eine Verbindung zum Remote-Computer aufzubauen, sollten
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Duplizierte Datei von den beschädigten Festplatten verschieben</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Duplizierte Dateien von ausfallenden Laufwerken verschieben</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Duplizierte Dateien von den Festplatten mit S.M.A.R.T.-Warnungen verschieben</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Duplizierte Dateien von Laufwerken mit Warnungen zur Datenträgerintegrität verschieben</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Nicht duplizierte Dateien von den beschädigten Festplatten verschieben</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Nicht duplizierte Dateien von ausfallenden Laufwerken verschieben</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Nicht duplizierte Dateien von den Festplatten mit S.M.A.R.T.-Warnungen verschieben</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Nicht duplizierte Dateien von Laufwerken mit Warnungen zur Datenträgerintegrität verschieben</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Keine Dateien auf Festplatten platzieren, die ihre Maximaltemperatur überschritten haben</value>
@@ -668,6 +680,9 @@ Wenn Sie Probleme haben, eine Verbindung zum Remote-Computer aufzubauen, sollten
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>Dieser Balancer arbeitet mit dem StableBit Scanner (Version 2.2 und höher) zusammen.</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Dieser Balancer arbeitet mit dem StableBit Cloud Disk Scanner (Build 687 und höher) zusammen.</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Dateiplatzierung auf evakuierten Festplatten erlauben, falls alle anderen Festplatten so voll sind:</value>

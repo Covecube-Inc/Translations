@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -652,14 +652,26 @@ sur ce pool.</value>
   <data name="Balancing_ScannerSettings_Move_duplicated_damaged" xml:space="preserve">
     <value>Déplacer les fichiers dupliqués hors des disques endommagés</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_failing" xml:space="preserve">
+    <value>Déplacer les fichiers dupliqués hors des disques défaillants</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_duplicated_warning" xml:space="preserve">
     <value>Déplacer les fichiers dupliqués hors des disques qui ont des avertissements S.M.A.R.T</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_duplicated_warning2" xml:space="preserve">
+    <value>Déplacer les fichiers dupliqués hors des disques présentant des avertissements d’état de santé sur disque</value>
   </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_damaged" xml:space="preserve">
     <value>Déplacer les fichiers non dupliqués hors des disques endommagés.</value>
   </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_failing" xml:space="preserve">
+    <value>Déplacer les fichiers non-dupliqués hors des disques défaillants</value>
+  </data>
   <data name="Balancing_ScannerSettings_Move_unduplicated_warning" xml:space="preserve">
     <value>Déplacer les fichiers non dupliqués hors des disques avec des avertissements S.M.A.R.T.</value>
+  </data>
+  <data name="Balancing_ScannerSettings_Move_unduplicated_warning2" xml:space="preserve">
+    <value>Déplacer les fichiers non-dupliqués hors des disques présentant des avertissements d’état de santé sur disque</value>
   </data>
   <data name="Balancing_ScannerSettings_No_new_files_on_hot_drives" xml:space="preserve">
     <value>Essayer de ne pas placer de nouveaux fichiers sur des disques dont la température a dépassé la température maximale</value>
@@ -672,6 +684,9 @@ sur ce pool.</value>
   </data>
   <data name="Balancing_ScannerSettings_Works_with_Scanner" xml:space="preserve">
     <value>L'équilibreur travaille avec le StableBit Scanner (version 2.2 ou plus)</value>
+  </data>
+  <data name="Balancing_DiskScannerSettings_Works_with_DiskScanner" xml:space="preserve">
+    <value>Ce module d’équilibrage fonctionne avec le StableBit Cloud Disk Scanner (build 687 et supérieur).</value>
   </data>
   <data name="Balancing_ScannerSettings_Files_on_evacuated_drives" xml:space="preserve">
     <value>Autoriser le placement de fichiers sur des disques évacués si les autres disques sont pleins :</value>
